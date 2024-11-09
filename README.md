@@ -14,6 +14,7 @@ pipenv run python ./app/import_training_programs_university.py
 ## Xem danh sach cac node
 
 > http://localhost:7474/browser/
+> 
 > neo4j/password
 
 
