@@ -1,0 +1,63 @@
+entities:
+- name: Trường Quốc tế - Đại học Quốc gia Hà Nội
+  type: Organization
+- name: Đại học East London (Anh)
+  type: Organization
+- name: Đại học Troy (Mỹ)
+  type: Organization
+- name: Xét tuyển
+  type: Event
+- name: Kỳ thi tốt nghiệp THPT 2024
+  type: Event
+- name: Xét tuyển học bạ 2024
+  type: Event
+- name: Thi đánh giá năng lực của Đại học Quốc gia Hà Nội
+  type: Event
+- name: Chứng chỉ tiếng Anh quốc tế
+  type: Certificate
+- name: SAT/ACT/A-level
+  type: Certificate
+- name: Thí sinh
+  type: Person
+- type: Score
+  value: Từ 20 điểm trở lên
+- type: Time
+  year: '2024'
+- link: vnexpress.net
+  type: URL
+- link: diemthi.vnexpress.net
+  type: URL
+relationships:
+- relationship: Liên kết với
+  source: Trường Quốc tế - Đại học Quốc gia Hà Nội
+  target:
+  - Đại học East London (Anh)
+  - Đại học Troy (Mỹ)
+- relationship: Nhận hồ sơ xét tuyển cho
+  source: Trường Quốc tế - Đại học Quốc gia Hà Nội
+  target: Chương trình liên kết quốc tế
+- relationship: Xét tuyển dựa trên
+  source: Trường Quốc tế - Đại học Quốc gia Hà Nội
+  target:
+  - Điểm thi tốt nghiệp THPT
+  - Điểm thi đánh giá năng lực
+  - Chứng chỉ tiếng Anh quốc tế
+  - SAT/ACT/A-level
+- relationship: Đủ điều kiện xét tuyển khi
+  source: Thí sinh
+  target: Đạt từ 20 điểm trở lên
+- relationship: Có thể xét tuyển thông qua
+  source: Thí sinh
+  target:
+  - Điểm thi tốt nghiệp THPT
+  - Chứng chỉ tiếng Anh quốc tế
+  - SAT/ACT/A-level
+  - Kết quả thi đánh giá năng lực
+- relationship: Được sử dụng để
+  source: Kỳ thi tốt nghiệp THPT 2024
+  target: Xét tuyển vào Trường Quốc tế
+- relationship: Cung cấp thông tin thêm về
+  source: Trang web
+  target:
+  - Phương thức xét tuyển
+  - Thời gian nộp hồ sơ

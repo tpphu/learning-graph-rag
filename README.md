@@ -18,8 +18,16 @@ pipenv run python ./app/import_training_programs_university.py
 
 
 ```cyber
-    MATCH (n) RETURN n LIMIT 100;
+MATCH (n) RETURN n LIMIT 100;
 MATCH (n) RETURN COUNT(n);
 ```
+
+## Nhận diện thực thể sử dụng ChatGPT
+
+Ví dụ: https://vnexpress.net/co-hoi-xet-tuyen-truong-quoc-te-dh-quoc-gia-ha-noi-tu-20-diem-4784076.html
+
+Dữ liệu:
+
+! ./entities_relationships.yaml
 
 
