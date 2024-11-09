@@ -32,3 +32,7 @@ Dữ liệu:
 ! ./entities_relationships.yaml
 
 
+
+## Dữ liệu
+
+https://vietnamnet.vn/giao-duc/diem-thi/tra-cuu-diem-chuan-cd-dh-2023/truong/dai-hoc-ba-ria-vung-tau?keyword=BVU
