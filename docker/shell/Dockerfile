@@ -17,5 +17,9 @@ RUN apt-get update && apt-get install -y \
 # Copy file vào container (tuỳ chọn, không bắt buộc)
 COPY . /app
 
+RUN chmod -R 777 /app
+
+RUN pipenv install
+
 # Giữ container chạy với một bash shell (chỉ để test, có thể thay đổi)
 CMD [ "bash" ]

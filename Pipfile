@@ -6,6 +6,12 @@ name = "pypi"
 [packages]
 neo4j = "*"
 spacy = "*"
+transformers = "*"
+torch = "*"
+py2neo = "*"
+pandas = "*"
+requests = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 

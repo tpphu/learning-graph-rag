@@ -4,6 +4,9 @@ services:
   neo4j:
     image: neo4j:5.2
     container_name: neo4j
+    volumes:
+      - ${DATA_HOST_PATH}/neo4j/data:/data
+      - ${DATA_HOST_PATH}/neo4j/logs:/logs
     ports:
       - "7474:7474"
       - "7687:7687"
@@ -16,7 +19,7 @@ services:
       dockerfile: ./docker/shell/Dockerfile
     container_name: shell
     volumes:
-      - .:/app:wr
+      - .:/app:rw
     depends_on:
       - neo4j
     ports:
