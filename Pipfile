@@ -12,6 +12,10 @@ py2neo = "*"
 pandas = "*"
 requests = "*"
 beautifulsoup4 = "*"
+mysql-connector-python = "*"
+openai = "*"
+google-generativeai = "*"
+selenium = "*"
 
 [dev-packages]
 
