@@ -53,10 +53,10 @@ def fetch_and_minify_html(url, wait_time=10):
         driver.quit()
 
 if __name__ == "__main__":
-    url = "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-y-duoc-can-tho-YCT.html"
+    url = "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-mo-ha-noi-MHN.html"
     minified_html = fetch_and_minify_html(url)
 
     # Lưu nội dung sạch vào file
-    with open("minified_page.html", "w", encoding="utf-8") as f:
+    with open("dai-hoc-mo-ha-noi-MHN.html", "w", encoding="utf-8") as f:
         f.write(minified_html)
     print("Minified HTML content saved to minified_page.html")
