@@ -40,87 +40,25 @@ Thực thể:
   - Chỉ tiêu: 55
     Học phí: 33.1 triệu
     Mã ngành: '7520212'
-    Phương thức xét tuyển: ĐT THPT
     Tên ngành: Kỹ thuật Y sinh
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 22.8
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 22.1
   - Chỉ tiêu: 55
     Học phí: 33.1 triệu
-    Mã ngành: '7520212'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Kỹ thuật Y sinh
-    Tổ hợp: A00
-    Điểm chuẩn 2024: 22.1
-  - Chỉ tiêu: 1035
-    Học phí: 49.2 triệu
-    Mã ngành: '7720101'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Y khoa
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 25.7
-  - Chỉ tiêu: 150
-    Học phí: 44.2 triệu
-    Mã ngành: '7720110'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Y học dự phòng
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 22.7
-  - Chỉ tiêu: 130
-    Học phí: 44.2 triệu
-    Mã ngành: '7720115'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Y học cổ truyền
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 24.48
-  - Chỉ tiêu: 200
-    Học phí: 49.7 triệu
-    Mã ngành: '7720201'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Dược học
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 24.78
-  - Chỉ tiêu: 105
-    Học phí: 38.6 triệu
-    Mã ngành: '7720301'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Điều dưỡng
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 23.45
-  - Chỉ tiêu: 50
-    Học phí: 33.1 triệu
-    Mã ngành: '7720302'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Hộ sinh
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 22.35
-  - Chỉ tiêu: 150
-    Học phí: 49.2 triệu
-    Mã ngành: '7720501'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Răng hàm mặt
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 25.65
-  - Chỉ tiêu: 100
-    Học phí: 38.6 triệu
-    Mã ngành: '7720601'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Kỹ thuật Xét nghiệm y học
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 24.38
-  - Chỉ tiêu: 50
-    Học phí: 33.1 triệu
-    Mã ngành: '7720602'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Kỹ thuật Hình ảnh y học
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 23.75
-  - Chỉ tiêu: 40
-    Học phí: 33.1 triệu
-    Mã ngành: '7720701'
-    Phương thức xét tuyển: ĐT THPT
-    Tên ngành: Y tế công cộng
-    Tổ hợp: B00
-    Điểm chuẩn 2024: 19.2
+    Mã ngành: '7140247'
+    Tên ngành: Sư phạm Khoa học tự nhiên
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 22.1
+      - Loại: ĐGNL SPHN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 22.5
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; B00
+        Điểm chuẩn 2024: 28.5
   Trường Đại học:
     Facebook: http://facebook.com/dhydct.ctump/edu/vn
     Mã trường: YCT
@@ -139,7 +77,7 @@ Thực thể:
             {"role": "system", "content": "Bạn là một trợ lý phân tích tài liệu, giúp tôi đọc hiểu thông tin của một bài báo về tuyển sinh"},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=2000,
+        max_tokens=4000,
         temperature=0
     )
 
@@ -147,7 +85,7 @@ Thực thể:
     yaml_data = response.choices[0].message.content
 
     # Lưu kết quả dưới dạng YAML
-    output_file_path = "dai-hoc-bach-khoa-dai-hoc-quoc-gia-tphcm-QSB.yaml"
+    output_file_path = "dai-hoc-quy-nhon-DQN.yaml"
     with open(output_file_path, 'w') as output_file:
         output_file.write(yaml_data)
 
@@ -155,6 +93,6 @@ Thực thể:
     return output_file_path
 
 # Sử dụng hàm
-file_path = "dai-hoc-bach-khoa-dai-hoc-quoc-gia-tphcm-QSB.html"  # Thay bằng đường dẫn thực tế
+file_path = "dai-hoc-quy-nhon-DQN.html"  # Thay bằng đường dẫn thực tế
 output_file = process_erd_file(file_path)
 print(f"Tải xuống file đã xử lý tại: {output_file}")

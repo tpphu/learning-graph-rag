@@ -20,6 +20,7 @@ def create_table_if_not_exists(cursor):
         program_code VARCHAR(255),
         program_name VARCHAR(255),
         subject_combination VARCHAR(255),
+        admission_method VARCHAR(2048),
         admission_score FLOAT,
         note TEXT
     )
@@ -29,8 +30,8 @@ def create_table_if_not_exists(cursor):
 def save_to_db(university_name, data, connection):
     cursor = connection.cursor()
     insert_query = """
-    INSERT INTO university_scores (university_name, program_code, program_name, subject_combination, admission_score, note)
-    VALUES (%s, %s, %s, %s, %s, %s)
+    INSERT INTO university_scores (university_name, program_code, program_name, subject_combination, admission_method, admission_score, note)
+    VALUES (%s, %s, %s, %s, %s, %s, %s)
     """
     for row in data:
         cursor.execute(insert_query, (
@@ -38,6 +39,7 @@ def save_to_db(university_name, data, connection):
             row['Program Code'], 
             row['Program Name'], 
             row['Subject Combination'], 
+            row['Admission method'], 
             float(row['Admission Score']) if row['Admission Score'] else None, 
             row['Note']
         ))

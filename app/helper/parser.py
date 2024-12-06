@@ -1,4 +1,5 @@
 import requests
+import re
 from bs4 import BeautifulSoup
 
 def fetch_data_from_url(url):
@@ -24,13 +25,22 @@ def fetch_data_from_url(url):
             tables = soup.find_all('table', {
                 'style': 'table-layout:auto'
             })
+            
+            titles = soup.find_all(class_="table__title")
+            # Trích xuất văn bản từ từng phần tử
+            titles_text = [title.get_text(strip=True) for title in titles]
 
             # Tạo danh sách để lưu trữ tất cả dữ liệu
             all_data = []
+            idx = -1
 
             # Duyệt qua từng bảng tìm được
             for table in tables:
                 rows = table.find_all('tr')
+                idx = idx + 1
+                admission_method = titles_text[idx].replace("Điểm chuẩn theo phương thức", "").replace("năm", " năm ")
+                admission_method = admission_method.strip()
+                admission_method = re.sub(r'\s+', ' ', admission_method)
                 for row in rows[1:]:  # Bỏ qua hàng tiêu đề
                     cols = row.find_all('td')
                     cols = [ele.text.strip() for ele in cols]
@@ -40,7 +50,8 @@ def fetch_data_from_url(url):
                             'Program Name': cols[2],
                             'Subject Combination': cols[3],
                             'Admission Score': cols[4],
-                            'Note': cols[5]
+                            'Admission method': admission_method,
+                            'Note': cols[5],
                         })
 
             return all_data

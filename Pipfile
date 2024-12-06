@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-neo4j = "*"
 spacy = "*"
 transformers = "*"
 torch = "*"
@@ -16,6 +15,11 @@ mysql-connector-python = "*"
 openai = "*"
 google-generativeai = "*"
 selenium = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langchain-experimental = "*"
+neo4j = "*"
 
 [dev-packages]
 

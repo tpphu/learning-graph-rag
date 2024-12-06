@@ -1,0 +1,57 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Quy Nhơn
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - C00
+  - D01
+- Trường: Trường Đại Học Quy Nhơn
+  Địa chỉ: 170, An Dương Vương, Tp. Quy Nhơn, Bình Định
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140114'
+    Tên ngành: Quản lý Giáo dục
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 22.5
+      - Loại: ĐGNL SPHN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 22.5
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 650
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7140201'
+    Tên ngành: Giáo dục Mầm non
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: M00
+        Điểm chuẩn 2024: 23.1
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C00; D01
+        Điểm chuẩn 2024: 26.95
+      - Loại: ĐGNL SPHN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 23
+      - Loại: Học Bạ
+        Tổ hợp: A00; C00; D01
+        Điểm chuẩn 2024: 28.25
+  Trường Đại học:
+    Mã trường: DQN
+    Tên: Trường Đại Học Quy Nhơn
+    Tên tiếng Anh: Quy Nhon University
+    Tên viết tắt: QNU
+    Địa chỉ: 170, An Dương Vương, Tp. Quy Nhơn, Bình Định
+    Website: http://www.qnu.edu.vn
+```

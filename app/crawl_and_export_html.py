@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 import re
 
-def fetch_and_minify_html(url, wait_time=10):
+def fetch_and_minify_html(url, wait_time=5):
     """
     Fetches the full HTML content of a web page, removes unnecessary elements, attributes, and minifies the result.
     """
@@ -53,10 +53,10 @@ def fetch_and_minify_html(url, wait_time=10):
         driver.quit()
 
 if __name__ == "__main__":
-    url = "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-mo-ha-noi-MHN.html"
+    url = "https://diemthi.tuyensinh247.com/de-an-tuyen-sinh/dai-hoc-quy-nhon-DQN.html"
     minified_html = fetch_and_minify_html(url)
 
     # Lưu nội dung sạch vào file
-    with open("dai-hoc-mo-ha-noi-MHN.html", "w", encoding="utf-8") as f:
+    with open("dai-hoc-quy-nhon-DQN.html", "w", encoding="utf-8") as f:
         f.write(minified_html)
     print("Minified HTML content saved to minified_page.html")
