@@ -1,0 +1,47 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Hồng Đức. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Hồng Đức
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Trường: Trường Đại học Hồng Đức
+  Địa chỉ: 565 Quang Trung, phường Đông Vệ, TP. Thanh Hóa
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: Tối thiểu 60% (sư phạm), 50% (ngoài sư phạm)
+    Tên ngành: Tất cả các ngành
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Chỉ tiêu: Tối đa 5%
+      - Loại: Điểm học bạ
+        Chỉ tiêu: Tối đa 20% (sư phạm), 30% (ngoài sư phạm)
+      - Loại: Điểm ĐGNL HN
+        Chỉ tiêu: Tối đa 5%
+      - Loại: Điểm Đánh giá Tư duy
+        Chỉ tiêu: Tối đa 5%
+      - Loại: ƯTXT, XT thẳng
+        Chỉ tiêu: Tối đa 5%
+      - Loại: Chứng chỉ quốc tế
+        Chỉ tiêu: Tối đa 5%
+  Trường Đại học:
+    Mã trường: HDT
+    Tên: Trường Đại học Hồng Đức
+    Tên tiếng Anh: Hong Duc University
+    Tên viết tắt: HDU
+    Website: https://hdu.edu.vn/
+    Địa chỉ: 565 Quang Trung, phường Đông Vệ, TP. Thanh Hóa
+```
+
+Lưu ý rằng thông tin về mã ngành, tổ hợp, và điểm chuẩn cụ thể không có dữ liệu trong tài liệu HTML được cung cấp, do đó chúng được ghi nhận là "No data" trong bảng. Nếu có thêm thông tin chi tiết, bạn có thể bổ sung vào cấu trúc YAML này.

@@ -1,0 +1,34 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại Học Quảng Nam. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Quảng Nam
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại Học Quảng Nam
+  Địa chỉ: 102 Hùng Vương - TP Tam Kỳ - Tỉnh Quảng Nam
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: DQU
+    Tên: Trường Đại Học Quảng Nam
+    Tên tiếng Anh: Quangnam University
+    Tên viết tắt: QNU
+    Địa chỉ: 102 Hùng Vương - TP Tam Kỳ - Tỉnh Quảng Nam
+    Website: http://qnamuni.edu.vn/
+```
+
+Lưu ý rằng dữ liệu về ngành đào tạo và điểm chuẩn hiện tại không có thông tin chi tiết (được ghi là "No data") trong tài liệu HTML bạn cung cấp. Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

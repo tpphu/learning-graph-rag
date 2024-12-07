@@ -1,0 +1,31 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Nông Lâm – Đại học Thái Nguyên
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Trường: Trường Đại học Nông Lâm – Đại học Thái Nguyên
+  Địa chỉ: Xã Thịnh Đán, TP Thái Nguyên, tỉnh Thái Nguyên
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: DTN
+    Tên: Trường Đại học Nông Lâm – Đại học Thái Nguyên
+    Tên tiếng Anh: Thai Nguyen University, College of Agriculture and Forestry
+    Tên viết tắt: TUAF
+    Địa chỉ: Xã Thịnh Đán, TP Thái Nguyên, tỉnh Thái Nguyên
+    Website: https://tuaf.edu.vn/
+  Học phí:
+    Hệ đại trà: Từ 9.800.000 đồng đến 11.700.000 đồng/năm
+    Chương trình tiên tiến quốc tế: 28.900.000 đồng/năm
+```

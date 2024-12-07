@@ -1,0 +1,69 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Sư Phạm – Đại Học Đà Nẵng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL ĐH Sư phạm HN
+- Trường: Trường Đại Học Sư Phạm – Đại Học Đà Nẵng
+  Địa chỉ: Số 459 Tôn Đức Thắng, thành phố Đà Nẵng
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140201'
+    Tên ngành: Giáo dục Mầm non
+    Học phí: 15.8 triệu
+    Chỉ tiêu: 210
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: M09; M01
+        Điểm chuẩn 2024: 24.25
+      - Loại: Học Bạ
+        Tổ hợp: M09; M01
+        Điểm chuẩn 2024: 23
+        Ghi chú: Giỏi
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Học phí: 15.8 triệu
+    Chỉ tiêu: 380
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C00; D01; B00
+        Điểm chuẩn 2024: 27.5
+      - Loại: Học Bạ
+        Tổ hợp: A00; C00; D01; B00
+        Điểm chuẩn 2024: 28
+        Ghi chú: Giỏi
+  - Mã ngành: '7229010'
+    Tên ngành: Lịch sử (chuyên ngành Quan hệ quốc tế)
+    Học phí: 16.7 triệu
+    Chỉ tiêu: 60
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C00; C19; D14
+        Điểm chuẩn 2024: 24
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C19; D14
+        Điểm chuẩn 2024: 25.17
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 670
+  Trường Đại học:
+    Tên: Trường Đại Học Sư Phạm – Đại Học Đà Nẵng
+    Mã trường: DDS
+    Tên tiếng Anh: Da Nang University, College of Education
+    Tên viết tắt: UED
+    Địa chỉ: Số 459 Tôn Đức Thắng, thành phố Đà Nẵng
+    Website: https://ued.udn.vn/
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

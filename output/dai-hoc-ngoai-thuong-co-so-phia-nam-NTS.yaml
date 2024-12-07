@@ -1,0 +1,65 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Ngoại thương (Cơ sở II)
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - D01
+  - D06
+  - D07
+- Trường: Trường Đại học Ngoại thương (Cơ sở II)
+  Địa chỉ: Số 15, đường D5, P. 25, Q. Bình Thạnh, TP Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: NTS01
+    Tên ngành: Ngành Kinh tế, Ngành Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D06; D07
+        Điểm chuẩn 2024: 27.5
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 28
+  - Mã ngành: NTS02
+    Tên ngành: Ngành Tài chính - Ngân hàng, Ngành Kế toán, Ngành Kinh doanh quốc tế, Ngành Marketing
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D06; D07
+        Điểm chuẩn 2024: 27.7
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 28.2
+  - Mã ngành: KDQS2.1
+    Tên ngành: Chương trình ĐHNNQT Logistics và Quản lý chuỗi cung ứng
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27.3
+        Ghi chú: CCQT và điểm thi tốt nghiệp
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 29.5
+        Ghi chú: CCQT và SAT, SCT
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 29
+        Ghi chú: Hệ chuyên
+  - Mã ngành: KTES1.1
+    Tên ngành: Chương trình tiên chuẩn Kinh tế đối ngoại
+    Phương thức xét tuyển:
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 27.5
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D06; D07
+        Điểm chuẩn 2024: 27.8
+        Ghi chú: Hệ chuyên
+  Trường Đại học:
+    Mã trường: NTS
+    Tên: Trường Đại học Ngoại thương (Cơ sở II)
+    Website: https://cs2.ftu.edu.vn
+    Địa chỉ: Số 15, đường D5, P. 25, Q. Bình Thạnh, TP Hồ Chí Minh
+```

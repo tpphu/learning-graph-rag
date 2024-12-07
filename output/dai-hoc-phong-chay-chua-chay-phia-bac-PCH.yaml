@@ -1,0 +1,34 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Phòng cháy chữa cháy và cứu nạn, cứu hộ
+  Trường: Trường Đại học Phòng Cháy Chữa Cháy (Phía Bắc)
+- Ngành đào tạo: Phòng cháy chữa cháy và cứu nạn, cứu hộ
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Phòng cháy chữa cháy và cứu nạn, cứu hộ
+  Tổ hợp: A00
+- Trường: Trường Đại học Phòng Cháy Chữa Cháy (Phía Bắc)
+  Địa chỉ: Số 243, đường Khuất Duy Tiến, quận Thanh Xuân, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7860113'
+    Tên ngành: Phòng cháy chữa cháy và cứu nạn, cứu hộ
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 
+          - Điểm: 19.89
+            Ghi chú: Nữ, phía Nam
+          - Điểm: 18.17
+            Ghi chú: Nam, phía Nam
+          - Điểm: 21.7
+            Ghi chú: Nữ, phía Bắc
+          - Điểm: 19.05
+            Ghi chú: Nam, phía Bắc
+  Trường Đại học:
+    Tên: Trường Đại học Phòng Cháy Chữa Cháy (Phía Bắc)
+    Tên viết tắt: UFPF
+    Tên tiếng Anh: University of Fire Prevention and Fighting
+    Mã trường: PCH
+    Website: http://daihocpccc.edu.vn/
+    Địa chỉ: Số 243, đường Khuất Duy Tiến, quận Thanh Xuân, Hà Nội
+```

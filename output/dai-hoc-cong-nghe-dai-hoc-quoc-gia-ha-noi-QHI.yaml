@@ -1,0 +1,43 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Trường: Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội
+  Địa chỉ: Nhà E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 2960
+    Học phí: Không có dữ liệu
+    Mã ngành: Không có dữ liệu
+    Tên ngành: Không có dữ liệu
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: Không có dữ liệu
+        Điểm chuẩn 2024: Không có dữ liệu
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: Không có dữ liệu
+        Điểm chuẩn 2024: Không có dữ liệu
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: Không có dữ liệu
+        Điểm chuẩn 2024: Không có dữ liệu
+      - Loại: Chứng chỉ quốc tế
+        Tổ hợp: Không có dữ liệu
+        Điểm chuẩn 2024: Không có dữ liệu
+  Trường Đại học:
+    Facebook: https://www.facebook.com/UET.VNUH
+    Tên: Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội
+    Website: https://uet.vnu.edu.vn/
+    Địa chỉ: Nhà E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, học phí và điểm chuẩn cụ thể không có dữ liệu trong nội dung HTML được cung cấp. Nếu có thêm thông tin chi tiết, bạn có thể bổ sung vào cấu trúc YAML này.

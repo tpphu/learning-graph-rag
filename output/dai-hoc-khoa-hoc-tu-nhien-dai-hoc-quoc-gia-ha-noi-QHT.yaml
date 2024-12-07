@@ -1,0 +1,140 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại học Khoa học Tự nhiên – Đại học Quốc gia Hà Nội. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+  Địa chỉ: 334 đường Nguyễn Trãi, Quận Thanh Xuân, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: QHT01
+    Tên ngành: Toán học
+    Học phí: 1.640 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT02
+    Tên ngành: Toán tin
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT98
+    Tên ngành: Khoa học máy tính và thông tin(*)
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT93
+    Tên ngành: Khoa học dữ liệu
+    Học phí: 1.640 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT03
+    Tên ngành: Vật lý học
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT04
+    Tên ngành: Khoa học vật liệu
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT05
+    Tên ngành: Công nghệ kỹ thuật hạt nhân
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT94
+    Tên ngành: Kỹ thuật điện tử và tin học(*)
+    Học phí: 1.640 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT06
+    Tên ngành: Hoá học
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT07
+    Tên ngành: Công nghệ kỹ thuật hoá học
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT43
+    Tên ngành: Hoá dược
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT08
+    Tên ngành: Sinh học
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT09
+    Tên ngành: Công nghệ sinh học
+    Học phí: 3.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT81
+    Tên ngành: Sinh dược học
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT10
+    Tên ngành: Địa lý tự nhiên
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT91
+    Tên ngành: Khoa học thông tin địa không gian(*)
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT12
+    Tên ngành: Quản lý đất đai
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT95
+    Tên ngành: Quản lý phát triển đô thị và bất động sản(*)
+    Học phí: 1.500 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT13
+    Tên ngành: Khoa học môi trường
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT15
+    Tên ngành: Công nghệ kỹ thuật môi trường
+    Học phí: 3.500 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+  - Mã ngành: QHT96
+    Tên ngành: Khoa học và công nghệ thực phẩm(*)
+    Học phí: 1.640 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT82
+    Tên ngành: Môi trường, Sức khỏe và An toàn(*)
+    Học phí: 1.500 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT16
+    Tên ngành: Khí tượng và khí hậu học
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT17
+    Tên ngành: Hải dương học
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT92
+    Tên ngành: Tài nguyên và môi trường nước(*)
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT18
+    Tên ngành: Địa chất học
+    Học phí: 1.520 nghìn đồng/tháng
+    Lộ trình tăng học phí: Theo Nghị định 97/2023/NĐ-CP của Thủ tướng chính phủ
+  - Mã ngành: QHT20
+    Tên ngành: Quản lý tài nguyên và môi trường
+    Học phí: 2.700 nghìn đồng/tháng
+    Lộ trình tăng học phí: Chương trình đào tạo đã kiểm định chất lượng. Thu học phí theo đề án định mức kinh tế kĩ thuật. Lộ trình tăng không quá 10% so với năm học trước.
+
+  Trường Đại học:
+    Tên: Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+    Tên viết tắt: HUS
+    Tên tiếng Anh: VNU University of Science
+    Địa chỉ: 334 đường Nguyễn Trãi, Quận Thanh Xuân, Hà Nội
+    Website: https://hust.edu.vn/
+    Fanpage: https://www.facebook.com/HusFanpage
+```
+
+Lưu ý rằng một số thông tin như điểm chuẩn 2024 cho từng ngành và tổ hợp xét tuyển không có dữ liệu cụ thể trong tài liệu gốc, do đó không thể đưa vào YAML.

@@ -1,0 +1,64 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Dược học
+  Trường: Trường Đại học Dược Hà Nội
+- Ngành đào tạo: Hóa dược
+  Trường: Trường Đại học Dược Hà Nội
+- Ngành đào tạo: Hóa học
+  Trường: Trường Đại học Dược Hà Nội
+- Ngành đào tạo: Công nghệ sinh học
+  Trường: Trường Đại học Dược Hà Nội
+- Ngành đào tạo: Dược học
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Hóa dược
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Hóa học
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Công nghệ sinh học
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Dược học
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Hóa dược
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Hóa học
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Công nghệ sinh học
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Dược học
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Dược học
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Dược học
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Trường: Trường Đại học Dược Hà Nội
+  Địa chỉ: Số 13 - 15 Lê Thánh tông, phường Phan Chu Trinh, quận Hoàn Kiếm, TP Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Chỉ tiêu: 460
+    Tổ hợp: A00
+    Học phí: 24.500.000 đồng/năm học
+  - Mã ngành: '7720203'
+    Tên ngành: Hóa dược
+    Chỉ tiêu: 40
+    Tổ hợp: A00
+    Học phí: 21.240.000 đồng/năm học
+  - Mã ngành: '7440112'
+    Tên ngành: Hóa học
+    Chỉ tiêu: 40
+    Tổ hợp: A00
+    Học phí: 15.200.000 đồng/năm học
+  - Mã ngành: '7420201'
+    Tên ngành: Công nghệ sinh học
+    Chỉ tiêu: 40
+    Tổ hợp: B00
+    Học phí: 15.200.000 đồng/năm học
+  Trường Đại học:
+    Tên: Trường Đại học Dược Hà Nội
+    Tên viết tắt: HUP
+    Tên tiếng Anh: Hanoi University of Pharmacy
+    Địa chỉ: Số 13 - 15 Lê Thánh tông, phường Phan Chu Trinh, quận Hoàn Kiếm, TP Hà Nội
+    Website: https://hup.edu.vn/
+    Fanpage: https://www.facebook.com/hupvn
+```

@@ -1,0 +1,28 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Sư phạm Kỹ thuật Vĩnh Long
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Sư phạm Kỹ thuật Vĩnh Long
+  Địa chỉ: 73 Nguyễn Huệ, P.2, Thành phố Vĩnh Long, tỉnh Vĩnh Long
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Đại học Sư phạm Kỹ thuật Vĩnh Long
+    Tên viết tắt: VLUTE
+    Tên tiếng Anh: Vinh Long University of Technology and Education
+    Mã trường: VLU
+    Địa chỉ: 73 Nguyễn Huệ, P.2, Thành phố Vĩnh Long, tỉnh Vĩnh Long
+    Website: www.vlute.edu.vn
+```

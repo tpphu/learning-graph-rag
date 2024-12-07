@@ -1,0 +1,62 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML. Dưới đây là cấu trúc YAML được tạo ra từ dữ liệu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Đà Lạt
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Trường: Trường Đại Học Đà Lạt
+  Địa chỉ: Số 01 Phù Đổng Thiên Vương, TP. Đà Lạt, Lâm Đồng
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục tiểu học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A16; C14; C15; D01
+        Điểm chuẩn 2024: 26
+      - Loại: Học Bạ
+        Tổ hợp: A16; C14; C15; D01
+        Điểm chuẩn 2024: 28
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7140209'
+    Tên ngành: Sư phạm Toán học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D07; D90
+        Điểm chuẩn 2024: 25.8
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D07; D90
+        Điểm chuẩn 2024: 29.25
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 24.25
+  - Mã ngành: '7140210'
+    Tên ngành: Sư phạm Tin học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D07; D90
+        Điểm chuẩn 2024: 23.8
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D07; D90
+        Điểm chuẩn 2024: 27.5
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 20
+  Trường Đại học:
+    Tên: Trường Đại Học Đà Lạt
+    Mã trường: TDL
+    Tên tiếng Anh: Da Lat University
+    Tên viết tắt: DLU
+    Địa chỉ: Số 01 Phù Đổng Thiên Vương, TP. Đà Lạt, Lâm Đồng
+    Website: https://dlu.edu.vn/
+```
+
+Cấu trúc YAML trên bao gồm các thực thể và mối quan hệ được trích xuất từ nội dung HTML. Các thông tin như mã ngành, tên ngành, phương thức xét tuyển, tổ hợp môn và điểm chuẩn được liệt kê chi tiết cho từng ngành đào tạo. Thông tin về trường đại học cũng được cung cấp đầy đủ.

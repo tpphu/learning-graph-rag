@@ -1,0 +1,48 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Đại học Quốc tế Bắc Hà
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi riêng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Trường: Đại học Quốc tế Bắc Hà
+  Địa chỉ: Số 54 Vũ Trọng Phụng, Thanh Xuân, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Đại học Quốc tế Bắc Hà
+    Tên viết tắt: IUBH
+    Tên tiếng Anh: Bac Ha International University
+    Mã trường: DBH
+    Địa chỉ: Số 54 Vũ Trọng Phụng, Thanh Xuân, Hà Nội
+    Website: www.bhiu.edu.vn
+    Fanpage: https://www.facebook.com/BacHaUnivercity
+  Phương thức xét tuyển:
+  - Loại: Điểm thi THPT
+    Mô tả: Xét tuyển theo điểm của kỳ thi tốt nghiệp trung học phổ thông Quốc gia
+  - Loại: Điểm học bạ
+    Mô tả: Xét tuyển theo học bạ lớp 10, lớp 11 và học kỳ 1 của lớp 12, tổng điểm bình quân 3 môn trong tổ hợp môn xét tuyển không dưới 16 điểm
+  - Loại: Điểm học bạ
+    Mô tả: Xét tuyển theo học bạ kỳ 1 của lớp 12, tổng điểm bình quân 3 môn trong tổ hợp môn xét tuyển không dưới 16 điểm
+  - Loại: Điểm thi riêng
+    Mô tả: Tổ chức thi tuyển theo đợt tuyển sinh của Trường
+  - Loại: Điểm xét tuyển kết hợp
+    Mô tả: Xét tuyển kết hợp giữa chứng chỉ tiếng Anh Quốc tế và kết quả thi THPT
+  - Loại: Điểm ĐGNL HN
+    Mô tả: Xét tuyển dựa trên kết quả thi đánh giá năng lực do Đại học Quốc gia Hà Nội tổ chức
+  - Loại: Điểm Đánh giá Tư duy
+    Mô tả: Xét tuyển dựa trên kết quả thi đánh giá tư duy do Đại học Bách khoa Hà Nội tổ chức
+```

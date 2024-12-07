@@ -1,0 +1,134 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Y Dược – Đại Học Thái Nguyên
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Đề án của Trường
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học sinh dự bị đại học
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Lưu học sinh người nước ngoài
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - D07
+  - D08
+- Trường: Trường Đại Học Y Dược – Đại Học Thái Nguyên
+  Địa chỉ: Số 284 đường Lương Ngọc Quyến, phường Quang Trung, thành phố Thái Nguyên, tỉnh Thái Nguyên
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 570
+    Học phí: 14.3 triệu
+    Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 27.3
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 26.25
+  - Chỉ tiêu: 80
+    Học phí: 14.3 triệu
+    Mã ngành: '7720110'
+    Tên ngành: Y học dự phòng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 21
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 22
+  - Chỉ tiêu: 200
+    Học phí: 14.3 triệu
+    Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; A00
+        Điểm chuẩn 2024: 25.8
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; A00
+        Điểm chuẩn 2024: 24.75
+  - Chỉ tiêu: 230
+    Học phí: 14.3 triệu
+    Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 23.3
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 21.8
+  - Chỉ tiêu: 40
+    Học phí: 14.3 triệu
+    Mã ngành: '7720302'
+    Tên ngành: Hộ sinh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 20.75
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 19.5
+  - Chỉ tiêu: 80
+    Học phí: 14.3 triệu
+    Mã ngành: '7720501'
+    Tên ngành: Răng - Hàm - Mặt
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 27.65
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 26.35
+  - Chỉ tiêu: 50
+    Học phí: 14.3 triệu
+    Mã ngành: '7720601'
+    Tên ngành: Kỹ thuật xét nghiệm y học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 25
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 24
+  - Chỉ tiêu: 50
+    Học phí: 14.3 triệu
+    Mã ngành: '7720602'
+    Tên ngành: Kỹ thuật hình ảnh y học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 21
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 20
+  - Chỉ tiêu: 50
+    Học phí: 14.3 triệu
+    Mã ngành: '7720603'
+    Tên ngành: Kỹ thuật phục hồi chức năng
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 21
+      - Loại: ĐT THPT
+        Tổ hợp: B00; D07; D08
+        Điểm chuẩn 2024: 20
+  Trường Đại học:
+    Mã trường: DTY
+    Tên: Trường Đại Học Y Dược – Đại Học Thái Nguyên
+    Tên tiếng Anh: Thai Nguyen University, College of Medicine
+    Tên viết tắt: TUMP
+    Địa chỉ: Số 284 đường Lương Ngọc Quyến, phường Quang Trung, thành phố Thái Nguyên, tỉnh Thái Nguyên
+    Website: https://tump.edu.vn/
+```

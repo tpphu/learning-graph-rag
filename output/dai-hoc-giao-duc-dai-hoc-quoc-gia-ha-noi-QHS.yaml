@@ -1,0 +1,108 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Sư phạm Toán và Khoa học tự nhiên
+  Trường: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Sư phạm Ngữ văn, Lịch sử, Lịch sử-Địa lí
+  Trường: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Khoa học Giáo dục và Khác
+  Trường: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Giáo dục tiểu học
+  Trường: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Giáo dục mầm non
+  Trường: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: CCQT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HN
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: GD1
+    Tên ngành: Sư phạm Toán và Khoa học tự nhiên
+    Học phí: 14.1 triệu
+    Chỉ tiêu: 215
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D01
+        Điểm chuẩn 2024: 26.58
+      - Loại: CCQT
+        Điểm chuẩn 2024: 1350
+        Ghi chú: CCQT SAT
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 996
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 106
+  - Mã ngành: GD2
+    Tên ngành: Sư phạm Ngữ văn, Lịch sử, Lịch sử-Địa lí
+    Học phí: 14.1 triệu
+    Chỉ tiêu: 125
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; C00; D14; D15
+        Điểm chuẩn 2024: 28.76
+      - Loại: CCQT
+        Điểm chuẩn 2024: 1350
+        Ghi chú: CCQT SAT
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 996
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 100
+  - Mã ngành: GD3
+    Tên ngành: Khoa học Giáo dục và Khác
+    Học phí: 14.1 triệu
+    Chỉ tiêu: 650
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 24.92
+      - Loại: CCQT
+        Điểm chuẩn 2024: 1350
+        Ghi chú: CCQT SAT
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 996
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 80
+  - Mã ngành: GD4
+    Tên ngành: Giáo dục tiểu học
+    Học phí: 14.1 triệu
+    Chỉ tiêu: 90
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 28.89
+      - Loại: CCQT
+        Điểm chuẩn 2024: 1350
+        Ghi chú: CCQT SAT
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 996
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 103
+  - Mã ngành: GD5
+    Tên ngành: Giáo dục mầm non
+    Học phí: 14.1 triệu
+    Chỉ tiêu: 70
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 27.85
+      - Loại: CCQT
+        Điểm chuẩn 2024: 1350
+        Ghi chú: CCQT SAT
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 996
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 100
+  Trường Đại học:
+    Tên: Trường Đại học Giáo Dục - Đại học Quốc Gia Hà Nội
+    Tên tiếng Anh: VNU University of Education – VNU-UEd
+    Tên viết tắt: UED
+    Địa chỉ: 
+      - Nhà G7. Số 144 Xuân Thuỷ, Dịch Vọng Hậu, Cầu Giấy, Hà Nội.
+      - Nhà C0. Số 182 Lương Thế Vinh, Thanh Xuân, Hà Nội.
+      - Cơ sở Đại học Quốc gia Hà Nội tại Hoà Lạc.
+    Website: https://education.vnu.edu.vn/
+    Fanpage: https://www.facebook.com/education.vnu.edu.vn
+```

@@ -1,0 +1,71 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Trường: Học viện Kỹ thuật quân sự
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Phương thức xét tuyển: ĐGNL HN
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Đào tạo kỹ sư quân sự
+  Tổ hợp:
+  - A00
+  - A01
+- Trường: Học viện Kỹ thuật quân sự
+  Địa chỉ: Số 236, đường Hoàng Quốc Việt, Quận Bắc Từ Liêm, Thành phố Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 540
+    Mã ngành: '7860220'
+    Tên ngành: Đào tạo kỹ sư quân sự
+    Phương thức xét tuyển:
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 20.35
+        Ghi chú: TS Nam miền Bắc mức 20.350 điểm có tổng điểm TK 3 năm lớp 10,11,12 > 25.4
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01
+        Điểm chuẩn 2024: 26.52
+        Ghi chú: TS nữ, miền Nam
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01
+        Điểm chuẩn 2024: 25.46
+        Ghi chú: TS nam, miền Nam
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01
+        Điểm chuẩn 2024: 27.71
+        Ghi chú: TS nữ, miền Bắc
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01
+        Điểm chuẩn 2024: 26.13
+        Ghi chú: TS nam, miền Bắc; Tiêu chí phụ 1: Toán >= 8.6; Tiêu chí phụ 2: Lý >= 9.25
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 24.466
+        Ghi chú: TS Nữ miền Nam
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20.875
+        Ghi chú: TS Nam miền Nam
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 22.55
+        Ghi chú: TS Nữ miền Bắc
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20.35
+        Ghi chú: TS Nam miền Bắc mức 20.350 điểm có tổng điểm TK 3 năm lớp 10,11,12 > 25.4
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 24.466
+        Ghi chú: TS Nữ miền Nam
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 20.875
+        Ghi chú: TS Nam miền Nam
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 22.55
+        Ghi chú: TS Nữ miền Bắc
+  Trường Đại học:
+    Tên: Học viện Kỹ thuật quân sự
+    Tên tiếng Anh: Military Technical Academy
+    Tên viết tắt: MTA
+    Địa chỉ: Số 236, đường Hoàng Quốc Việt, Quận Bắc Từ Liêm, Thành phố Hà Nội
+    Website: http://www.mta.edu.vn
+```

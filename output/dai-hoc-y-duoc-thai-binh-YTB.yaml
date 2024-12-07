@@ -1,0 +1,34 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Dược Thái Bình
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kỳ thi tốt nghiệp THPT 2024
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL ĐH Sư phạm HN 2025
+- Trường: Trường Đại học Y Dược Thái Bình
+  Địa chỉ: Số 373 Lý Bôn, TP Thái Bình, tỉnh Thái Bình
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: No data
+    Học phí: N/A
+    Chỉ tiêu: N/A
+    Phương thức xét tuyển: N/A
+    Tổ hợp: N/A
+    Điểm chuẩn 2024: N/A
+    Ghi chú: N/A
+  Trường Đại học:
+    Tên: Trường Đại học Y Dược Thái Bình
+    Tên viết tắt: TBUMP
+    Tên tiếng Anh: Thai Binh University of Medicine and Pharmacy
+    Địa chỉ: Số 373 Lý Bôn, TP Thái Bình, tỉnh Thái Bình
+    Website: https://tbump.edu.vn/
+  Học phí:
+  - Ngành: Y khoa, Y học cổ truyền, Dược học
+    Mức thu: 41.300.000 đ/năm học
+  - Ngành: Y học dự phòng, Điều dưỡng, Kỹ thuật xét nghiệm y học
+    Mức thu: 31.200.000 đ/năm học
+```

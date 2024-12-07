@@ -1,0 +1,46 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do nội dung HTML không chứa thông tin chi tiết về các thực thể và mối quan hệ cụ thể như trong ví dụ của bạn, tôi sẽ dựa trên các thông tin có sẵn để tạo ra một cấu trúc YAML phù hợp nhất có thể.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Ngành Y khoa
+  Trường: Học viện Quân y
+- Ngành đào tạo: Ngành Dược học
+  Trường: Học viện Quân y
+- Ngành đào tạo: Ngành Y học dự phòng
+  Trường: Học viện Quân y
+- Ngành đào tạo: Ngành Y khoa
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Ngành Dược học
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Ngành Y học dự phòng
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Ngành Y khoa
+  Phương thức xét tuyển: Đánh giá năng lực
+- Ngành đào tạo: Ngành Dược học
+  Phương thức xét tuyển: Đánh giá năng lực
+- Ngành đào tạo: Ngành Y học dự phòng
+  Phương thức xét tuyển: Đánh giá năng lực
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Y khoa
+    Mã ngành: 7720101
+    Tổ hợp: A00, B00
+    Chỉ tiêu: 66
+  - Tên ngành: Dược học
+    Mã ngành: 7720201
+    Tổ hợp: A00
+    Chỉ tiêu: 6
+  - Tên ngành: Y học dự phòng
+    Mã ngành: 7720110
+    Tổ hợp: B00
+    Chỉ tiêu: 2
+  Trường Đại học:
+    Tên: Học viện Quân y
+    Tên viết tắt: VMMU
+    Tên tiếng Anh: Vietnam Military Medical Academy
+    Mã trường: YQH
+    Địa chỉ: Phường Phúc La, Hà Đông, Hà Nội
+    Website: http://www.hocvienquany.vn
+```
+
+Lưu ý rằng thông tin về điểm chuẩn và các thuộc tính chi tiết khác không có sẵn trong nội dung HTML bạn cung cấp, do đó không thể đưa vào YAML. Nếu có thêm thông tin chi tiết, tôi có thể cập nhật lại cấu trúc YAML cho phù hợp hơn.

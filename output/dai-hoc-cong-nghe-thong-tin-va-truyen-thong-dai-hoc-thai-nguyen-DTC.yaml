@@ -1,0 +1,76 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - C01
+  - C14
+  - D01
+- Trường: Trường Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên
+  Địa chỉ: đường Z115, Quyết Thắng, TP Thái Nguyên, tỉnh Thái Nguyên
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7210403'
+    Tên ngành: Thiết kế đồ họa
+    Học phí: 12 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 19.1
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 20.6
+  - Mã ngành: '7310109'
+    Tên ngành: Quản trị kinh doanh số
+    Học phí: 12 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 19.7
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 20.9
+  - Mã ngành: '7320104'
+    Tên ngành: Truyền thông đa phương tiện
+    Học phí: 12 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 21.7
+  - Mã ngành: '7320106'
+    Tên ngành: Công nghệ truyền thông
+    Học phí: 14.5 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 19.7
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 19.4
+  - Mã ngành: '7340122'
+    Tên ngành: Thương mại điện tử
+    Học phí: 12.5 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 19.2
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C14; D01
+        Điểm chuẩn 2024: 21.7
+  Trường Đại học:
+    Mã trường: DTC
+    Tên: Trường Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên
+    Địa chỉ: đường Z115, Quyết Thắng, TP Thái Nguyên, tỉnh Thái Nguyên
+    Điện thoại tư vấn: (0208) 390 1828; 0981336628 – 0981336629
+    Website: http://tuyensinh.ictu.edu.vn
+    Email: tuyensinh@ictu.edu.vn
+```

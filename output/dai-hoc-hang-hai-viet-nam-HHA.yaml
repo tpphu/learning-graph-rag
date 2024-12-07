@@ -1,0 +1,118 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Hàng Hải Việt Nam
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - C01
+  - D01
+- Trường: Trường Đại Học Hàng Hải Việt Nam
+  Địa chỉ: Số 484 Lạch Tray, Ngô Quyền, TP. Hải Phòng
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: A403
+    Tên ngành: Quản lý kinh doanh & Marketing
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 23.5
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 25
+        Ghi chú: Chương trình tiên tiến
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 23
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 18.5
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18.5
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 18.5
+  - Mã ngành: A404
+    Tên ngành: Quản lý kinh doanh TMĐT
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 22.25
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 24
+        Ghi chú: Chương trình tiên tiến
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 22
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 18
+  - Mã ngành: A408
+    Tên ngành: Kinh tế Hàng hải
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 23
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 24
+        Ghi chú: Chương trình tiên tiến
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 22.5
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 18.75
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18.75
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 18.75
+  - Mã ngành: A409
+    Tên ngành: Kinh doanh quốc tế & Logistics
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 24.25
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 26.5
+        Ghi chú: Chương trình tiên tiến
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D15
+        Điểm chuẩn 2024: 24
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 20.5
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20.5
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 20.5
+  - Mã ngành: D101
+    Tên ngành: Điều khiển tàu biển
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23.5
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 25.75
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 17.5
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 17.5
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 17.5
+  Trường Đại học:
+    Tên: Trường Đại Học Hàng Hải Việt Nam
+    Mã trường: HHA
+    Tên tiếng Anh: Miritime University
+    Tên viết tắt: VMU
+    Địa chỉ: Số 484 Lạch Tray, Ngô Quyền, TP. Hải Phòng
+    Website: http://www.vimaru.edu.vn
+```

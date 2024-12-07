@@ -1,0 +1,149 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Công Nghiệp Việt Trì
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Công Nghiệp Việt Trì
+  Địa chỉ: Tiên Kiên - Lâm Thao - Phú Thọ; Tiên Cát - TP. Việt Trì - Phú Thọ
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; A01; K01
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; A01; K01
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15; K01
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15; K01
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D14; D01; C00; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: D14; D01; C00; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D14; D01; C00; A21
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: D14; D01; C00; A21
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7420201'
+    Tên ngành: Công nghệ sinh học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7440112'
+    Tên ngành: Hóa học (Hóa phân tích)
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7510201'
+    Tên ngành: Công nghệ kỹ thuật cơ khí
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510205'
+    Tên ngành: Công nghệ kỹ thuật ô tô
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 19
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 17
+  - Mã ngành: '7510303'
+    Tên ngành: Công nghệ kỹ thuật điều khiển và tự động hóa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7510401'
+    Tên ngành: Công nghệ kỹ thuật hóa học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510406'
+    Tên ngành: Công nghệ kỹ thuật môi trường
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7540101'
+    Tên ngành: Công nghệ thực phẩm
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A21
+        Điểm chuẩn 2024: 18
+  Trường Đại học:
+    Mã trường: VUI
+    Tên: Trường Đại học Công Nghiệp Việt Trì
+    Website: http://www.vui.edu.vn
+    Địa chỉ: Tiên Kiên - Lâm Thao - Phú Thọ; Tiên Cát - TP. Việt Trì - Phú Thọ
+```

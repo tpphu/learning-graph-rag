@@ -1,0 +1,33 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Tiền Giang. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Tiền Giang
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại Học Tiền Giang
+  Địa chỉ: Số 119, đường Ấp Bắc, Phường 5, Thành phố Mỹ Tho, Tiền Giang
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: TTG
+    Tên: Trường Đại Học Tiền Giang
+    Tên tiếng Anh: Tien Giang University
+    Tên viết tắt: TGU
+    Địa chỉ: Số 119, đường Ấp Bắc, Phường 5, Thành phố Mỹ Tho, Tiền Giang
+    Website: https://tgu.edu.vn/
+```
+
+Lưu ý rằng thông tin về các ngành đào tạo cụ thể, mã ngành, tổ hợp và điểm chuẩn không có dữ liệu chi tiết trong nội dung HTML được cung cấp, do đó tôi đã ghi "No data" cho các mục này. Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.
