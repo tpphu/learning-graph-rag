@@ -1,0 +1,70 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Nghệ Đồng Nai
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Trường: Trường Đại Học Công Nghệ Đồng Nai
+  Địa chỉ: Đường Nguyễn Khuyến, KP5, P.Trảng Dài, Biên Hòa, Đồng Nai
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7210403'
+    Tên ngành: Thiết kế đồ họa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D15
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A01; C00; D01; D15
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15; D66
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15; D66
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; A07; D14; D15
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: C00; A07; D14; D15
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7310608'
+    Tên ngành: Đông phương học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; A07; D14; D15
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: C00; A07; D14; D15
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7320104'
+    Tên ngành: Truyền thông đa phương tiện
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; C00; D01; D66
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A01; C00; D01; D66
+        Điểm chuẩn 2024: 18
+  Trường Đại học:
+    Mã trường: DCD
+    Tên: Trường Đại Học Công Nghệ Đồng Nai
+    Tên tiếng Anh: Dong Nai Technology University
+    Tên viết tắt: DNTU
+    Địa chỉ: Đường Nguyễn Khuyến, KP5, P.Trảng Dài, Biên Hòa, Đồng Nai
+    Website: https://dntu.edu.vn/
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

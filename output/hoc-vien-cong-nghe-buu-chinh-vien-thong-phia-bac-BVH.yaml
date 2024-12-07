@@ -1,0 +1,57 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong HTML không có thông tin rõ ràng về các thực thể và mối quan hệ cụ thể, tôi sẽ dựa trên các thông tin có sẵn để tạo ra một cấu trúc hợp lý nhất có thể.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Công nghệ Bưu chính Viễn thông
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Trường: Học viện Công nghệ Bưu chính Viễn thông
+  Địa chỉ: Km10 Đường Nguyễn Trãi, Phường Mộ Lao, Quận Hà Đông, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 5060
+    Học phí: 
+      Đại trà: 27-34 triệu đồng/năm
+      Chất lượng cao: 39-55 triệu đồng/năm
+      CNTT ứng dụng: 35-37 triệu đồng/năm
+      Liên kết quốc tế: 49-55.5 triệu đồng/năm
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm Đánh giá Tư duy
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HCM
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/HocvienPTIT
+    Mã trường: BVH
+    Tên: Học viện Công nghệ Bưu chính Viễn thông
+    Website: https://ptit.edu.vn/
+    Địa chỉ: Km10 Đường Nguyễn Trãi, Phường Mộ Lao, Quận Hà Đông, Hà Nội
+```
+
+Lưu ý rằng thông tin về các ngành đào tạo cụ thể và điểm chuẩn chưa có dữ liệu chi tiết trong HTML, do đó tôi đã ghi "No data" cho các mục này. Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

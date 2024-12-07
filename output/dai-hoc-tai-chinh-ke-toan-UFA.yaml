@@ -1,0 +1,75 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Tài Chính Kế Toán
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - D01
+  - A16
+  - C00
+  - C15
+- Trường: Trường Đại học Tài Chính Kế Toán
+  Địa chỉ: Số 01 Đường Lê Quý Đôn, La Hà, huyện Tư Nghĩa, tỉnh Quảng Ngãi
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340120'
+    Tên ngành: Kinh doanh quốc tế
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; A16
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7380107'
+    Tên ngành: Luật Kinh tế
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; D01; C00; C15
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; D01; C00; C15
+        Điểm chuẩn 2024: 15
+
+  Trường Đại học:
+    Tên: Trường Đại học Tài Chính Kế Toán
+    Mã trường: UFA
+    Tên tiếng Anh: University of Finance and Accountancy
+    Tên viết tắt: UFA
+    Địa chỉ: Số 01 Đường Lê Quý Đôn, La Hà, huyện Tư Nghĩa, tỉnh Quảng Ngãi
+    Website: https://www.tckt.edu.vn/
+```

@@ -1,0 +1,230 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - C01
+  - A00
+  - C02
+  - A01
+  - A02
+  - B00
+  - C00
+  - D14
+  - D15
+  - D66
+  - A11
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15; D66
+        Điểm chuẩn 2024: 25.14
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15; D66
+        Điểm chuẩn 2024: 24.78
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 23.43
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 24.1
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 21.35
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 25.52
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 23.19
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 24.88
+  - Mã ngành: '7380101'
+    Tên ngành: Luật
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; D01; D14; D15
+        Điểm chuẩn 2024: 25.25
+      - Loại: Học Bạ
+        Tổ hợp: C00; D01; D14; D15
+        Điểm chuẩn 2024: 25.5
+  - Mã ngành: '7420201'
+    Tên ngành: Công nghệ sinh học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A02; B00; C02; D01
+        Điểm chuẩn 2024: 15.45
+      - Loại: Học Bạ
+        Tổ hợp: A02; B00; C02; D01
+        Điểm chuẩn 2024: 24.3
+  - Mã ngành: '7460108'
+    Tên ngành: Khoa học dữ liệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 21.95
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23.43
+  - Mã ngành: '7480101'
+    Tên ngành: Khoa học máy tính
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23.05
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 24.4
+  - Mã ngành: '7480103'
+    Tên ngành: Kỹ thuật phần mềm
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 21.9
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 24.87
+  - Mã ngành: '7480104'
+    Tên ngành: Hệ thống thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23.3
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 25.24
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 23
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; D01
+        Điểm chuẩn 2024: 26.45
+  - Mã ngành: '7510102'
+    Tên ngành: Công nghệ kỹ thuật công trình xây dựng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A02; C01; D01
+        Điểm chuẩn 2024: 22.3
+      - Loại: Học Bạ
+        Tổ hợp: A00; A02; C01; D01
+        Điểm chuẩn 2024: 22.4
+  - Mã ngành: '7510203'
+    Tên ngành: Công nghệ kỹ thuật cơ điện tử
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 22.1
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 23.85
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 24.96
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 21.75
+  - Mã ngành: '7510303'
+    Tên ngành: Công nghệ kỹ thuật điều khiển và tự động hóa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 23.75
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 23.5
+  - Mã ngành: '7510401'
+    Tên ngành: Công nghệ kỹ thuật hóa học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A11; B00; C02
+        Điểm chuẩn 2024: 19.8
+      - Loại: Học Bạ
+        Tổ hợp: A00; A11; B00; C02
+        Điểm chuẩn 2024: 21.9
+  - Mã ngành: '7510403'
+    Tên ngành: Công nghệ kỹ thuật năng lượng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 18.9
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; C01
+        Điểm chuẩn 2024: 20.45
+  - Mã ngành: '7510601'
+    Tên ngành: Quản lý công nghiệp
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 22.3
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 24
+  - Mã ngành: '7510605'
+    Tên ngành: Logistics và quản lý chuỗi cung ứng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 22.15
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 26.31
+  - Mã ngành: '7520118'
+    Tên ngành: Kỹ thuật hệ thống công nghiệp
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 20.35
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 22.4
+  - Mã ngành: '7540101'
+    Tên ngành: Công nghệ thực phẩm
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C02; D01
+        Điểm chuẩn 2024: 20
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C02; D01
+        Điểm chuẩn 2024: 25.23
+  - Mã ngành: '7580302'
+    Tên ngành: Quản lý xây dựng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 21.25
+      - Loại: Học Bạ
+        Tổ hợp: A00; C01; C02; D01
+        Điểm chuẩn 2024: 22.55
+  Trường Đại học:
+    Tên: Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ
+    Mã trường: KCC
+    Tên tiếng Anh: Can Tho University of Technology
+    Tên viết tắt: CTUT
+    Địa chỉ: Số 256 Nguyễn Văn Cừ, phường An Hòa, quận Ninh Kiều, thành phố Cần Thơ
+    Website: https://ctuet.edu.vn/index.php
+```

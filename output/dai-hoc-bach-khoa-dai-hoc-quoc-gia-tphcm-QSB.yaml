@@ -1,0 +1,34 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Bách Khoa – Đại học Quốc gia TPHCM. Tuy nhiên, cần lưu ý rằng thông tin về ERD (Entity-Relationship Diagram) không được trình bày rõ ràng trong tài liệu HTML này. Tôi sẽ cố gắng suy luận và trình bày dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Bách Khoa – Đại học Quốc gia TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển kết hợp
+- Trường: Trường Đại học Bách Khoa – Đại học Quốc gia TPHCM
+  Địa chỉ: 268 Lý Thường Kiệt, phường 14, quận 10, TP.Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: No data
+    Học phí: No data
+    Chỉ tiêu: No data
+    Phương thức xét tuyển:
+      - Loại: Xét tuyển thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Xét tuyển kết hợp
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Bách Khoa – Đại học Quốc gia TPHCM
+    Tên viết tắt: HCMUT
+    Tên tiếng Anh: Ho Chi Minh City University of Technology
+    Địa chỉ: 268 Lý Thường Kiệt, phường 14, quận 10, TP.Hồ Chí Minh
+    Website: www.aao.hcmut.edu.vn/tuyen_sinh/index.html
+    Fanpage: https://www.facebook.com/truongdhbachkhoa
+```
+
+Lưu ý rằng thông tin về các ngành đào tạo cụ thể, học phí, chỉ tiêu, và điểm chuẩn không có dữ liệu chi tiết trong tài liệu HTML bạn cung cấp, do đó tôi đã ghi "No data" cho các mục này. Nếu có thêm thông tin chi tiết, bạn có thể bổ sung vào cấu trúc YAML trên.

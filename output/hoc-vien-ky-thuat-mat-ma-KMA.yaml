@@ -1,0 +1,72 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Công nghệ thông tin
+  Trường: Học viện Kỹ thuật mật mã
+- Ngành đào tạo: An toàn thông tin
+  Trường: Học viện Kỹ thuật mật mã
+- Ngành đào tạo: Kỹ thuật điện tử - viễn thông
+  Trường: Học viện Kỹ thuật mật mã
+- Ngành đào tạo: Công nghệ thông tin
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: An toàn thông tin
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Kỹ thuật điện tử - viễn thông
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Công nghệ thông tin
+  Tổ hợp:
+  - A00
+  - A01
+  - D90
+- Ngành đào tạo: An toàn thông tin
+  Tổ hợp:
+  - A00
+  - A01
+  - D90
+- Ngành đào tạo: Kỹ thuật điện tử - viễn thông
+  Tổ hợp:
+  - A00
+  - A01
+  - D90
+- Trường: Học viện Kỹ thuật mật mã
+  Địa chỉ: 141 Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội
+- Trường: Học viện Kỹ thuật mật mã
+  Địa chỉ: 17A Đường Cộng Hòa, Phường 4, Quận Tân Bình, TP. Hồ Chí Minh
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7480201KMA'
+    Tên ngành: Công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D90
+        Điểm chuẩn 2024: 26.1
+  - Mã ngành: '7480202KMA'
+    Tên ngành: An toàn thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D90
+        Điểm chuẩn 2024: 25.95
+  - Mã ngành: '7480202KMP'
+    Tên ngành: An toàn thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D90
+        Điểm chuẩn 2024: 24.85
+        Ghi chú: Phân hiệu TPHCM
+  - Mã ngành: '7520207'
+    Tên ngành: Kỹ thuật điện tử - viễn thông
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D90
+        Điểm chuẩn 2024: 25.35
+  Trường Đại học:
+    Tên: Học viện Kỹ thuật mật mã
+    Tên viết tắt: KMA
+    Tên tiếng Anh: The Academy of Cryptography Techniques
+    Mã trường: KMA
+    Website: https://actvn.edu.vn/
+    Fanpage: https://www.facebook.com/hocvienkythuatmatma
+    Địa chỉ:
+      - 141 Chiến Thắng, Tân Triều, Thanh Trì, Hà Nội
+      - 17A Đường Cộng Hòa, Phường 4, Quận Tân Bình, TP. Hồ Chí Minh
+```

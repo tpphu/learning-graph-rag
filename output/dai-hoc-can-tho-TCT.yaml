@@ -1,0 +1,31 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Cần Thơ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Trường: Trường Đại học Cần Thơ
+  Địa chỉ: Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Đảm bảo chất lượng và an toàn thực phẩm
+  - Tên ngành: Trí tuệ nhân tạo
+  - Tên ngành: Thú y (chất lượng cao)
+  - Tên ngành: Mạng máy tính và truyền thông dữ liệu (chất lượng cao)
+  - Tên ngành: Tâm lý giáo dục
+  - Tên ngành: Thương mại điện tử
+  - Tên ngành: Luật dân sự và tố tụng dân sự
+  Trường Đại học:
+    Tên: Trường Đại học Cần Thơ
+    Tên tiếng anh: Can Tho University
+    Tên viết tắt: CTU
+    Địa chỉ: Đường 3/2, Quận Ninh Kiều, TP. Cần Thơ
+    Website: https://www.ctu.edu.vn
+    Facebook: https://www.facebook.com/ctu.tvts
+```
