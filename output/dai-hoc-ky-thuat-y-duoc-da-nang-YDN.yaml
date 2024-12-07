@@ -1,0 +1,124 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kỹ thuật Y Dược Đà Nẵng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - B08
+  - A00
+  - D07
+- Trường: Trường Đại học Kỹ thuật Y Dược Đà Nẵng
+  Địa chỉ: Số 99 Hùng Vương, Hải Châu, Đà Nẵng
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 250
+    Học phí: 31.1 triệu
+    Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 23.45
+        Ghi chú: Xét kết hợp điểm thi tốt nghiệp THPT với CCTA Quốc tế
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 25.47
+  - Chỉ tiêu: 200
+    Học phí: 31.1 triệu
+    Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 23
+        Ghi chú: Xét kết hợp điểm thi tốt nghiệp THPT với CCTA Quốc tế
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 23.6
+  - Chỉ tiêu: 184
+    Học phí: 23.6 triệu
+    Mã ngành: '7720301A'
+    Tên ngành: Điều dưỡng đa khoa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 20.9
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 24.99
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  - Chỉ tiêu: 50
+    Học phí: 23.6 triệu
+    Mã ngành: '7720301B'
+    Tên ngành: Điều dưỡng nha khoa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 20.6
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 24.92
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  - Chỉ tiêu: 70
+    Học phí: 23.6 triệu
+    Mã ngành: '7720301C'
+    Tên ngành: Điều dưỡng gây mê hồi sức
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 20
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 24.38
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  - Chỉ tiêu: 150
+    Học phí: 23.6 triệu
+    Mã ngành: '7720601'
+    Tên ngành: Kỹ thuật xét nghiệm y học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 20.6
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 25.59
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  - Chỉ tiêu: 100
+    Học phí: 23.6 triệu
+    Mã ngành: '7720602'
+    Tên ngành: Kỹ thuật hình ảnh y học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 19
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 24.36
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  - Chỉ tiêu: 120
+    Học phí: 23.6 triệu
+    Mã ngành: '7720603'
+    Tên ngành: Kỹ thuật phục hồi chức năng
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 19.85
+        Ghi chú: Xét kết hợp điểm thi tốt nghiệp THPT với CCTA Quốc tế
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 21
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00; D07
+        Điểm chuẩn 2024: 24.87
+        Ghi chú: TS có điểm XT bằng ĐC thì ưu tiên thứ tự NV, sau đó là điểm môn Toán
+  Trường Đại học:
+    Tên: Trường Đại học Kỹ thuật Y Dược Đà Nẵng
+    Tên viết tắt: DUMTP
+    Tên tiếng Anh: Da Nang University Of Medical Technology and Pharmacy
+    Địa chỉ: Số 99 Hùng Vương, Hải Châu, Đà Nẵng
+    Website: https://dhktyduocdn.edu.vn/
+    Facebook: https://www.facebook.com/dhktyduocdanang.edu
+```

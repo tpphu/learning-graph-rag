@@ -1,0 +1,118 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML. Dưới đây là cấu trúc YAML cho thông tin tuyển sinh của Trường Đại Học Hải Dương:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Hải Dương
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết Hợp
+- Trường: Trường Đại Học Hải Dương
+  Địa chỉ: University of Hai Duong
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '51140201'
+    Tên ngành: Giáo dục Mầm non (CĐ)
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C00; C19; C20; D01
+        Điểm chuẩn 2024: 25.05
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C19; C20; D01
+        Điểm chuẩn 2024: 21
+  - Mã ngành: '7140201'
+    Tên ngành: Giáo dục Mầm non (trình độ đại học)
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C19; C20; D01
+        Điểm chuẩn 2024: 26.4
+      - Loại: Học Bạ
+        Tổ hợp: C00; C19; C20; D01
+        Điểm chuẩn 2024: 27.4
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 28.3
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 26.5
+  - Mã ngành: '7140205'
+    Tên ngành: Sư phạm Giáo dục Chính trị
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D01; C00; C14; C20
+        Điểm chuẩn 2024: 26.7
+      - Loại: ĐT THPT
+        Tổ hợp: D01; C00; C14; C20
+        Điểm chuẩn 2024: 24.15
+  - Mã ngành: '7140206'
+    Tên ngành: Giáo dục thể chất
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T01; T02; T03
+        Điểm chuẩn 2024: 18
+        Ghi chú: Học bạ THPT với năng khiếu
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T01; T02; T03
+        Điểm chuẩn 2024: 18
+        Ghi chú: Kết quả thi tốt nghiệp THPT với năng khiếu
+  - Mã ngành: '7140209'
+    Tên ngành: Sư phạm Toán học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; A02; D01
+        Điểm chuẩn 2024: 28.6
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; A02; D01
+        Điểm chuẩn 2024: 25.11
+  - Mã ngành: '7140231'
+    Tên ngành: Sư phạm tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 26.63
+        Ghi chú: Học bạ THPT với CCTA QT
+      - Loại: Kết Hợp
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 26.63
+        Ghi chú: Kết quả thi tốt nghiệp THPT với CCTA QT
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 27.5
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 25.25
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D10; A01
+        Điểm chuẩn 2024: 15
+      - Loại: Kết Hợp
+        Tổ hợp: D01; D09; D10; A01
+        Điểm chuẩn 2024: 23.75
+        Ghi chú: Học bạ THPT với CCTA QT
+      - Loại: Kết Hợp
+        Tổ hợp: D01; D09; D10; A01
+        Điểm chuẩn 2024: 23.75
+        Ghi chú: Kết quả thi tốt nghiệp THPT với CCTA QT
+      - Loại: Học Bạ
+        Tổ hợp: D01; D09; D10; A01
+        Điểm chuẩn 2024: 15.5
+
+  Trường Đại học:
+    Mã trường: DKT
+    Tên: Trường Đại Học Hải Dương
+    Tên tiếng Anh: University of Hai Duong
+    Tên viết tắt: UHD
+    Địa chỉ: University of Hai Duong
+    Website: http://uhd.edu.vn/
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

@@ -1,10 +1,14 @@
+import re
+import time
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import time
-import re
+
 
 def get_html_content(url):
     """
@@ -64,49 +68,52 @@ def get_text_content(url):
         print(f"Error processing HTML: {e}")
         return None
 
-def fetch_and_minify_html(url, wait_time=5):
+class WebDriverManager:
     """
-    Fetches the full HTML content of a web page, removes unnecessary elements, attributes, and minifies the result.
+    Quản lý WebDriver để tái sử dụng trình duyệt.
     """
-    # Thiết lập Chrome headless
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")  # Chế độ không giao diện
-    chrome_options.add_argument("--no-sandbox")  # Bỏ sandbox để phù hợp Docker
-    chrome_options.add_argument("--disable-dev-shm-usage")  # Xử lý chia sẻ bộ nhớ
-    chrome_options.add_argument("--disable-gpu")  # Không cần GPU trong Docker
-    chrome_options.add_argument("--window-size=1920x1080")  # Đặt kích thước cửa sổ
+    def __init__(self, driver_path='/usr/local/bin/chromedriver'):
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--window-size=1920x1080")
+        self.driver = webdriver.Chrome(service=Service(driver_path), options=chrome_options)
 
-    # Khởi tạo WebDriver
-    service = Service('/usr/local/bin/chromedriver')  # Đường dẫn Chromedriver
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    def close(self):
+        self.driver.quit()
 
+def fetch_and_minify_html(url, driver, wait_time=5):
+    """
+    Fetches and minifies HTML content using Selenium and BeautifulSoup.
+    """
     try:
         # Mở URL
         driver.get(url)
-        
-        # Chờ một khoảng thời gian để đảm bảo nội dung tải xong
-        time.sleep(wait_time)
+        print(f"Opening {url}...")
 
-        # Lấy toàn bộ mã HTML đầy đủ
+        # Chờ đến khi trang tải xong
+        WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
+
+        # Lấy HTML đầy đủ
         full_html = driver.page_source
 
         # Làm sạch HTML bằng BeautifulSoup
         soup = BeautifulSoup(full_html, "html.parser")
 
-        # Loại bỏ các thẻ <script>, <style>, <svg> và các thẻ không mong muốn khác
+        # Loại bỏ các thẻ không cần thiết
         for tag in soup(["script", "style", "svg", "iframe", "meta"]):
             tag.decompose()
 
-        # Loại bỏ tất cả attributes của các thẻ còn lại
-        for tag in soup.find_all(True):  # Lấy tất cả các thẻ HTML
-            tag.attrs = {}  # Xóa attributes
+        # Loại bỏ tất cả attributes
+        for tag in soup.find_all(True):
+            tag.attrs = {}
 
-        # Tối ưu HTML: loại bỏ khoảng trắng và xuống dòng không cần thiết
-        minified_html = re.sub(r">\s+<", "><", str(soup))  # Loại bỏ khoảng trắng giữa các thẻ
-        minified_html = re.sub(r"\s+", " ", minified_html).strip()  # Loại bỏ khoảng trắng thừa
+        # Minify HTML
+        minified_html = re.sub(r">\s+<", "><", str(soup)).strip()
 
-        # Trả về nội dung sạch và tối ưu
         return minified_html
-    finally:
-        # Đóng WebDriver
-        driver.quit()
+    except Exception as e:
+        print(f"Error fetching HTML from {url}: {e}")
+        return None

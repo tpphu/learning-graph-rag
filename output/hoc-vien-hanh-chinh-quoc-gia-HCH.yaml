@@ -1,0 +1,107 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Học Viện Hành Chính Quốc Gia. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học Viện Hành Chính Quốc Gia
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Học Viện Hành Chính Quốc Gia
+  Địa chỉ: 77 Nguyễn Chí Thanh, Q. Đống Đa, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 80
+    Học phí: 10.5 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 86
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 27.75
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 26.5
+      - Loại: CCQT
+        Điểm chuẩn 2024: 74
+        Ghi chú: Chứng chỉ TOEFL iBT
+      - Loại: CCQT
+        Điểm chuẩn 2024: 6
+        Ghi chú: Chứng chỉ IELTS
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 688
+  - Mã ngành: '7229040'
+    Tên ngành: Văn hóa học
+    Chỉ tiêu: 180
+    Học phí: 10.5 triệu
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 65
+        Ghi chú: Chứng chỉ TOEFL iBT
+      - Loại: CCQT
+        Điểm chuẩn 2024: 5.5
+        Ghi chú: Chứng chỉ IELTS
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 688
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 86
+      - Loại: Học Bạ
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 28.75
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 26.75
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 26.8
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 24.8
+  - Mã ngành: '7229042'
+    Tên ngành: Quản lý văn hóa
+    Chỉ tiêu: 120
+    Học phí: 10.5 triệu
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 65
+        Ghi chú: Chứng chỉ TOEFL iBT
+      - Loại: CCQT
+        Điểm chuẩn 2024: 5.5
+        Ghi chú: Chứng chỉ IELTS
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 640
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 80
+      - Loại: Học Bạ
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 28
+      - Loại: Học Bạ
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 26
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 26.3
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D14; D15
+        Điểm chuẩn 2024: 24.3
+  Trường Đại học:
+    Tên: Học Viện Hành Chính Quốc Gia
+    Mã trường: HCH
+    Tên tiếng Anh: National Academy of Public Administration
+    Tên viết tắt: NAPA
+    Địa chỉ: 77 Nguyễn Chí Thanh, Q. Đống Đa, Hà Nội
+    Website: https://www1.napa.vn/
+```
+
+Cấu trúc YAML trên bao gồm các thực thể và mối quan hệ được trích xuất từ nội dung HTML. Các thực thể bao gồm thông tin về các ngành đào tạo, mã ngành, chỉ tiêu, học phí, và các phương thức xét tuyển cùng với điểm chuẩn tương ứng. Mối quan hệ giữa các thực thể và các thông tin khác cũng được liệt kê.

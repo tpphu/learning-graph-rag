@@ -1,0 +1,57 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Sư phạm TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - A00
+  - A01
+  - C14
+- Trường: Trường Đại học Sư phạm TPHCM
+  Địa chỉ: 280 An Dương Vương, Phường 4, Quận 5, TP. Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 60
+    Học phí: 14.1 triệu
+    Mã ngành: '7140101'
+    Tên ngành: Giáo dục học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 24.82
+      - Loại: Thi Riêng
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 20.54
+        Ghi chú: Học bạ THPT + ĐGNL chuyên biệt
+      - Loại: Học Bạ
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 27.55
+  - Chỉ tiêu: 60
+    Học phí: N/A
+    Mã ngành: '7140114'
+    Tên ngành: Quản lý giáo dục
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 27.81
+      - Loại: ĐT THPT
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 25.22
+      - Loại: Thi Riêng
+        Tổ hợp: D01; A00; A01; C14
+        Điểm chuẩn 2024: 22.01
+        Ghi chú: Học bạ THPT + ĐGNL chuyên biệt
+  Trường Đại học:
+    Facebook: https://www.facebook.com/@HCMUE.VN
+    Mã trường: SPS
+    Tên: Trường Đại học Sư phạm TPHCM
+    Website: http://hcmup.edu.vn
+    Địa chỉ: 280 An Dương Vương, Phường 4, Quận 5, TP. Hồ Chí Minh
+```
+
+Lưu ý rằng tôi đã chỉ trích xuất một phần thông tin để minh họa cách trình bày dưới dạng YAML. Nếu bạn cần thêm thông tin về các ngành khác hoặc chi tiết hơn, vui lòng cho biết.

@@ -1,0 +1,34 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Mỹ Thuật TPHCM. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Mỹ Thuật TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết hợp xét tuyển và thi tuyển năng khiếu
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - Ngữ Văn
+  - Năng khiếu
+- Trường: Trường Đại Học Mỹ Thuật TPHCM
+  Địa chỉ: 5 Phan Đăng Lưu, Phường 3, Quận Bình Thạnh, TP HCM
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 280
+    Học phí: Không có thông tin
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Kết hợp xét tuyển và thi tuyển năng khiếu
+        Tổ hợp: Ngữ Văn; Năng khiếu
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: MTS
+    Tên: Trường Đại Học Mỹ Thuật TPHCM
+    Tên tiếng Anh: Ho Chi Minh City University of Fine Arts
+    Tên viết tắt: HCMUFA
+    Website: https://www.hcmufa.edu.vn/
+    Địa chỉ: 5 Phan Đăng Lưu, P. 3, Q. Bình Thạnh, TP HCM
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, học phí và điểm chuẩn cụ thể không có dữ liệu trong nội dung HTML được cung cấp, do đó chúng được ghi nhận là "No data".

@@ -1,0 +1,33 @@
+Dựa trên nội dung HTML bạn đã cung cấp, không có thông tin cụ thể nào liên quan đến ERD (Entity-Relationship Diagram) hoặc các thực thể và mối quan hệ rõ ràng để trích xuất. Tuy nhiên, tôi có thể giúp bạn tạo một cấu trúc YAML dựa trên các mục được liệt kê trong HTML, mặc dù chúng không hoàn toàn phù hợp với một ERD truyền thống. Dưới đây là một ví dụ về cách bạn có thể cấu trúc thông tin này:
+
+```yaml
+Thực thể:
+  Đề án tuyển sinh:
+    - Tên: Đề án tuyển sinh
+  Ngành đào tạo:
+    - Tên: Các ngành đào tạo
+  Điểm chuẩn:
+    - Tên: Điểm chuẩn đại học
+  Tư vấn:
+    - Tên: Tư vấn chọn trường
+  Tính điểm:
+    - Tên: Tính điểm xét học bạ THPT
+  Điểm chuẩn vào 10:
+    - Tên: Điểm chuẩn vào 10
+  Điểm thi vào 10:
+    - Tên: Điểm thi vào 10
+  Điểm thi tốt nghiệp THPT:
+    - Tên: Điểm thi tốt nghiệp THPT
+  Mã Trường - Mã ngành ĐH:
+    - Tên: Mã Trường - Mã ngành ĐH
+  Công cụ tính điểm tốt nghiệp THPT:
+    - Tên: Công cụ tính điểm tốt nghiệp THPT
+  Danh sách trúng tuyển:
+    - Tên: Danh sách trúng tuyển
+
+Mối quan hệ:
+  - Tên: Xem thêm
+    Mô tả: keyboard_arrow_down
+```
+
+Lưu ý rằng cấu trúc trên chỉ là một cách tổ chức thông tin từ HTML và không phản ánh một ERD thực sự. Để tạo một ERD chính xác, cần có thông tin chi tiết hơn về các thực thể, thuộc tính và mối quan hệ giữa chúng.

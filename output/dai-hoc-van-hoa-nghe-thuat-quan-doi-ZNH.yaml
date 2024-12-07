@@ -1,0 +1,30 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Văn hóa Nghệ thuật Quân đội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Không có dữ liệu
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp: Không có dữ liệu
+- Trường: Trường Đại học Văn hóa Nghệ thuật Quân đội
+  Địa chỉ: 101 Nguyễn Chí Thanh, Q. Đống Đa, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: Không có dữ liệu
+    Học phí: Không có dữ liệu
+    Mã ngành: Không có dữ liệu
+    Tên ngành: Không có dữ liệu
+    Phương thức xét tuyển:
+      - Loại: Không có dữ liệu
+        Tổ hợp: Không có dữ liệu
+        Điểm chuẩn 2024: Không có dữ liệu
+  Trường Đại học:
+    Mã trường: ZNH
+    Tên: Trường Đại học Văn hóa Nghệ thuật Quân đội
+    Tên tiếng Anh: MILITARY COLLEGE OF ARTS & CULTURE
+    Năm thành lập: 1955
+    Cơ quan chủ quản: Bộ Quốc phòng
+    Địa chỉ: 101 Nguyễn Chí Thanh, Q. Đống Đa, Hà Nội
+    Website: http://vnq.edu.vn
+```
