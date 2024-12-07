@@ -1,0 +1,119 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - M01
+  - M02
+  - M03
+  - M07
+- Trường: Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa
+  Địa chỉ: Số 20 - Nguyễn Du - P. Điện Biên - TP. Thanh Hóa
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140201'
+    Tên ngành: Giáo dục Mầm non
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 27
+      - Loại: Xét TN THPT
+        Tổ hợp: M01; M02; M03; M07
+        Điểm chuẩn 2024: 27
+        Ghi chú: Xét KQ thi tốt nghiệp THPT năm 2022 hoặc 2023
+      - Loại: Học Bạ
+        Tổ hợp: M01; M02; M03; M07
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: M01; M02; M03; M07
+        Điểm chuẩn 2024: 27.43
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Phương thức xét tuyển:
+      - Loại: Xét TN THPT
+        Tổ hợp: M00; A01; D01; C00
+        Điểm chuẩn 2024: 25.8
+        Ghi chú: Xét KQ thi tốt nghiệp THPT năm 2022 hoặc 2023
+      - Loại: Học Bạ
+        Tổ hợp: M00; A01; D01; C00
+        Điểm chuẩn 2024: 27.4
+      - Loại: ĐT THPT
+        Tổ hợp: M00; A01; D01; C00
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 27
+  - Mã ngành: '7140206'
+    Tên ngành: Giáo dục Thể chất
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 26.5
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 26.5
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 26.5
+      - Loại: Xét TN THPT
+        Tổ hợp: T00; T03; T05; T08
+        Điểm chuẩn 2024: 26.5
+        Ghi chú: Xét KQ thi tốt nghiệp THPT năm 2022 hoặc 2023
+      - Loại: Học Bạ
+        Tổ hợp: T00; T03; T05; T08
+        Điểm chuẩn 2024: 26.8
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T03; T05; T08
+        Điểm chuẩn 2024: 26.5
+  - Mã ngành: '7140210'
+    Tên ngành: Sư phạm Tin học
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 24
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 24
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 24
+      - Loại: Xét TN THPT
+        Tổ hợp: A00; A16; C15; D01
+        Điểm chuẩn 2024: 24
+        Ghi chú: Xét KQ thi tốt nghiệp THPT năm 2022 hoặc 2023
+      - Loại: Học Bạ
+        Tổ hợp: A00; A16; C15; D01
+        Điểm chuẩn 2024: 26.49
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A16; C15; D01
+        Điểm chuẩn 2024: 24
+  - Mã ngành: '7210104'
+    Tên ngành: Đồ họa
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 15
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 15
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 15
+      - Loại: Xét TN THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 15
+        Ghi chú: Xét KQ thi tốt nghiệp THPT năm 2022 hoặc 2023
+      - Loại: Học Bạ
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 16.5
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 15
+  Trường Đại học:
+    Mã trường: DVD
+    Tên: Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa
+    Tên tiếng Anh: Thanh Hoa University of Culture, Sport and Tourism
+    Tên viết tắt: TUCST
+    Địa chỉ: Số 20 - Nguyễn Du - P. Điện Biên - TP. Thanh Hóa
+    Website: https://tucst.edu.vn/
+```

@@ -89,6 +89,7 @@ def fetch_and_minify_html(url, driver, wait_time=5):
     Fetches and minifies HTML content using Selenium and BeautifulSoup.
     """
     try:
+        driver.set_page_load_timeout(10)
         # Mở URL
         driver.get(url)
         print(f"Opening {url}...")

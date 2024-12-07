@@ -1,0 +1,21 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong bảng "Danh sách ngành đào tạo" không có thông tin cụ thể (chỉ có "No data"), tôi sẽ chỉ trích xuất các thông tin có sẵn từ phần "Giới thiệu trường".
+
+Dưới đây là cấu trúc YAML dựa trên thông tin có sẵn:
+
+```yaml
+Mối quan hệ:
+- Trường: Trường Đại Học Hà Hoa Tiên
+  Địa chỉ: Xã Hoàng Đông - Huyện Duy Tiên - Tỉnh Hà Nam
+
+Thực thể:
+  Trường Đại học:
+    Mã trường: DHH
+    Tên: Trường Đại Học Hà Hoa Tiên
+    Tên tiếng Anh: Hahoatien University
+    Năm thành lập: 2007
+    Cơ quan chủ quản: Bộ Giáo dục và Đào tạo
+    Địa chỉ: Xã Hoàng Đông - Huyện Duy Tiên - Tỉnh Hà Nam
+    Website: http://hahoatien.edu.vn
+```
+
+Do không có thông tin chi tiết về các ngành đào tạo, chỉ tiêu, học phí, phương thức xét tuyển, tổ hợp, và điểm chuẩn, phần "Ngành đào tạo" không thể được điền đầy đủ. Nếu có thêm thông tin chi tiết, tôi có thể cập nhật lại cấu trúc YAML này.

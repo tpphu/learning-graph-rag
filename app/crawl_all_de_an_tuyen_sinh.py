@@ -25,10 +25,12 @@ if __name__ == "__main__":
             minify_html_content = load_file_content(html_file_path)
             if minify_html_content is None:
                 minify_html_content = fetch_and_minify_html(url, driver_manager.driver)
-                save_to_file(minify_html_content, html_file_path)
             if minify_html_content:
+                save_to_file(minify_html_content, html_file_path)
                 print("HTML content-length: ", len(minify_html_content))
-                
+            else:
+                print("Can not download html")
+                continue
             # Step 2 - Goi Open AI de trich xuat ERD, neu ton tai file thi khong goi nua de tiet kiem chi phi
             yaml_file_path = 'output/'+path.replace('.html', '.yaml')
             if os.path.exists(yaml_file_path):

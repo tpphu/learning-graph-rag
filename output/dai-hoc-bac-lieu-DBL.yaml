@@ -1,0 +1,163 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Bạc Liêu
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Cao đẳng giáo dục Mầm non
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại Học Bạc Liêu
+  Địa chỉ: Số 178, Đường Võ Thị Sáu, phường 8, thành phố Bạc Liêu, tỉnh Bạc Liêu
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '51140201'
+    Tên ngành: Cao đẳng giáo dục Mầm non
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: M00
+        Điểm chuẩn 2024: 20.7
+  - Mã ngành: '7140202'
+    Tên ngành: GIÁO DỤC TIỂU HỌC
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C03; D01; D78
+        Điểm chuẩn 2024: 26.2
+      - Loại: Học Bạ
+        Tổ hợp: C000; C03; D01
+        Điểm chuẩn 2024: 26
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 700
+  - Mã ngành: '7220101'
+    Tên ngành: TIẾNG VIỆT VÀ VĂN HÓA VIỆT NAM
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C03; D01; D78
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: C00; C03; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7220201'
+    Tên ngành: NGÔN NGỮ ANH
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D14; D78
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: D01; D09; D14
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7340101'
+    Tên ngành: QUẢN TRỊ KINH DOANH
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7340201'
+    Tên ngành: TÀI CHÍNH - NGÂN HÀNG
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7340301'
+    Tên ngành: KẾ TOÁN
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7440301'
+    Tên ngành: KHOA HỌC MÔI TRƯỜNG
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D07; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D07
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7480201'
+    Tên ngành: CÔNG NGHỆ THÔNG TIN
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D07; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D07
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7620105'
+    Tên ngành: CHĂN NUÔI
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D07; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D07
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7620112'
+    Tên ngành: BẢO VỆ THỰC VÂT
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D07; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D07
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Mã ngành: '7620301'
+    Tên ngành: NUÔI TRỒNG THỦY SẢN
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D07; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D07
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  Trường Đại học:
+    Tên: Trường Đại Học Bạc Liêu
+    Mã trường: DBL
+    Tên tiếng Anh: Bac Lieu University
+    Tên viết tắt: BLU
+    Địa chỉ: Số 178, Đường Võ Thị Sáu, phường 8, thành phố Bạc Liêu, tỉnh Bạc Liêu
+    Website: https://blu.edu.vn/
+```

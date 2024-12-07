@@ -1,0 +1,72 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Đại Nam
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại Học Đại Nam
+  Địa chỉ: 56 Vũ Trọng Phụng, Thanh Xuân, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7210403'
+    Tên ngành: Thiết kế đồ hoạ
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01; C03
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01; C03
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D11; D14
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: D01; D09; D11; D14
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; D01; D09; D66
+        Điểm chuẩn 2024: 19
+      - Loại: Học Bạ
+        Tổ hợp: C00; D01; D09; D66
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220209'
+    Tên ngành: Ngôn ngữ Nhật
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; C00; D01; D15
+        Điểm chuẩn 2024: 17
+      - Loại: Học Bạ
+        Tổ hợp: A01; C00; D01; D15
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7220210'
+    Tên ngành: Ngôn ngữ Hàn Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; D01; D09; D66
+        Điểm chuẩn 2024: 18
+      - Loại: Học Bạ
+        Tổ hợp: C00; D01; D09; D66
+        Điểm chuẩn 2024: 18
+  Trường Đại học:
+    Tên: Trường Đại Học Đại Nam
+    Mã trường: DDN
+    Tên tiếng Anh: Đại Nam University
+    Tên viết tắt: DNU
+    Địa chỉ: 56 Vũ Trọng Phụng, Thanh Xuân, Hà Nội
+    Website: https://www.dainam.edu.vn/vi
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

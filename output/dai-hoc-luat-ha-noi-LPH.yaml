@@ -1,0 +1,178 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Luật Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - A01
+  - C00
+  - D02
+  - D03
+  - D04
+  - D05
+  - D06
+  - A00
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 200
+    Học phí: 25.4 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 25.25
+      - Loại: ĐT THPT
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 24.65
+      - Loại: Học Bạ
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 27.43
+      - Loại: Học Bạ
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 27.7
+  - Mã ngành: '7380101'
+    Tên ngành: Luật
+    Chỉ tiêu: 1.350
+    Học phí: 25.4 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D06
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: D05
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: D04
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: D03
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: D02
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 22.82
+      - Loại: Học Bạ
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 22.68
+      - Loại: Học Bạ
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 22.51
+      - Loại: Học Bạ
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 23.14
+      - Loại: ĐT THPT
+        Tổ hợp: D02
+        Điểm chuẩn 2024: 22.85
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 22.85
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 22.85
+      - Loại: ĐT THPT
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 22.85
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 22.85
+  - Mã ngành: '7380107'
+    Tên ngành: Luật kinh tế
+    Chỉ tiêu: 550
+    Học phí: 25.4 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D06
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: D05
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: D04
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: D03
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: D02
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 28.85
+      - Loại: ĐT THPT
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 26.9
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 26.9
+      - Loại: Học Bạ
+        Tổ hợp: D06
+        Điểm chuẩn 2024: 28.36
+      - Loại: Học Bạ
+        Tổ hợp: D05
+        Điểm chuẩn 2024: 29.17
+      - Loại: Học Bạ
+        Tổ hợp: D04
+        Điểm chuẩn 2024: 28.27
+      - Loại: Học Bạ
+        Tổ hợp: D03
+        Điểm chuẩn 2024: 29.54
+      - Loại: Học Bạ
+        Tổ hợp: D02
+        Điểm chuẩn 2024: 28.88
+      - Loại: Học Bạ
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 29.54
+      - Loại: Học Bạ
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 29.8
+      - Loại: Học Bạ
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 30
+      - Loại: Học Bạ
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 30
+  - Mã ngành: '7380109'
+    Tên ngành: Luật thương mại quốc tế
+    Chỉ tiêu: 200
+    Học phí: 25.4 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 26
+      - Loại: Học Bạ
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 28.78
+      - Loại: Học Bạ
+        Tổ hợp: A01
+        Điểm chuẩn 2024: 29.08
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 26
+  Trường Đại học:
+    Tên: Trường Đại học Luật Hà Nội
+    Tên viết tắt: VNU-UL
+    Tên tiếng Anh: Hanoi Law University
+    Địa chỉ: 
+      Trụ sở chính: số 87 đường Nguyễn Chí Thanh, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội
+      Phân hiệu: Tổ dân phố 8, Phường Tân An, Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk
+    Website: http://law.vnu.edu.vn/
+    Fanpage: https://www.facebook.com/SchoolOflaw.Vnu
+    SĐT liên hệ tuyển sinh: 1900.1205
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

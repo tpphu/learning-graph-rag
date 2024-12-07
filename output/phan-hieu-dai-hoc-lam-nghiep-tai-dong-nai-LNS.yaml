@@ -1,0 +1,234 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Phân hiệu Đại Học Lâm nghiệp tại Đồng Nai
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - B00
+  - C15
+  - D01
+- Trường: Phân hiệu Đại Học Lâm nghiệp tại Đồng Nai
+  Địa chỉ: KP5, Thị trấn Trảng Bom, Huyện Trảng Bom, Tỉnh Đồng Nai
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 70
+    Học phí: 12.5 triệu
+    Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 12.5 triệu
+    Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 70
+    Học phí: 12.5 triệu
+    Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 60
+    Học phí: 14.5 triệu
+    Mã ngành: '7480104'
+    Tên ngành: Hệ thống thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 60
+    Học phí: 14.5 triệu
+    Mã ngành: '7510605'
+    Tên ngành: Logistics và Quản lý chuỗi cung ứng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 14.5 triệu
+    Mã ngành: '7549001'
+    Tên ngành: Công nghệ Chế biến lâm sản
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 70
+    Học phí: 14.5 triệu
+    Mã ngành: '7580108'
+    Tên ngành: Thiết kế nội thất
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+  - Chỉ tiêu: 50
+    Học phí: 14.5 triệu
+    Mã ngành: '7620105'
+    Tên ngành: Chăn nuôi
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 14.5 triệu
+    Mã ngành: '7620110'
+    Tên ngành: Khoa học cây trồng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 14.5 triệu
+    Mã ngành: '7620112'
+    Tên ngành: Bảo vệ thực vật
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 14.5 triệu
+    Mã ngành: '7620205'
+    Tên ngành: Lâm sinh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 15
+  - Chỉ tiêu: 60
+    Học phí: 12 triệu
+    Mã ngành: '7620211'
+    Tên ngành: Quản lý tài nguyên rừng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 150
+    Học phí: 14.5 triệu
+    Mã ngành: '7640101'
+    Tên ngành: Thú y
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 20
+  - Chỉ tiêu: 50
+    Học phí: 12 triệu
+    Mã ngành: '7810103'
+    Tên ngành: Quản trị dịch vụ du lịch & lữ hành
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 50
+    Học phí: 12 triệu
+    Mã ngành: '7850101'
+    Tên ngành: Quản lý tài nguyên & môi trường
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 60
+    Học phí: 12 triệu
+    Mã ngành: '7850103'
+    Tên ngành: Quản lý đất đai
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 16
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 600
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C15; D01
+        Điểm chuẩn 2024: 18
+  Trường Đại học:
+    Facebook: Facebook.com/VNUF2
+    Mã trường: LNS
+    Tên: Phân hiệu Đại Học Lâm nghiệp tại Đồng Nai
+    Website: www.vnuf2.edu.vn
+    Địa chỉ: KP5, Thị trấn Trảng Bom, Huyện Trảng Bom, Tỉnh Đồng Nai
+```
