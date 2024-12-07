@@ -1,0 +1,91 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - D01
+  - D90
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7320106'
+    Tên ngành: Công nghệ truyền thông (cử nhân)
+    Học phí: 14.5 triệu
+    Chỉ tiêu: 40
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 23.7
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 650
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 25.5
+  - Mã ngành: '7320106DA'
+    Tên ngành: Công nghệ truyền thông - Chuyên ngành Thiết kế Mỹ thuật số (cử nhân)
+    Học phí: 14.5 triệu
+    Chỉ tiêu: 40
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 23.52
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 650
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 25.5
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Học phí: 12 triệu
+    Chỉ tiêu: 120
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 23.28
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 650
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 25
+  - Mã ngành: '7340101EF'
+    Tên ngành: Quản trị kinh doanh - Chuyên ngành Quản trị tài chính số
+    Học phí: 12.7 triệu
+    Chỉ tiêu: 60
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 23.28
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 650
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 24
+  - Mã ngành: '7340101EL'
+    Tên ngành: Quản trị kinh doanh - Chuyên ngành Quản trị Logistics và chuỗi cung ứng số
+    Học phí: 12.7 triệu
+    Chỉ tiêu: 120
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 24
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 700
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 26
+  Trường Đại học:
+    Tên: Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng
+    Mã trường: VKU
+    Tên tiếng Anh: Vietnam-Korea University of Information and Communication Technology
+    Tên viết tắt: VKU
+    Địa chỉ: 470 Trần Đại Nghĩa, Q. Ngũ Hành Sơn, Tp. Đà Nẵng
+    Website: http://tuyensinh.vku.udn.vn
+```

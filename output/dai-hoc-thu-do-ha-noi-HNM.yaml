@@ -1,0 +1,89 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Thủ Đô Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: CCQT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D78
+  - D14
+  - D01
+  - C00
+- Trường: Trường Đại học Thủ Đô Hà Nội
+  Địa chỉ: Số 98 phố Dương Quảng Hàm, phường Quan Hoa, quận Cầu Giấy, TP Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 50
+    Học phí: 12.5 triệu
+    Mã ngành: '7140114'
+    Tên ngành: Quản lý giáo dục
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 8
+      - Loại: Học Bạ
+        Tổ hợp: D78; D14; D01; C00
+        Điểm chuẩn 2024: 27.39
+      - Loại: ĐT THPT
+        Tổ hợp: D78; D14; D01; C00
+        Điểm chuẩn 2024: 26.03
+  - Chỉ tiêu: 200
+    Học phí: 12.5 triệu
+    Mã ngành: '7140201'
+    Tên ngành: Giáo dục Mầm non
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 9
+      - Loại: Học Bạ
+        Tổ hợp: D96; D90; D72; D01
+        Điểm chuẩn 2024: 27.11
+      - Loại: ĐT THPT
+        Tổ hợp: D96; D90; D72; D01
+        Điểm chuẩn 2024: 24.45
+  - Chỉ tiêu: 320
+    Học phí: 12.5 triệu
+    Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 9
+      - Loại: ĐT THPT
+        Tổ hợp: D96; D78; D72; D01
+        Điểm chuẩn 2024: 26.26
+  - Chỉ tiêu: 20
+    Học phí: 12.5 triệu
+    Mã ngành: '7140204'
+    Tên ngành: Giáo dục Công dân
+    Phương thức xét tuyển:
+      - Loại: CCQT
+        Điểm chuẩn 2024: 9
+      - Loại: ĐT THPT
+        Tổ hợp: D84; D66; D78; D96
+        Điểm chuẩn 2024: 25.99
+  - Chỉ tiêu: 20
+    Học phí: 12.5 triệu
+    Mã ngành: '7140206'
+    Tên ngành: Giáo dục Thể chất
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: T09; T10; T05; T08
+        Điểm chuẩn 2024: 22.4
+      - Loại: ĐT THPT
+        Tổ hợp: T09; T10; T05; T08
+        Điểm chuẩn 2024: 24
+  Trường Đại học:
+    Mã trường: HNM
+    Tên: Trường Đại học Thủ Đô Hà Nội
+    Tên tiếng Anh: Ha Noi Teacher Training College
+    Tên viết tắt: HNMU
+    Địa chỉ: Số 98 phố Dương Quảng Hàm, phường Quan Hoa, quận Cầu Giấy, TP Hà Nội
+    Website: https://hnmu.edu.vn/
+```

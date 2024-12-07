@@ -1,0 +1,31 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Nghệ Vạn Xuân
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học bạ THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Thi tốt nghiệp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Đánh giá Năng lực
+- Trường: Trường Đại Học Công Nghệ Vạn Xuân
+  Địa chỉ: Đại lộ Nguyễn Sinh Cung, TX. Cửa Lò, Nghệ An
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: No data
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: DVX
+    Tên: Trường Đại Học Công Nghệ Vạn Xuân
+    Tên tiếng Anh: Van Xuan University of Technology
+    Tên viết tắt: VXUT
+    Website: https://www.vxut.edu.vn/
+    Địa chỉ: Đại lộ Nguyễn Sinh Cung, TX. Cửa Lò, Nghệ An
+```
