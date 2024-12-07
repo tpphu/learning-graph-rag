@@ -1,0 +1,37 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Giáo dục thể chất
+  Trường: Trường Đại học Sư phạm Thể dục Thể thao TPHCM
+- Ngành đào tạo: Giáo dục thể chất
+  Phương thức xét tuyển: Kết hợp
+- Ngành đào tạo: Giáo dục thể chất
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Giáo dục thể chất
+  Tổ hợp:
+  - T00
+  - T02
+  - T05
+  - T08
+- Trường: Trường Đại học Sư phạm Thể dục Thể thao TPHCM
+  Địa chỉ: 639 Nguyễn Trãi, P11, Q5, TP Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140206'
+    Tên ngành: Giáo dục thể chất
+    Phương thức xét tuyển:
+      - Loại: Kết hợp
+        Tổ hợp: T00; T02; T05; T08
+        Điểm chuẩn 2024: 25.24
+        Ghi chú: Kết hợp học bạ THPT với năng khiếu
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T02; T05; T08
+        Điểm chuẩn 2024: 23.75
+        Ghi chú: Kết hợp điểm thi TN THPT với năng khiếu
+  Trường Đại học:
+    Mã trường: STS
+    Tên: Trường Đại học Sư phạm Thể dục Thể thao TPHCM
+    Tên tiếng Anh: Ho Chi Minh city University of Physical Education and Sport
+    Tên viết tắt: UPES
+    Địa chỉ: 639 Nguyễn Trãi, P11, Q5, TP Hồ Chí Minh
+    Website: https://upes.edu.vn/
+```

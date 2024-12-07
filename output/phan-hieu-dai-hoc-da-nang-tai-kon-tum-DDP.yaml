@@ -1,0 +1,26 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Phân Hiệu Đại Học Đà Nẵng tại Kon Tum
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Phân Hiệu Đại Học Đà Nẵng tại Kon Tum
+  Địa chỉ: 704 Phan Đình Phùng, TP Kon Tum
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Phân Hiệu Đại Học Đà Nẵng tại Kon Tum
+    Mã trường: DDP
+    Tên tiếng Anh: The University of Danang, Campus in Kontum
+    Tên viết tắt: UDCK
+    Địa chỉ: 704 Phan Đình Phùng, TP Kon Tum
+    Website: https://kontum.udn.vn/
+```

@@ -1,0 +1,100 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Du lịch - Đại học Huế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết quả kỳ thi Tốt nghiệp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết quả học tập THPT (xét học bạ)
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm đánh giá năng lực Đại học Quốc gia TP Hồ Chí Minh
+- Trường: Trường Du lịch - Đại học Huế
+  Địa chỉ: Số 22 Lâm Hoằng, Phường Vỹ Dạ, Thành phố Huế
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Quản trị kinh doanh
+    Mã ngành: '7340101'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 45
+      - ĐGNL HCM: 30
+  - Tên ngành: Quản trị dịch vụ du lịch và lữ hành
+    Mã ngành: '7810103'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 90
+      - ĐGNL HCM: 60
+  - Tên ngành: Quản trị khách sạn
+    Mã ngành: '7810201'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 65
+      - ĐGNL HCM: 45
+  - Tên ngành: Quản trị nhà hàng và dịch vụ ăn uống
+    Mã ngành: '7810202'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 35
+      - ĐGNL HCM: 25
+  - Tên ngành: Du lịch
+    Mã ngành: '7810101'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 40
+      - ĐGNL HCM: 25
+  - Tên ngành: Du lịch điện tử
+    Mã ngành: '7810102'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - A01: Toán, Vật lý, Tiếng Anh
+    Chỉ tiêu:
+      - Học bạ: 10
+      - ĐGNL HCM: 10
+  - Tên ngành: Quản trị du lịch và khách sạn (*)
+    Mã ngành: '7810104'
+    Tổ hợp xét tuyển:
+      - A00: Toán, Vật lý, Hóa học
+      - D01: Toán, Ngữ văn, Tiếng Anh
+      - D10: Toán, Địa lý, Tiếng Anh
+      - C00: Ngữ Văn, Địa lý, Lịch sử
+    Chỉ tiêu:
+      - Học bạ: 10
+      - ĐGNL HCM: 10
+    Ghi chú: Ngành Quản trị du lịch và khách sạn sẽ được giảng dạy bằng tiếng Anh.
+
+  Trường Đại học:
+    Tên: Trường Du lịch - Đại học Huế
+    Tên viết tắt: HUHT
+    Tên Tiếng Anh: School of Hospitality and Tourism – Hue University
+    Mã trường: DHD
+    Địa chỉ: Số 22 Lâm Hoằng, Phường Vỹ Dạ, Thành phố Huế
+    Website: http://hat.hueuni.edu.vn/
+    Fanpage: https://www.facebook.com/TruongDuLichDaiHocHueHUHT
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

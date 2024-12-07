@@ -1,0 +1,42 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Tài nguyên và Môi trường Hà Nội. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Tài nguyên và Môi trường Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Tài nguyên và Môi trường Hà Nội
+  Địa chỉ: Số 41A đường Phú Diễn, Bắc Từ Liêm, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Tài nguyên và Môi trường Hà Nội
+    Tên tiếng Anh: Hanoi University of Natural Resources and Environment
+    Tên viết tắt: HUNRE
+    Địa chỉ: Số 41A đường Phú Diễn, Bắc Từ Liêm, Hà Nội
+    Website: https://hunre.edu.vn
+    Fanpage: https://www.facebook.com/Hunre.fanpage
+    Đường dây nóng tư vấn tuyển sinh: 0902130130
+  Phương thức xét tuyển:
+  - Loại: Xét tuyển thẳng, ưu tiên xét tuyển
+  - Loại: Xét tuyển đặc cách
+  - Loại: Xét tuyển theo kết quả thi tốt nghiệp THPT
+  - Loại: Xét tuyển theo kết quả học tập bậc THPT (Học bạ THPT)
+  - Loại: Xét tuyển theo kết quả thi Đánh giá năng lực của Đại học Quốc gia Hà Nội
+  - Loại: Xét tuyển theo kết quả thi Đánh giá tư duy của Đại học Bách khoa Hà Nội
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, tổ hợp và điểm chuẩn 2024 không có dữ liệu cụ thể trong tài liệu gốc, do đó được ghi là "No data".

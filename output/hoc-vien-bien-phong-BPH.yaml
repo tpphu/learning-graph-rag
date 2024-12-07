@@ -1,0 +1,32 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong HTML không có thông tin rõ ràng về các thực thể và mối quan hệ cụ thể, tôi sẽ dựa trên các thông tin có thể suy luận được từ nội dung.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Biên phòng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng, ưu tiên xét tuyển, xét tuyển học sinh giỏi bậc THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển từ kết quả kỳ thi tốt nghiệp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển từ kết quả học bạ THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển từ kết quả kỳ thi đánh giá năng lực
+- Trường: Học viện Biên phòng
+  Địa chỉ: Số 1 Thanh Vị, phường Sơn Lộc, thị xã Sơn Tây, thành phố Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Biên phòng
+    Tổ hợp: Văn, Sử, Địa, Tiếng Anh
+  - Tên ngành: Luật
+    Tổ hợp: Văn, Sử, Địa
+  Trường Đại học:
+    Tên: Học viện Biên phòng
+    Tên viết tắt: HVBP
+    Tên tiếng Anh: Border Guard Academy
+    Mã trường: BPH
+    Website: http://www.hvbp.edu.vn/
+    Địa chỉ: Số 1 Thanh Vị, phường Sơn Lộc, thị xã Sơn Tây, thành phố Hà Nội
+```
+
+Lưu ý rằng thông tin về các thực thể và mối quan hệ được suy luận từ nội dung HTML và có thể không đầy đủ hoặc chính xác hoàn toàn do thiếu thông tin chi tiết trong tài liệu gốc.

@@ -1,0 +1,50 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Luật - Đại Học Huế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - C00
+  - C20
+  - D66
+  - D01
+- Trường: Trường Đại học Luật - Đại Học Huế
+  Địa chỉ: 20 Đường Võ Văn Kiệt, phường An Tây, TP. Huế, tỉnh Thừa Thiên Huế
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 700
+    Học phí: 14 triệu
+    Mã ngành: '7380101'
+    Tên ngành: Luật
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C00; C20; D66
+        Điểm chuẩn 2024: 21
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C00; C20; D66
+        Điểm chuẩn 2024: 21
+  - Chỉ tiêu: 700
+    Học phí: 14 triệu
+    Mã ngành: '7380107'
+    Tên ngành: Luật Kinh tế
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; C00; C20; D01
+        Điểm chuẩn 2024: 21
+      - Loại: ĐT THPT
+        Tổ hợp: A00; C00; C20; D01
+        Điểm chuẩn 2024: 21
+  Trường Đại học:
+    Facebook: https://www.facebook.com/hul.edu.vn/
+    Mã trường: DHA
+    Tên: Trường Đại học Luật - Đại Học Huế
+    Website: https://www.hul.edu.vn/
+    Địa chỉ: 20 Đường Võ Văn Kiệt, phường An Tây, TP. Huế, tỉnh Thừa Thiên Huế
+```

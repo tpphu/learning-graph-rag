@@ -1,0 +1,45 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Trường: Trường Sĩ quan Pháo binh
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Chỉ huy tham mưu Pháo binh
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Trường: Trường Sĩ quan Pháo binh
+  Địa chỉ: Xã Thanh Mỹ, thị xã Sơn Tây, Thành phố Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Chỉ huy tham mưu Pháo binh
+    Chỉ tiêu: 221
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: A00, A01
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: N/A
+      - Loại: Điểm học bạ
+        Tổ hợp: A00, A01
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Sĩ quan Pháo binh
+    Tên tiếng Anh: The College of Artillery Officer’s Training
+    Mã trường: PBH
+    Địa chỉ: Xã Thanh Mỹ, thị xã Sơn Tây, Thành phố Hà Nội
+    Website: http://tsqpb.edu.vn/
+    Fanpage: https://www.facebook.com/TruongPhaobinhVietNam
+```

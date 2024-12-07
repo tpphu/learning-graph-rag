@@ -1,0 +1,100 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học Viện Quản Lý Giáo Dục
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Tuyển thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - B00
+  - C00
+  - D01
+  - D10
+  - D14
+- Trường: Học Viện Quản Lý Giáo Dục
+  Địa chỉ: 31 Phan Đình Giót, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140101'
+    Tên ngành: Giáo dục học
+    Chỉ tiêu: 50
+    Học phí: 14.1 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7140114'
+    Tên ngành: Quản lý giáo dục
+    Chỉ tiêu: 200
+    Học phí: 14.1 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 50
+    Học phí: 15 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D10; D14
+        Điểm chuẩn 2024: 25
+        Ghi chú: Điểm tiếng Anh HK năm lớp 11, HK 1 lớp 12 đạt từ 6.0 trở lên.
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D10; D14
+        Điểm chuẩn 2024: 22.5
+  - Mã ngành: '7310101'
+    Tên ngành: Kinh tế
+    Chỉ tiêu: 140
+    Học phí: 15 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D10
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D10
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7310403'
+    Tên ngành: Tâm lý học giáo dục
+    Chỉ tiêu: 130
+    Học phí: 15 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 24
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; C00; D01
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị văn phòng
+    Chỉ tiêu: 150
+    Học phí: 14.1 triệu
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+
+  Trường Đại học:
+    Tên: Học Viện Quản Lý Giáo Dục
+    Mã trường: HVQ
+    Tên tiếng Anh: National Academy of Educational Management
+    Tên viết tắt: NAEM
+    Địa chỉ: 31 Phan Đình Giót, Phường Phương Liệt, Quận Thanh Xuân, Hà Nội
+    Website: https://naem.edu.vn/
+```

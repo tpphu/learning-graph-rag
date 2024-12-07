@@ -1,0 +1,114 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Sao Đỏ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A09
+  - C04
+  - D01
+- Trường: Trường Đại học Sao Đỏ
+  Địa chỉ: 24 Thái Học 2, Phường Sao Đỏ, Thành phố Chí Linh, Tỉnh Hải Dương
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7140234'
+    Tên ngành: Sư phạm Tiếng Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D15; D78; D83
+        Điểm chuẩn 2024: 21.74
+      - Loại: Học Bạ
+        Tổ hợp: D01; D15; D78; D83
+        Điểm chuẩn 2024: 24
+        Ghi chú: Tổng ĐTB các môn lớp 12 theo tổ hợp XT
+      - Loại: Học Bạ
+        Tổ hợp: D01; D15; D78; D83
+        Điểm chuẩn 2024: 24
+        Ghi chú: Tổng ĐTB lớp 10,11 HK I lớp 12
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 65
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 80
+  - Mã ngành: '7140246'
+    Tên ngành: Sư phạm công nghệ
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 60
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 70
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A16; C01; D01
+        Điểm chuẩn 2024: 19
+      - Loại: Học Bạ
+        Tổ hợp: A00; A16; C01; D01
+        Điểm chuẩn 2024: 24
+        Ghi chú: Tổng ĐTB các môn lớp 12 theo tổ hợp XT
+      - Loại: Học Bạ
+        Tổ hợp: A00; A16; C01; D01
+        Điểm chuẩn 2024: 24
+        Ghi chú: Tổng ĐTB lớp 10,11 HK I lớp 12
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 50
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 60
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D15; D66; D71
+        Điểm chuẩn 2024: 18
+      - Loại: Học Bạ
+        Tổ hợp: D01; D15; D66; D71
+        Điểm chuẩn 2024: 20
+        Ghi chú: Tổng ĐTB các môn lớp 12 theo tổ hợp XT
+      - Loại: Học Bạ
+        Tổ hợp: D01; D15; D66; D71
+        Điểm chuẩn 2024: 18
+        Ghi chú: Tổng ĐTB lớp 10,11 HK I lớp 12
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 50
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 60
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 20
+        Ghi chú: Tổng ĐTB các môn lớp 12 theo tổ hợp XT
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 18
+        Ghi chú: Tổng ĐTB lớp 10,11 HK I lớp 12
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 50
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 60
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 20
+        Ghi chú: Tổng ĐTB các môn lớp 12 theo tổ hợp XT
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C04; D01
+        Điểm chuẩn 2024: 18
+        Ghi chú: Tổng ĐTB lớp 10,11 HK I lớp 12
+  Trường Đại học:
+    Mã trường: SDU
+    Tên: Trường Đại học Sao Đỏ
+    Tên tiếng Anh: Sao Do University
+    Tên viết tắt: SDU
+    Địa chỉ: 24 Thái Học 2, Phường Sao Đỏ, Thành phố Chí Linh, Tỉnh Hải Dương
+    Website: saodo.edu.vn
+```

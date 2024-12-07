@@ -1,0 +1,151 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - C00
+  - B00
+- Trường: Trường Đại học Y Hà Nội
+  Địa chỉ: 01 Tôn Thất Tùng, Ðống Ða, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 20
+    Học phí: 15 triệu
+    Mã ngành: '7310401'
+    Tên ngành: Tâm lý học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 26.86
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 28.83
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 25.46
+  - Chỉ tiêu: 240
+    Học phí: 55.2 triệu
+    Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 26.55
+        Ghi chú: Kết hợp điểm thi tốt nghiệp THPT với CCNN QT
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 28.27
+  - Chỉ tiêu: 100
+    Học phí: 22.6 triệu
+    Mã ngành: '7720110'
+    Tên ngành: Y học dự phòng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 22.94
+  - Chỉ tiêu: 80
+    Học phí: 55.2 triệu
+    Mã ngành: '7720115'
+    Tên ngành: Y học cổ truyền
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 25.29
+  - Chỉ tiêu: 90
+    Học phí: 41.8 triệu
+    Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng chương trình tiên tiến
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 21.75
+        Ghi chú: Kết hợp điểm thi tốt nghiệp THPT với CCNN QT
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.59
+  - Chỉ tiêu: 45
+    Học phí: 41.8 triệu
+    Mã ngành: '7720302'
+    Tên ngành: Hộ sinh
+    Phương thức xét tuyển:
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 76.5
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 22.95
+  - Chỉ tiêu: 100
+    Học phí: 20.9 triệu
+    Mã ngành: '7720401'
+    Tên ngành: Dinh dưỡng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 23.33
+  - Chỉ tiêu: 70
+    Học phí: 55.2 triệu
+    Mã ngành: '7720501'
+    Tên ngành: Răng hàm mặt
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 26.1
+        Ghi chú: Kết hợp điểm thi tốt nghiệp THPT với CCNN QT
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 27.67
+  - Chỉ tiêu: 50
+    Học phí: 41.8 triệu
+    Mã ngành: '7720502'
+    Tên ngành: Kỹ thuật phục hồi hình răng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.15
+  - Chỉ tiêu: 80
+    Học phí: 41.8 triệu
+    Mã ngành: '7720601'
+    Tên ngành: Kỹ thuật xét nghiệm Y học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 25.35
+  - Chỉ tiêu: 70
+    Học phí: 41.8 triệu
+    Mã ngành: '7720603'
+    Tên ngành: Kỹ thuật phục hồi chức năng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.07
+  - Chỉ tiêu: 70
+    Học phí: 41.8 triệu
+    Mã ngành: '7720699'
+    Tên ngành: Khúc xạ nhãn khoa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 25.38
+  - Chỉ tiêu: 20
+    Học phí: 20.9 triệu
+    Mã ngành: '7720701'
+    Tên ngành: Y tế công cộng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 24.3
+      - Loại: ĐT THPT
+        Tổ hợp: B08
+        Điểm chuẩn 2024: 22.35
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 22.85
+  Trường Đại học:
+    Facebook: https://www.facebook.com/daihocyhanoi.official
+    Tên: Trường Đại học Y Hà Nội
+    Website: https://hmu.edu.vn/
+    Địa chỉ: 01 Tôn Thất Tùng, Ðống Ða, Hà Nội
+```

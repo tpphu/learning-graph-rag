@@ -1,0 +1,44 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Văn hóa Hà Nội. Dưới đây là cấu trúc YAML tương ứng:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Văn hóa Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại học Văn hóa Hà Nội
+  Địa chỉ: Số 418 Đường La Thanh, Phường Ô Chợ Dừa, Quận Đống Đa, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 540
+    Học phí: 384.000/1 tín chỉ
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/HUC1959
+    Mã trường: VHH
+    Tên: Trường Đại học Văn hóa Hà Nội
+    Website: https://huc.edu.vn/
+    Địa chỉ: Số 418 Đường La Thanh, Phường Ô Chợ Dừa, Quận Đống Đa, Hà Nội
+```
+
+Lưu ý rằng một số thông tin như mã ngành và điểm chuẩn cụ thể không có dữ liệu trong tài liệu gốc, do đó được ghi là "No data". Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

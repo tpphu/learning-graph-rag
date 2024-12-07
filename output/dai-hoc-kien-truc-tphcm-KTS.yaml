@@ -1,0 +1,48 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kiến Trúc TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Kiến Trúc TPHCM
+  Địa chỉ: 196 Pasteur, Phường 6, Quận 3, TP HCM
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 50% chỉ tiêu ngành
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: Khối A, V, H
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 25% chỉ tiêu ngành
+    Phương thức xét tuyển:
+      - Loại: Điểm ĐGNL HCM
+        Tổ hợp: Khối A, V, H
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 15% chỉ tiêu ngành
+    Phương thức xét tuyển:
+      - Loại: Điểm học bạ
+        Tổ hợp: Khối A, V, H
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 1% chỉ tiêu ngành
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 9% chỉ tiêu ngành
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/truongdaihockientructphochiminh.uah
+    Mã trường: KTS
+    Tên: Trường Đại học Kiến Trúc TPHCM
+    Website: http://www.uah.edu.vn
+    Địa chỉ: 196 Pasteur, Phường 6, Quận 3, TP HCM
+```

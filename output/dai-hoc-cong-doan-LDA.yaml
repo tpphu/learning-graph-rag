@@ -1,0 +1,35 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Công Đoàn. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Đoàn
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại Học Công Đoàn
+  Địa chỉ: 169 Tây Sơn, Q.Đống Đa, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại Học Công Đoàn
+    Mã trường: LDA
+    Tên tiếng Anh: University of Trade Unions
+    Tên viết tắt: TUU
+    Địa chỉ: 169 Tây Sơn, Q.Đống Đa, Hà Nội
+    Website: http://dhcd.edu.vn/
+    Facebook: https://www.facebook.com/dhcd.edu.vn/
+```
+
+### Giải thích:
+- **Mối quan hệ**: Liệt kê các mối quan hệ giữa các ngành đào tạo và các phương thức xét tuyển, cũng như thông tin về trường và địa chỉ.
+- **Thực thể**: Bao gồm thông tin về các ngành đào tạo (hiện tại không có dữ liệu chi tiết) và thông tin chi tiết về Trường Đại Học Công Đoàn.
+
+Lưu ý rằng dữ liệu về các ngành đào tạo cụ thể và điểm chuẩn chưa có thông tin chi tiết trong tài liệu HTML được cung cấp.

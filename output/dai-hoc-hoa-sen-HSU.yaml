@@ -1,0 +1,31 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Hoa Sen
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại Học Hoa Sen
+  Địa chỉ: 08 Nguyễn Văn Tráng, P. Bến Thành, Q.1, Tp.HCM
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: No data
+    Mã ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại Học Hoa Sen
+    Mã trường: HSU
+    Tên tiếng Anh: Hoa Sen University
+    Tên viết tắt: HSU
+    Địa chỉ: 08 Nguyễn Văn Tráng, P. Bến Thành, Q.1, Tp.HCM
+    Website: https://www.hoasen.edu.vn/
+```

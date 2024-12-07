@@ -1,0 +1,61 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Thể Dục Thể Thao Bắc Ninh
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết Hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - T00
+  - T01
+  - T02
+  - T05
+- Trường: Trường Đại Học Thể Dục Thể Thao Bắc Ninh
+  Địa chỉ: Đường Nguyễn Văn Cừ, Phường Trang Hạ, Thị xã Từ Sơn, Tỉnh Bắc Ninh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7729001'
+    Tên ngành: Y sinh học TDTT
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Điểm thi tốt nghiệp THPT kết hợp năng khiếu
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Học bạ kết hợp năng khiếu
+  - Mã ngành: '7810301'
+    Tên ngành: Quản lý TDTT
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Điểm thi tốt nghiệp THPT kết hợp năng khiếu
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Học bạ kết hợp năng khiếu
+  - Mã ngành: '7810302'
+    Tên ngành: Huấn luyện thể thao
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Điểm thi tốt nghiệp THPT kết hợp năng khiếu
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T01; T02; T05
+        Điểm chuẩn 2024: 18.35
+        Ghi chú: Học bạ kết hợp năng khiếu
+  Trường Đại học:
+    Mã trường: TDB
+    Tên: Trường Đại Học Thể Dục Thể Thao Bắc Ninh
+    Tên tiếng Anh: Bac Ninh Sport University of Vietnam
+    Tên viết tắt: UPES1
+    Website: www.upes1.edu.vn
+    Địa chỉ: Đường Nguyễn Văn Cừ, Phường Trang Hạ, Thị xã Từ Sơn, Tỉnh Bắc Ninh
+```

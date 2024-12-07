@@ -1,0 +1,45 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Học viện Khoa học Quân sự. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Khoa học Quân sự
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Trường: Học viện Khoa học Quân sự
+  Địa chỉ: 322 Lê Trọng Tấn, Q. Thanh Xuân, Tp. Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: 7860231
+    Tên ngành: Trinh sát Kỹ thuật
+    Tổ hợp: A00, A01
+  - Mã ngành: 7220201
+    Tên ngành: Ngôn ngữ Anh
+    Tổ hợp: D01
+  - Mã ngành: 7220202
+    Tên ngành: Ngôn ngữ Nga
+    Tổ hợp: D01, D02
+  - Mã ngành: 7220204
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Tổ hợp: D01, D04
+  - Mã ngành: 7310206
+    Tên ngành: Quan hệ Quốc tế
+    Tổ hợp: D01
+  Trường Đại học:
+    Tên: Học viện Khoa học Quân sự
+    Tên viết tắt: MSA
+    Tên tiếng Anh: Military Science Academy
+    Mã trường: DNH
+    Website: http://www.hocvienkhqs.edu.vn
+    Địa chỉ: 322 Lê Trọng Tấn, Q. Thanh Xuân, Tp. Hà Nội
+```
+
+Lưu ý rằng thông tin về điểm chuẩn và các chi tiết cụ thể khác không có sẵn trong dữ liệu HTML được cung cấp, do đó không thể đưa vào YAML. Nếu có thêm thông tin chi tiết, bạn có thể bổ sung vào cấu trúc YAML này.

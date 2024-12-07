@@ -1,0 +1,312 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Đại học Công nghiệp TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Đại học Công nghiệp TPHCM
+  Địa chỉ: Số 12, đường Nguyễn Văn Bảo, P.4, Q. Gò Vấp, TP. Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7210404'
+    Tên ngành: Thiết kế thời trang
+    Chỉ tiêu: 35
+    Tổ hợp: 
+      - A00
+      - C01
+      - D01
+      - D90
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 275
+    Tổ hợp: 
+      - D01
+      - D14
+      - D15
+      - D96
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Chỉ tiêu: 166
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D96
+  - Mã ngành: '7340115'
+    Tên ngành: Marketing
+    Chỉ tiêu: 84
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D96
+  - Mã ngành: '7340120'
+    Tên ngành: Kinh doanh quốc tế
+    Chỉ tiêu: 27
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D96
+  - Mã ngành: '7340122'
+    Tên ngành: Thương mại điện tử
+    Chỉ tiêu: 169
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D90
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính ngân hàng
+    Chỉ tiêu: 110
+    Tổ hợp: 
+      - A00
+      - A01
+      - D01
+      - D96
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Chỉ tiêu: 201
+    Tổ hợp: 
+      - A00
+      - A01
+      - D01
+      - D96
+  - Mã ngành: '7340302'
+    Tên ngành: Kiểm toán
+    Chỉ tiêu: 70
+    Tổ hợp: 
+      - A00
+      - A01
+      - D01
+      - D96
+  - Mã ngành: '7380107'
+    Tên ngành: Luật kinh tế
+    Chỉ tiêu: 102
+    Tổ hợp: 
+      - A00
+      - C00
+      - D01
+      - D96
+  - Mã ngành: '7380108'
+    Tên ngành: Luật quốc tế
+    Chỉ tiêu: 30
+    Tổ hợp: 
+      - A00
+      - C00
+      - D01
+      - D96
+  - Mã ngành: '7420201'
+    Tên ngành: Công nghệ sinh học
+    Chỉ tiêu: 60
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - D90
+  - Mã ngành: '7460108'
+    Tên ngành: Khoa học dữ liệu
+    Chỉ tiêu: 33
+    Tổ hợp: 
+      - A00
+      - A01
+      - D01
+      - D90
+  - Mã ngành: '7480108'
+    Tên ngành: Kỹ thuật máy tính
+    Chỉ tiêu: 122
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Chỉ tiêu: 290
+    Tổ hợp: 
+      - A00
+      - A01
+      - D01
+      - D90
+  - Mã ngành: '7510201'
+    Tên ngành: Công nghệ kỹ thuật cơ khí
+    Chỉ tiêu: 121
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510202'
+    Tên ngành: Công nghệ chế tạo máy
+    Chỉ tiêu: 74
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510203'
+    Tên ngành: Công nghệ kỹ thuật cơ điện tử
+    Chỉ tiêu: 73
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510205'
+    Tên ngành: Công nghệ kỹ thuật ô tô
+    Chỉ tiêu: 154
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510206'
+    Tên ngành: Công nghệ kỹ thuật nhiệt
+    Chỉ tiêu: 89
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Chỉ tiêu: 190
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510302'
+    Tên ngành: Công nghệ kỹ thuật điện tử - viễn thông
+    Chỉ tiêu: 142
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510303'
+    Tên ngành: Tự động hóa
+    Chỉ tiêu: 99
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7510401'
+    Tên ngành: Công nghệ hóa học
+    Chỉ tiêu: 165
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - C02
+  - Mã ngành: '7510406'
+    Tên ngành: Công nghệ kỹ thuật môi trường
+    Chỉ tiêu: 66
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - D90
+  - Mã ngành: '7540101'
+    Tên ngành: Công nghệ thực phẩm
+    Chỉ tiêu: 143
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - D90
+  - Mã ngành: '7540106'
+    Tên ngành: Đảm bảo chất lượng và An toàn thực phẩm
+    Chỉ tiêu: 52
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - D90
+  - Mã ngành: '7540204'
+    Tên ngành: Công nghệ dệt, may
+    Chỉ tiêu: 160
+    Tổ hợp: 
+      - A00
+      - C01
+      - D01
+      - D90
+  - Mã ngành: '7580201'
+    Tên ngành: Kỹ thuật xây dựng
+    Chỉ tiêu: 99
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7580205'
+    Tên ngành: Kỹ thuật xây dựng công trình giao thông
+    Chỉ tiêu: 50
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7580302'
+    Tên ngành: Quản lý xây dựng
+    Chỉ tiêu: 30
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D90
+  - Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Chỉ tiêu: 75
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - C08
+  - Mã ngành: '7720497'
+    Tên ngành: Dinh dưỡng và Khoa học thực phẩm
+    Chỉ tiêu: 67
+    Tổ hợp: 
+      - A00
+      - B00
+      - D07
+      - D90
+  - Mã ngành: '7810103'
+    Tên ngành: Quản trị dịch vụ du lịch và lữ hành
+    Chỉ tiêu: 224
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D96
+  - Mã ngành: '7850101'
+    Tên ngành: Quản lý tài nguyên và môi trường
+    Chỉ tiêu: 75
+    Tổ hợp: 
+      - B00
+      - C02
+      - D90
+      - D96
+  - Mã ngành: '7850103'
+    Tên ngành: Quản lý đất đai
+    Chỉ tiêu: 116
+    Tổ hợp: 
+      - A01
+      - C01
+      - D01
+      - D96
+  Trường Đại học:
+    Tên: Đại học Công nghiệp TPHCM
+    Tên viết tắt: IUH
+    Tên tiếng Anh: University of Commerce
+    Địa chỉ: Số 12, đường Nguyễn Văn Bảo, P.4, Q. Gò Vấp, TP. Hồ Chí Minh
+    Website: https://www.iuh.edu.vn/
+    Fanpage: https://www.facebook.com/sviuh
+```

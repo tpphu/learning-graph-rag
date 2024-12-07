@@ -1,0 +1,70 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Đại học Kinh tế - Đại học Huế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - C15
+  - D01
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7310101'
+    Tên ngành: Kinh tế
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 17
+      - Loại: ĐGNL HCM
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 700
+  - Mã ngành: '7310101TA'
+    Tên ngành: Kinh tế (ĐT bằng Tiếng Anh)
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HCM
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 700
+  - Mã ngành: '7310102'
+    Tên ngành: Kinh tế chính trị
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 17
+      - Loại: ĐGNL HCM
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 700
+  - Mã ngành: '7310106'
+    Tên ngành: Kinh tế quốc tế
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 17
+      - Loại: ĐGNL HCM
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 700
+  - Mã ngành: '7310107'
+    Tên ngành: Thống kê kinh tế
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 17
+      - Loại: ĐGNL HCM
+        Tổ hợp: A00; A01; C15; D01
+        Điểm chuẩn 2024: 700
+  Trường Đại học:
+    Tên: Đại học Kinh tế - Đại học Huế
+    Tên viết tắt: HCE
+    Tên tiếng Anh: Hue University, College of Economics
+    Mã trường: DHK
+    Địa chỉ: 99 Hồ Đắc Di, Thành phố Huế
+    Website: https://hce.edu.vn
+    Fanpage: https://www.facebook.com/dhkinhte.hue
+```

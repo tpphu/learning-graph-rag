@@ -1,0 +1,39 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Dược - Đại học Huế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Y khoa, Răng - Hàm - Mặt, Dược học
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Y học cổ truyền, Y học dự phòng, Điều dưỡng, Hộ sinh, Kỹ thuật xét nghiệm y học, Kỹ thuật hình ảnh y học, Y tế công cộng, Dinh dưỡng
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Y Dược - Đại học Huế
+  Địa chỉ: Số 06 Ngô Quyền, phường Vĩnh Ninh, Thành phố Huế
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Y khoa
+    Chỉ tiêu: 40
+    Phương thức xét tuyển:
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: B00
+  - Tên ngành: Răng - Hàm - Mặt
+    Chỉ tiêu: 20
+    Phương thức xét tuyển:
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: B00
+  - Tên ngành: Dược học
+    Chỉ tiêu: 20
+    Phương thức xét tuyển:
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: A00
+  Trường Đại học:
+    Tên: Trường Đại học Y Dược - Đại học Huế
+    Tên viết tắt: Hue-UMP
+    Tên Tiếng Anh: Hue university medicine and pharmacy
+    Mã trường: DHY
+    Địa chỉ: Số 06 Ngô Quyền, phường Vĩnh Ninh, Thành phố Huế
+    Website: www.huemed-univ.edu.vn
+    Fanpage: https://www.facebook.com/TuyensinhYDuocHue
+```

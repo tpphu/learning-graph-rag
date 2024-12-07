@@ -1,0 +1,136 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại học Hà Nội
+  Địa chỉ: Km9, đường Nguyễn Trãi, Q.Thanh Xuân, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Chỉ tiêu: 50
+    Tổ hợp: D01, N1
+  - Mã ngành: '7340115'
+    Tên ngành: Marketing
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Chỉ tiêu: 50
+    Tổ hợp: D01, N1
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Chỉ tiêu: 50
+    Tổ hợp: D01, N1
+  - Mã ngành: '7340205'
+    Tên ngành: Công nghệ tài chính
+    Chỉ tiêu: 38
+    Tổ hợp: A01, D01
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Chỉ tiêu: 90
+    Tổ hợp: A01, D01
+  - Mã ngành: '7480201 TT'
+    Tên ngành: Công nghệ thông tin - CTTT
+    Chỉ tiêu: 60
+    Tổ hợp: A01, D01
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 150
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220201 TT'
+    Tên ngành: Ngôn ngữ Anh - CTTT
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220202'
+    Tên ngành: Ngôn ngữ Nga
+    Chỉ tiêu: 75
+    Tổ hợp: D01, N1, D02, N2
+  - Mã ngành: '7220203'
+    Tên ngành: Ngôn ngữ Pháp
+    Chỉ tiêu: 68
+    Tổ hợp: D01, N1, D03, N3
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Chỉ tiêu: 100
+    Tổ hợp: D01, N1, D04, N4
+  - Mã ngành: '7220204 TT'
+    Tên ngành: Ngôn ngữ Trung Quốc - CTTT
+    Chỉ tiêu: 50
+    Tổ hợp: D01, N1, D04, N4
+  - Mã ngành: '7220205'
+    Tên ngành: Ngôn ngữ Đức
+    Chỉ tiêu: 70
+    Tổ hợp: D01, N1, D05, N5
+  - Mã ngành: '7220206'
+    Tên ngành: Ngôn ngữ Tây Ban Nha
+    Chỉ tiêu: 50
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220207'
+    Tên ngành: Ngôn ngữ Bồ Đào Nha
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220208'
+    Tên ngành: Ngôn ngữ Italia
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220208 TT'
+    Tên ngành: Ngôn ngữ Italia - CTTT
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7220209'
+    Tên ngành: Ngôn ngữ Nhật
+    Chỉ tiêu: 88
+    Tổ hợp: D01, N1, D06, N6
+  - Mã ngành: '7220210'
+    Tên ngành: Ngôn ngữ Hàn Quốc
+    Chỉ tiêu: 88
+    Tổ hợp: D01, N1, DD2, N7
+  - Mã ngành: '7310111'
+    Tên ngành: Nghiên cứu phát triển
+    Chỉ tiêu: 30
+    Tổ hợp: D01, N1
+  - Mã ngành: '7310601'
+    Tên ngành: Quốc tế học
+    Chỉ tiêu: 63
+    Tổ hợp: D01, N1
+  - Mã ngành: '7320104'
+    Tên ngành: Truyền thông đa phương tiện
+    Chỉ tiêu: 45
+    Tổ hợp: D01
+  - Mã ngành: '7320109'
+    Tên ngành: Truyền thông doanh nghiệp
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1, D03, N3
+  - Mã ngành: '7810103'
+    Tên ngành: Quản trị Dịch vụ du lịch và lữ hành
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  - Mã ngành: '7810103 TT'
+    Tên ngành: Quản trị Dịch vụ du lịch và lữ hành - CTTT
+    Chỉ tiêu: 38
+    Tổ hợp: D01, N1
+  Trường Đại học:
+    Tên: Trường Đại học Hà Nội
+    Tên viết tắt: HANU
+    Tên tiếng Anh: Hanoi University
+    Địa chỉ: Km9, đường Nguyễn Trãi, Q.Thanh Xuân, Hà Nội
+    Website: https://www.hanu.vn/
+    Fanpage: https://www.facebook.com/daihochanoi/
+```

@@ -1,0 +1,53 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Mỹ Thuật Việt Nam. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Hội họa, Đồ họa, Điêu khắc, Lý luận, lịch sử và phê bình mỹ thuật
+  Trường: Trường Đại Học Mỹ Thuật Việt Nam
+- Ngành đào tạo: Sư phạm mỹ thuật
+  Trường: Trường Đại Học Mỹ Thuật Việt Nam
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Thi tuyển và xét tuyển
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - Hình họa, Bố cục, Ngữ văn
+  - Tượng tròn, Phù điêu, Ngữ văn
+  - Hình họa, Trang trí, Ngữ văn
+- Trường: Trường Đại Học Mỹ Thuật Việt Nam
+  Địa chỉ: 42 Yết Kiêu, Q. Hoàn Kiếm, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Hội họa
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Hình họa (hs2), Bố cục (hs1), Ngữ văn (hs1)
+  - Tên ngành: Đồ họa
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Hình họa (hs2), Bố cục (hs1), Ngữ văn (hs1)
+  - Tên ngành: Điêu khắc
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Tượng tròn (hs2), Phù điêu (hs1), Ngữ văn (hs1)
+  - Tên ngành: Lý luận, lịch sử và phê bình mỹ thuật
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Hình họa (hs2), Bố cục (hs1), Ngữ văn (hs1)
+  - Tên ngành: Thiết kế đồ họa
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Hình họa (hs2), Trang trí (hs1), Ngữ văn (hs1)
+  - Tên ngành: Sư phạm mỹ thuật
+    Phương thức xét tuyển:
+      - Loại: Thi tuyển và xét tuyển
+        Tổ hợp: Hình họa (hs2), Bố cục (hs1), Ngữ văn (hs1)
+  Trường Đại học:
+    Mã trường: MTH
+    Tên: Trường Đại Học Mỹ Thuật Việt Nam
+    Tên tiếng Anh: Viet Nam university of Fine Arts
+    Tên viết tắt: VNUFA
+    Địa chỉ: 42 Yết Kiêu, Q. Hoàn Kiếm, Hà Nội
+    Website: http://mythuatvietnam.edu.vn/
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

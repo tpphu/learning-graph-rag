@@ -1,0 +1,37 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại học Tân Trào. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Tân Trào
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Tân Trào
+  Địa chỉ: Km6, Trung Môn, Yên Sơn, Tuyên Quang
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: TQU
+    Tên: Trường Đại học Tân Trào
+    Tên tiếng Anh: Tan Trao University
+    Tên viết tắt: TTrU
+    Website: https://daihoctantrao.edu.vn/
+    Địa chỉ: Km6, Trung Môn, Yên Sơn, Tuyên Quang
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, học phí, và điểm chuẩn cụ thể không có dữ liệu trong nội dung HTML được cung cấp, do đó chúng được ghi là "No data". Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

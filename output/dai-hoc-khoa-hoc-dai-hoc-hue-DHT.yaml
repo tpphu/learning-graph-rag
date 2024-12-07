@@ -1,0 +1,33 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Khoa Học – Đại Học Huế. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Khoa Học – Đại Học Huế
+- Ngành đào tạo: Kiến trúc
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Kiến trúc
+    Mã ngành: '7580101'
+    Tổ hợp:
+      - Toán, Vật lý, Vẽ mỹ thuật (hệ số 1.5)
+      - Toán, Ngữ văn, Vẽ mỹ thuật (hệ số 1.5)
+      - Toán, Tiếng Anh, Vẽ mỹ thuật (hệ số 1.5)
+  Trường Đại học:
+    Tên: Trường Đại Học Khoa Học – Đại Học Huế
+    Tên viết tắt: HUSC
+    Tên tiếng Anh: University of Sciences, Hue University
+    Mã trường: DHT
+    Địa chỉ: 77 Nguyễn Huệ, phường Phú Nhuận, Thành phố Huế
+    Website: https://husc.edu.vn/
+    Fanpage: https://www.facebook.com/husc.edu.vn
+```
+
+Lưu ý rằng thông tin về điểm chuẩn và chỉ tiêu cụ thể cho từng ngành không có sẵn trong dữ liệu HTML được cung cấp, do đó không thể đưa vào YAML. Nếu có thêm thông tin chi tiết, bạn có thể bổ sung vào cấu trúc YAML này.

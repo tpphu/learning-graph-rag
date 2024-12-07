@@ -1,0 +1,129 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Kinh Bắc
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL ĐH Sư phạm TPHCM
+- Trường: Trường Đại Học Kinh Bắc
+  Địa chỉ: Phố Phúc Sơn, phường Vũ Ninh TP Bắc Ninh, tỉnh Bắc Ninh
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D01; A01; D14; D10
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: D01; A01; D14; D10
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7380101'
+    Tên ngành: Luật
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7380107'
+    Tên ngành: Luật kinh tế
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C04; D01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 0
+        Ghi chú: Học lực lớp 12 xếp loại Giỏi trở lên
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 22.5
+  - Mã ngành: '7720115'
+    Tên ngành: Y học cổ truyền
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 0
+        Ghi chú: Học lực lớp 12 xếp loại Giỏi trở lên
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 21
+  - Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 0
+        Ghi chú: Học lực lớp 12 xếp loại Giỏi trở lên
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D90
+        Điểm chuẩn 2024: 21
+  - Mã ngành: '7810103'
+    Tên ngành: Quản trị dịch vụ du lịch và lữ hành
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+        Ghi chú: Hoặc ĐTB lớp 12 từ 5.0
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; C00
+        Điểm chuẩn 2024: 15
+  Trường Đại học:
+    Tên: Trường Đại Học Kinh Bắc
+    Mã trường: UKB
+    Tên tiếng Anh: Kinh Bac University
+    Tên viết tắt: UKB
+    Địa chỉ: Phố Phúc Sơn, phường Vũ Ninh TP Bắc Ninh, tỉnh Bắc Ninh
+    Website: https://daihockinhbac.edu.vn/
+```
