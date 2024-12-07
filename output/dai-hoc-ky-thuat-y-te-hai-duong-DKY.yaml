@@ -1,0 +1,45 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kỹ thuật Y tế Hải Dương
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Trường: Trường Đại học Kỹ thuật Y tế Hải Dương
+  Địa chỉ: Số 1 Vũ Hựu, P. Thanh Bình, TP.Hải Dương, tỉnh Hải Dương
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: B00; A00
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: B00; A00
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Chứng chỉ quốc tế
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/HMTUP
+    Mã trường: HMTU
+    Tên: Trường Đại học Kỹ thuật Y tế Hải Dương
+    Website: http://www.hmtu.edu.vn
+    Địa chỉ: Số 1 Vũ Hựu, P. Thanh Bình, TP.Hải Dương, tỉnh Hải Dương
+```

@@ -1,0 +1,44 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Mỏ Địa Chất. Sau đó, tôi sẽ trình bày dữ liệu dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Mỏ Địa Chất
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại Học Mỏ Địa Chất
+  Địa chỉ: Số 18 Phố Viên - Phường Đức Thắng - Q. Bắc Từ Liêm - Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm Đánh giá Tư duy
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/humg.edu/
+    Mã trường: MDA
+    Tên: Trường Đại Học Mỏ Địa Chất
+    Website: http://www.humg.edu.vn
+    Địa chỉ: Số 18 Phố Viên - Phường Đức Thắng - Q. Bắc Từ Liêm - Hà Nội
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, và điểm chuẩn cụ thể không có dữ liệu trong nội dung HTML bạn cung cấp, do đó tôi đã ghi "No data" cho các mục này. Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

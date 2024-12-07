@@ -1,0 +1,35 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Mỹ Thuật Công Nghiệp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết hợp kết quả học tập THPT và điểm thi năng khiếu
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - H00: Văn - NK1 - NK2
+  - H07: Toán - NK1 - NK2
+- Trường: Trường Đại Học Mỹ Thuật Công Nghiệp
+  Địa chỉ: 360 La Thành – Ô chợ Dừa – Đống Đa – Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Kết hợp kết quả học tập THPT và điểm thi năng khiếu
+        Tổ hợp: H00; H07
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/mythuatcongnghiep.edu.vn
+    Mã trường: MTC
+    Tên: Trường Đại Học Mỹ Thuật Công Nghiệp
+    Tên tiếng Anh: University of Industrial Fine Arts
+    Tên viết tắt: MTUD
+    Website: www.mythuatcongnghiep.edu.vn
+    Địa chỉ: 360 La Thành – Ô chợ Dừa – Đống Đa – Hà Nội
+```
+
+Lưu ý rằng một số thông tin như "Chỉ tiêu", "Học phí", "Mã ngành", và "Điểm chuẩn 2024" không có dữ liệu cụ thể trong nội dung HTML bạn cung cấp, do đó tôi đã ghi "No data" cho các mục này.

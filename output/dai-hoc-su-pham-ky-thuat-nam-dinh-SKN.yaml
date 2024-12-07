@@ -1,0 +1,88 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Sư Phạm Kỹ Thuật Nam Định
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGTD BK
+- Trường: Trường Đại Học Sư Phạm Kỹ Thuật Nam Định
+  Địa chỉ: Đường Phù Nghĩa - Phường Lộc Hạ - Thành phố Nam Định
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 75
+      - Loại: ĐGTD BK
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 50
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 75
+      - Loại: ĐGTD BK
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 50
+  - Mã ngành: '7480101'
+    Tên ngành: Khoa học máy tính
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 75
+      - Loại: ĐGTD BK
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 50
+  - Mã ngành: '7480201'
+    Tên ngành: Đồ họa máy tính (chuyên ngành)
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 16
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; B00; D01; D02; D03; D04; D05; D06
+        Điểm chuẩn 2024: 18
+      - Loại: ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 75
+      - Loại: ĐGTD BK
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 50
+  Trường Đại học:
+    Mã trường: SKN
+    Tên: Trường Đại Học Sư Phạm Kỹ Thuật Nam Định
+    Tên tiếng Anh: Namdinh University of Technology Education
+    Tên viết tắt: NUTE
+    Địa chỉ: Đường Phù Nghĩa - Phường Lộc Hạ - Thành phố Nam Định
+    Website: http://www.nute.edu.vn
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong file gốc.

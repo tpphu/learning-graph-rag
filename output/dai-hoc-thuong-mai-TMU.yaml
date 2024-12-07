@@ -1,0 +1,49 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Thương Mại. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Thực thể:
+  Trường Đại học:
+    Tên: Đại học Thương mại
+    Tên viết tắt: TMU
+    Tên tiếng Anh: University of Commerce
+    Địa chỉ: Số 79 đường Hồ Tùng Mậu, phường Mai Dịch, quận Cầu Giấy, thành phố Hà Nội
+    Website: https://tmu.edu.vn/
+    Fanpage: https://www.facebook.com/thuongmaiuniversity
+  Phương thức xét tuyển:
+    - Loại: Điểm thi THPT
+      Chỉ tiêu: 40%
+      Quy chế: Điểm xét tuyển = Tổng điểm 3 bài thi/môn thi theo tổ hợp đăng ký xét tuyển + Điểm ưu tiên (nếu có)
+    - Loại: Điểm học bạ
+      Chỉ tiêu: 4-5%
+      Quy chế: Điểm xét tuyển = Tổng điểm 3 môn theo tổ hợp đăng ký xét tuyển + (1 điểm thưởng học sinh hệ chuyên (nếu có) nhưng điểm xét tuyển không quá 30) + Điểm ưu tiên (nếu có)
+    - Loại: Điểm ĐGNL HN
+      Điều kiện: Điểm ĐGNL HN 2024 từ 80/150 điểm trở lên
+      Quy chế: Điểm xét tuyển = Tổng điểm bài thi ĐGNL*30/150 + Điểm ưu tiên (nếu có)
+    - Loại: Điểm Đánh giá Tư duy
+      Điều kiện: Điểm ĐGTD ĐHBK HN 2024 từ 50/100 điểm trở lên
+      Quy chế: Điểm xét tuyển = Tổng điểm bài thi ĐGTD*30/100 + Điểm ưu tiên (nếu có)
+    - Loại: Xét tuyển kết hợp
+      Quy chế: Xét tuyển kết hợp chứng chỉ quốc tế còn hiệu lực tính đến ngày đăng ký xét tuyển với kết quả thi tốt nghiệp THPT năm 2024
+  Ngành đào tạo:
+    - Mã ngành: No data
+      Tên ngành: No data
+      Tổ hợp: No data
+      Điểm chuẩn 2024: No data
+  Học phí:
+    - Chương trình đào tạo chuẩn: 2.400.000 đến 2.600.000 đồng/tháng
+    - Chương trình đào tạo định hướng chuyên sâu nghề nghiệp quốc tế (IPOP): 3.500.000 đồng/tháng
+    - Chương trình đào tạo định hướng nghề nghiệp: 2.600.000 đồng/tháng
+Mối quan hệ:
+  - Trường: Đại học Thương mại
+    Phương thức xét tuyển: Điểm thi THPT
+  - Trường: Đại học Thương mại
+    Phương thức xét tuyển: Điểm học bạ
+  - Trường: Đại học Thương mại
+    Phương thức xét tuyển: Điểm ĐGNL HN
+  - Trường: Đại học Thương mại
+    Phương thức xét tuyển: Điểm Đánh giá Tư duy
+  - Trường: Đại học Thương mại
+    Phương thức xét tuyển: Xét tuyển kết hợp
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, tổ hợp và điểm chuẩn 2024 không có dữ liệu cụ thể trong tài liệu gốc, do đó được ghi nhận là "No data".

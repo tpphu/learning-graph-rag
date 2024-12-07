@@ -1,0 +1,58 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Học viện Ngân hàng. Tuy nhiên, cần lưu ý rằng thông tin về ERD (Entity-Relationship Diagram) không được trực tiếp đề cập trong tài liệu HTML này. Thay vào đó, tôi sẽ dựa trên các thông tin có sẵn để suy luận ra các thực thể và mối quan hệ có thể có.
+
+Dưới đây là cấu trúc YAML dựa trên thông tin từ tài liệu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Ngân hàng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Trường: Học viện Ngân hàng
+  Địa chỉ: Số 12 - Chùa Bộc, phường Quang Trung, quận Đống Đa, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 3514
+    Học phí:
+      Chương trình chuẩn: 25-26.5 triệu/năm
+      Chương trình chất lượng cao: 37 triệu/năm
+      Chương trình cử nhân quốc tế (CityU): 380 triệu/4 năm
+      Chương trình cử nhân quốc tế (Sunderland): 340 triệu/4 năm
+      Chương trình cử nhân quốc tế (Coventry): 340 triệu/4 năm
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Chứng chỉ quốc tế
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm Đánh giá đầu vào V-SAT
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/hocviennganhang1961
+    Tên: Học viện Ngân hàng
+    Website: https://www.hvnh.edu.vn/
+    Địa chỉ: Số 12 - Chùa Bộc, phường Quang Trung, quận Đống Đa, Hà Nội
+```
+
+Lưu ý rằng thông tin về mã ngành, tổ hợp cụ thể và điểm chuẩn chi tiết không có sẵn trong tài liệu HTML được cung cấp, do đó, chúng được ghi chú là "No data".

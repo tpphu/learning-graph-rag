@@ -1,0 +1,32 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Nha Trang
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại học Nha Trang
+  Địa chỉ: Số 02, Nguyễn Đình Chiểu, phường Vĩnh Thọ, Thành phố Nha Trang, Khánh Hòa
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Nha Trang
+    Tên tiếng Anh: Nha Trang University
+    Tên viết tắt: NTU
+    Địa chỉ: Số 02, Nguyễn Đình Chiểu, phường Vĩnh Thọ, Thành phố Nha Trang, Khánh Hòa
+    Website: http://www.ntu.edu.vn
+    Fanpage: https://www.facebook.com/tuyensinhdhnt
+    SĐT: 0258.3831149
+```

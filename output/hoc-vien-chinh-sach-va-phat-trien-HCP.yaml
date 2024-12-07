@@ -1,0 +1,152 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học Viện Chính Sách và Phát Triển
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - C00
+  - C02
+  - D01
+  - D07
+  - D09
+  - D10
+- Trường: Học Viện Chính Sách và Phát Triển
+  Địa chỉ: Học viện Chính sách và Phát triển – Bộ Kế hoạch và Đầu tư. Khu đô thị Nam An Khánh - Xã An Thượng – Huyện Hoài Đức – Thành phố Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 33.05
+        Ghi chú: Thang điểm 40
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 36.5
+        Ghi chú: 2 Học kì lớp 12
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 35
+        Ghi chú: Lớp 11 và HK 1 lớp 12
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 28.5
+        Ghi chú: Học bạ và CCQT
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 28.5
+        Ghi chú: Học bạ và giải HSG cấp Tỉnh/Thành phố
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18.05
+  - Mã ngành: '7310101'
+    Tên ngành: Kinh tế
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 24.83
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27
+        Ghi chú: 2 Học kì lớp 12
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 26.52
+        Ghi chú: Lớp 11 và HK 1 lớp 12
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27
+        Ghi chú: Học bạ và CCQT
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 25.8
+        Ghi chú: Học bạ và giải HSG cấp Tỉnh/Thành phố
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 17.5
+  - Mã ngành: '7310105'
+    Tên ngành: Kinh tế phát triển
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C02; D01
+        Điểm chuẩn 2024: 25.43
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C02; D01
+        Điểm chuẩn 2024: 26.8
+        Ghi chú: 2 Học kì lớp 12
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C02; D01
+        Điểm chuẩn 2024: 27
+        Ghi chú: Lớp 11 và HK 1 lớp 12
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; C02; D01
+        Điểm chuẩn 2024: 27
+        Ghi chú: Học bạ và CCQT
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; C02; D01
+        Điểm chuẩn 2024: 27.1
+        Ghi chú: Học bạ và giải HSG cấp Tỉnh/Thành phố
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 17.5
+  - Mã ngành: '7310106'
+    Tên ngành: Kinh tế quốc tế
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 25.01
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 28
+        Ghi chú: 2 Học kì lớp 12
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27.52
+        Ghi chú: Lớp 11 và HK 1 lớp 12
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 28.5
+        Ghi chú: Học bạ và CCQT
+      - Loại: Kết Hợp
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27.1
+        Ghi chú: Học bạ và giải HSG cấp Tỉnh/Thành phố
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 19.1
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18.05
+  - Mã ngành: '7310106_1'
+    Tên ngành: Kinh tế đối ngoại chất lượng cao giảng dạy bằng Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 27.1
+        Ghi chú: Học bạ và giải HSG cấp Tỉnh/Thành phố
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 17.45
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 32.85
+        Ghi chú: Thang điểm 40
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 33.56
+        Ghi chú: 2 Học kì lớp 12
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 33
+        Ghi chú: Lớp 11 và HK 1 lớp 12
+      - Loại: Kết Hợp
+        Tổ hợp: A01; D01; D07; D10
+        Điểm chuẩn 2024: 27
+        Ghi chú: Học bạ và CCQT
+  Trường Đại học:
+    Mã trường: HCP
+    Tên: Học Viện Chính Sách và Phát Triển
+    Tên tiếng Anh: Academy of Policy and Development
+    Tên viết tắt: APD
+    Địa chỉ: Học viện Chính sách và Phát triển – Bộ Kế hoạch và Đầu tư. Khu đô thị Nam An Khánh - Xã An Thượng – Huyện Hoài Đức – Thành phố Hà Nội
+    Website: https://apd.edu.vn/
+```

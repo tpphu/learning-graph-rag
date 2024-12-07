@@ -1,0 +1,39 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Ngân hàng - Phân viện Phú Yên
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Trường: Học viện Ngân hàng - Phân viện Phú Yên
+  Địa chỉ: Số 441 đường Nguyễn Huệ, TP Tuy Hòa, tỉnh Phú Yên
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 300
+    Học phí: 25 triệu/năm học
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm Đánh giá đầu vào V-SAT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/phanvienphuyen.hvnh
+    Tên: Học viện Ngân hàng - Phân viện Phú Yên
+    Website: https://bap.edu.vn/
+    Địa chỉ: Số 441 đường Nguyễn Huệ, TP Tuy Hòa, tỉnh Phú Yên
+```

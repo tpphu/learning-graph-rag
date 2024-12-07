@@ -1,0 +1,109 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Nghiệp Quảng Ninh
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A09
+  - C01
+  - D01
+- Trường: Trường Đại Học Công Nghiệp Quảng Ninh
+  Địa chỉ: Phường Yên Thọ, Thị xã Đông Triều, Tỉnh Quảng Ninh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính ngân hàng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510102'
+    Tên ngành: Công nghệ kỹ thuật công trình xây dựng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510201'
+    Tên ngành: Công nghệ kỹ thuật cơ khí
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7510303'
+    Tên ngành: Công nghệ kỹ thuật điều khiển và tự động hoá
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  - Mã ngành: '7520601'
+    Tên ngành: Kỹ thuật mỏ
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A09; C01; D01
+        Điểm chuẩn 2024: 18
+  Trường Đại học:
+    Mã trường: DDM
+    Tên: Trường Đại Học Công Nghiệp Quảng Ninh
+    Tên tiếng Anh: Quang Ninh University of Industry
+    Tên viết tắt: QUI
+    Địa chỉ: Phường Yên Thọ, Thị xã Đông Triều, Tỉnh Quảng Ninh
+    Website: www.qui.edu.vn
+```

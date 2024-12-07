@@ -1,0 +1,78 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Lao Động – Xã Hội (Cơ sở II)
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Dự bị đại học
+- Trường: Trường Đại Học Lao Động – Xã Hội (Cơ sở II)
+  Địa chỉ: Số 1018 Tô Ký, Phường Tân Chánh Hiệp, Quận 12, TP Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: 7220201
+    Tên ngành: Ngôn ngữ Anh
+    Tổ hợp: Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7310101
+    Tên ngành: Kinh tế
+    Tổ hợp: Toán, Lý, Hóa, Văn, Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7310401
+    Tên ngành: Tâm lý học
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh, Lịch sử, Địa lý
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340101
+    Tên ngành: Quản trị kinh doanh
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340201
+    Tên ngành: Tài chính - Ngân hàng
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340207
+    Tên ngành: Bảo hiểm - Tài chính
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340301
+    Tên ngành: Kế toán
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340404
+    Tên ngành: Quản trị nhân lực
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7340405
+    Tên ngành: Hệ thống thông tin quản lý
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7380107
+    Tên ngành: Luật kinh tế
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  - Mã ngành: 7760101
+    Tên ngành: Công tác xã hội
+    Tổ hợp: Toán, Lý, Hóa, Ngữ Văn, Tiếng Anh, Lịch sử, Địa lý
+    Phương thức xét tuyển:
+      - Loại: ƯTXT, XT thẳng
+  Trường Đại học:
+    Mã trường: DLS
+    Tên: Trường Đại Học Lao Động – Xã Hội (Cơ sở II)
+    Tên tiếng Anh: University of Labour and Social affairs
+    Địa chỉ: Số 1018 Tô Ký, Phường Tân Chánh Hiệp, Quận 12, TP Hồ Chí Minh
+    Website: www.ldxh.edu.vn
+```

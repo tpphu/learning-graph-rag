@@ -1,0 +1,36 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong HTML không có thông tin chi tiết về các ngành đào tạo, mã ngành, hoặc các mối quan hệ cụ thể giữa các thực thể, tôi sẽ dựa trên các thông tin có sẵn để tạo ra một cấu trúc YAML cơ bản.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Công nghệ Bưu chính Viễn thông (Cơ sở TP.HCM)
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng tài năng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển theo kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển kết hợp chứng chỉ quốc tế với kết quả học tập THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển dựa vào kết quả trong các kỳ thi đánh giá năng lực, đánh giá tư duy
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 5060
+    Phương thức xét tuyển:
+      - Loại: Xét tuyển thẳng tài năng
+        Tỷ lệ: 10%
+      - Loại: Xét tuyển theo kết quả thi tốt nghiệp THPT
+        Tỷ lệ: 50%
+      - Loại: Xét tuyển kết hợp chứng chỉ quốc tế với kết quả học tập THPT
+        Tỷ lệ: 25%
+      - Loại: Xét tuyển dựa vào kết quả trong các kỳ thi đánh giá năng lực, đánh giá tư duy
+        Tỷ lệ: 15%
+  Trường Đại học:
+    Tên: Học viện Công nghệ Bưu chính Viễn thông (Cơ sở TP.HCM)
+    Tên viết tắt: PTITHCM
+    Tên tiếng Anh: Institute of Posts and Telecommunication Technology
+    Địa chỉ: Số 11 Nguyễn Đình Chiểu, phường Đakao, Quận 1, Thành phố Hồ Chí Minh
+    Website: https://ptithcm.edu.vn/
+    Fanpage: https://www.facebook.com/HocvienPTIT
+```
+
+Lưu ý rằng thông tin chi tiết về các ngành đào tạo, mã ngành, và điểm chuẩn cụ thể không có trong dữ liệu HTML bạn cung cấp, do đó không thể liệt kê chi tiết trong YAML. Nếu có thêm thông tin chi tiết, tôi có thể cập nhật cấu trúc YAML cho phù hợp.

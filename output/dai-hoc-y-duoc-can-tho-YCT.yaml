@@ -1,0 +1,33 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Dược Cần Thơ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - A00
+- Trường: Trường Đại học Y Dược Cần Thơ
+  Địa chỉ: 179 Nguyễn Văn Cừ, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Y khoa, Răng hàm mặt
+    Học phí: 49.150.000
+  - Tên ngành: Dược học
+    Học phí: 49.685.000
+  - Tên ngành: Y học cổ truyền, Y học dự phòng
+    Học phí: 44.152.000
+  - Tên ngành: Điều dưỡng, Kỹ thuật xét nghiệm y học
+    Học phí: 38.645.000
+  - Tên ngành: Kỹ thuật Hình ảnh y học, Hộ sinh, Y tế công cộng
+    Học phí: 33.110.000
+  Trường Đại học:
+    Tên: Trường Đại học Y Dược Cần Thơ
+    Mã trường: YCT
+    Tên tiếng Anh: Can Tho University of Medicine and Pharmacy
+    Tên viết tắt: CTUMP
+    Địa chỉ: 179 Nguyễn Văn Cừ, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ
+    Website: https://www.ctump.edu.vn/
+    Facebook: http://facebook.com/dhydct.ctump/edu/vn
+```

@@ -1,0 +1,33 @@
+Dựa trên nội dung HTML bạn cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong HTML không có thông tin chi tiết về các ngành đào tạo, mã ngành, học phí, chỉ tiêu, hoặc điểm chuẩn cụ thể, tôi sẽ chỉ có thể trích xuất các thông tin có sẵn. Dưới đây là cấu trúc YAML dựa trên thông tin có sẵn:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Sư Phạm Kỹ Thuật Vinh
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá Tư duy
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL ĐH Sư phạm HN
+- Trường: Trường Đại Học Sư Phạm Kỹ Thuật Vinh
+  Địa chỉ: Số 117, Đường Nguyễn Viết Xuân - Phường Hưng Dũng - Thành phố Vinh - Nghệ An
+Thực thể:
+  Trường Đại học:
+    Mã trường: SKV
+    Tên: Trường Đại Học Sư Phạm Kỹ Thuật Vinh
+    Tên tiếng Anh: Vinh University of Technology Education
+    Tên viết tắt: VUTED
+    Địa chỉ: Số 117, Đường Nguyễn Viết Xuân - Phường Hưng Dũng - Thành phố Vinh - Nghệ An
+    Website: https://vuted.edu.vn/
+```
+
+Lưu ý rằng thông tin về các ngành đào tạo cụ thể, mã ngành, học phí, chỉ tiêu, và điểm chuẩn không có dữ liệu chi tiết trong HTML được cung cấp, do đó không thể liệt kê trong YAML. Nếu có thêm thông tin chi tiết, tôi có thể cập nhật YAML tương ứng.

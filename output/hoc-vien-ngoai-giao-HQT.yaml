@@ -1,0 +1,46 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Học viện Ngoại giao. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Ngoại giao
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi riêng
+- Trường: Học viện Ngoại giao
+  Địa chỉ: Số 69 Phố Chùa Láng, quận Đống Đa, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Quan hệ quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Kinh tế quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Luật quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Kinh doanh quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Truyền thông quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Châu Á - Thái Bình Dương học
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Luật thương mại quốc tế
+    Tổ hợp: A01, D01, D07
+  - Tên ngành: Ngôn ngữ Anh
+    Tổ hợp: D01, D03, D04, D06
+
+  Trường Đại học:
+    Tên: Học viện Ngoại giao
+    Tên viết tắt: DAV
+    Tên tiếng Anh: Institute for International Relations
+    Địa chỉ: Số 69 Phố Chùa Láng, quận Đống Đa, Hà Nội
+    Website: https://dav.edu.vn/
+    Fanpage: https://www.facebook.com/hoisinhviendav
+```
+
+Lưu ý rằng thông tin về mã ngành, học phí, chỉ tiêu và điểm chuẩn cụ thể cho từng ngành không có sẵn trong dữ liệu HTML được cung cấp, do đó không thể liệt kê chi tiết hơn trong phần "Ngành đào tạo". Nếu có thêm thông tin, bạn có thể bổ sung vào cấu trúc YAML này.

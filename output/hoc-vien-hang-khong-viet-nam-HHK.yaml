@@ -1,0 +1,61 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Quản trị kinh doanh
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Quản trị nhân lực
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Quản trị dịch vụ du lịch và lữ hành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Kinh tế vận tải
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Ngôn ngữ Anh
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Quản lý hoạt động bay
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Công nghệ thông tin
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Công nghệ kỹ thuật công trình xây dựng
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Công nghệ kỹ thuật điện tử, viễn thông
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Công nghệ kỹ thuật điều khiển và tự động hóa
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Kỹ thuật hàng không
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Kinh doanh quốc tế
+  Phương thức xét tuyển: Điểm thi THPT
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Quản trị kinh doanh
+    Ngưỡng đầu vào: 18.0
+  - Tên ngành: Quản trị nhân lực
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Quản trị dịch vụ du lịch và lữ hành
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Kinh tế vận tải
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Ngôn ngữ Anh
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Quản lý hoạt động bay
+    Ngưỡng đầu vào: 20.0
+  - Tên ngành: Công nghệ thông tin
+    Ngưỡng đầu vào: 16.0
+  - Tên ngành: Công nghệ kỹ thuật công trình xây dựng
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Công nghệ kỹ thuật điện tử, viễn thông
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Công nghệ kỹ thuật điều khiển và tự động hóa
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Kỹ thuật hàng không
+    Ngưỡng đầu vào: No data
+  - Tên ngành: Kinh doanh quốc tế
+    Ngưỡng đầu vào: 18.0
+  Trường Đại học:
+    Tên: Học viện Hàng Không Việt Nam
+    Tên tiếng Anh: Vietnam Aviation Academy
+    Tên viết tắt: VAA
+    Mã trường: HHK
+    Địa chỉ: 104 Nguyễn Văn Trỗi, P.8, Q. Phú Nhuận, TP.HCM, Việt Nam
+    Website: http://www.hvcsnd.edu.vn
+    Fanpage: https://www.facebook.com/@hvhangkhongvietnam/
+```

@@ -1,0 +1,53 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM. Sau đó, tôi sẽ trình bày dữ liệu dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng và ưu tiên xét tuyển thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết quả kỳ thi Đánh giá năng lực của Đại học Quốc gia TP.HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - Toán - Tiếng Anh - Ngữ văn
+  - Toán - Tiếng Anh - Vật lý
+  - Toán - Tiếng Anh - Tin học
+  - Toán - Tiếng Anh - Giáo dục kinh tế và pháp luật
+  - Toán - Lý - Hóa
+- Trường: Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM
+  Địa chỉ: Số 669 Quốc lộ 1, Khu phố 3, Phường Linh Xuân, Thành Phố Thủ Đức, Thành Phố Hồ Chí Minh
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM
+    Tên viết tắt: UEL
+    Tên tiếng Anh: University of Economics and Law
+    Địa chỉ: Số 669 Quốc lộ 1, Khu phố 3, Phường Linh Xuân, Thành Phố Thủ Đức, Thành Phố Hồ Chí Minh
+    Website: https://www.uel.edu.vn
+    Fanpage: https://www.facebook.com/uel.edu.vn
+  Phương thức xét tuyển:
+  - Loại: Xét tuyển thẳng và ưu tiên xét tuyển thẳng
+    Chỉ tiêu: Tối đa 20% tổng chỉ tiêu
+  - Loại: Kết quả kỳ thi Đánh giá năng lực của Đại học Quốc gia TP.HCM
+    Chỉ tiêu: 40 - 60% tổng chỉ tiêu
+  - Loại: Kết quả thi tốt nghiệp THPT
+    Chỉ tiêu: 30% - 50% tổng chỉ tiêu
+  Chứng chỉ quốc tế:
+    Đối tượng: Thí sinh có chứng chỉ SAT, ACT, bằng tú tài quốc tế (IB), chứng chỉ A-level
+    Quy chế:
+      - SAT: Thí sinh đạt điểm từ 1200/1600 trở lên
+      - ACT: Thí sinh đạt điểm từ 27/36
+      - A-level: Tổ hợp 3 môn thi, mỗi môn đạt từ 80/100 điểm
+      - IB: Từ 32/45 điểm trở lên
+    Thời gian xét tuyển: Từ ngày 15/5 đến ngày 15/6/2024 (dự kiến)
+```
+
+Lưu ý rằng một số thông tin như mã ngành, tên ngành, và điểm chuẩn 2024 không có dữ liệu cụ thể trong tài liệu gốc, do đó được ghi là "No data".

@@ -1,0 +1,154 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML. Dưới đây là cấu trúc YAML được tạo ra từ thông tin trong tài liệu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Phạm Văn Đồng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Đại Học Phạm Văn Đồng
+  Địa chỉ: 509 Phan Đình Phùng (Phường Chánh Lộ), Thành phố Quảng Ngãi, tỉnh Quảng Ngãi
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '51140201'
+    Tên ngành: Giáo dục Mầm non
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: M01; M02
+        Điểm chuẩn 2024: 23.19
+      - Loại: ĐT THPT
+        Tổ hợp: M01; M02
+        Điểm chuẩn 2024: 24
+  - Mã ngành: '7140202'
+    Tên ngành: Giáo dục Tiểu học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 27.1
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C00; D01
+        Điểm chuẩn 2024: 25.7
+  - Mã ngành: '7140209'
+    Tên ngành: Sư phạm Toán học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 27.12
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 24.4
+  - Mã ngành: '7140210'
+    Tên ngành: Sư phạm Tin học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 26.08
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 22.4
+  - Mã ngành: '7140211'
+    Tên ngành: Sư phạm Vật lý
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 26.62
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 23.6
+  - Mã ngành: '7140217'
+    Tên ngành: Sư phạm Ngữ văn
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C00; D78; C19; C20
+        Điểm chuẩn 2024: 27.2
+      - Loại: ĐT THPT
+        Tổ hợp: C00; D78; C19; C20
+        Điểm chuẩn 2024: 26.6
+  - Mã ngành: '7140231'
+    Tên ngành: Sư phạm Tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D01; D78; D84; D90
+        Điểm chuẩn 2024: 26.4
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D78; D84; D90
+        Điểm chuẩn 2024: 24.5
+  - Mã ngành: '7140247'
+    Tên ngành: Sư phạm Khoa học Tự nhiên
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D01; D90
+        Điểm chuẩn 2024: 26.27
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D01; D90
+        Điểm chuẩn 2024: 23.5
+  - Mã ngành: '7310105'
+    Tên ngành: Kinh tế phát triển
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340115'
+    Tên ngành: Marketing
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: C04; C20; D01; D10
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ Thông tin
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7510201'
+    Tên ngành: Công nghệ kỹ thuật Cơ khí
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7520114'
+    Tên ngành: Kỹ thuật Cơ – Điện tử
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; D01; D90
+        Điểm chuẩn 2024: 15
+  Trường Đại học:
+    Mã trường: DPQ
+    Tên: Trường Đại Học Phạm Văn Đồng
+    Tên tiếng Anh: Pham Van Dong University
+    Tên viết tắt: PDU
+    Địa chỉ: 509 Phan Đình Phùng (Phường Chánh Lộ), Thành phố Quảng Ngãi, tỉnh Quảng Ngãi
+    Website: http://pdu.edu.vn/
+```
+
+Cấu trúc YAML trên đã được định dạng để dễ đọc và giữ nguyên thứ tự các thực thể và mối quan hệ như trong tài liệu gốc.

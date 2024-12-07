@@ -1,0 +1,40 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Dược Hải Phòng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét kết quả học tập cấp THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Xét tuyển dựa vào kết quả kỳ thi tốt nghiệp THPT năm 2024
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Phương thức khác
+- Trường: Trường Đại học Y Dược Hải Phòng
+  Địa chỉ: Số 72A Nguyễn Bỉnh Khiêm - Ngô Quyền - Hải Phòng
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 1380
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Xét tuyển thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Xét kết quả học tập cấp THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Xét tuyển dựa vào kết quả kỳ thi tốt nghiệp THPT năm 2024
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Phương thức khác
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/PhongCTCT
+    Mã trường: No data
+    Tên: Trường Đại học Y Dược Hải Phòng
+    Website: http://hpmu.edu.vn
+    Địa chỉ: Số 72A Nguyễn Bỉnh Khiêm - Ngô Quyền - Hải Phòng
+```

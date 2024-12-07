@@ -1,0 +1,54 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Ngoại ngữ – Đại học Quốc gia Hà Nội. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Ngoại ngữ – Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Trường: Trường Đại học Ngoại ngữ – Đại học Quốc gia Hà Nội
+  Địa chỉ: Số 2 đường Phạm Văn Đồng, Quận Cầu Giấy, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HCM
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Chứng chỉ quốc tế
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/vnu.ulis
+    Mã trường: ULIS
+    Tên: Trường Đại học Ngoại ngữ – Đại học Quốc gia Hà Nội
+    Website: https://ulis.vnu.edu.vn/
+    Địa chỉ: Số 2 đường Phạm Văn Đồng, Quận Cầu Giấy, Hà Nội
+```
+
+Lưu ý rằng một số thông tin như mã ngành, chỉ tiêu, học phí và điểm chuẩn cụ thể không có dữ liệu trong tài liệu gốc, do đó được ghi là "No data".
