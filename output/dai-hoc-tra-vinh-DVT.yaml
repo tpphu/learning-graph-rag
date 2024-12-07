@@ -1,0 +1,85 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ, sau đó trình bày dưới dạng YAML. Dưới đây là cấu trúc YAML được tạo ra từ dữ liệu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Trà Vinh
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - B00
+  - C00
+  - D01
+- Trường: Trường Đại Học Trà Vinh
+  Địa chỉ: Số 126, Quốc lộ 53, Tp.Trà Vinh, Tỉnh Trà Vinh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7210201'
+    Tên ngành: Âm nhạc học
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7210210'
+    Tên ngành: Biểu diễn nhạc cụ truyền thống
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7220106'
+    Tên ngành: Ngôn ngữ Khmer
+    Phương thức xét tuyển:
+      - Loại: V-SAT
+        Điểm chuẩn 2024: 225
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 400
+      - Loại: Học Bạ
+        Tổ hợp: C00; D01; D14
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: C00; D01; D14
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7220201'
+    Tên ngành: Ngồn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: V-SAT
+        Điểm chuẩn 2024: 225
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 400
+      - Loại: Học Bạ
+        Tổ hợp: D01; D09; D14; DH1
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D14; DH1
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7220204'
+    Tên ngành: Ngôn ngữ Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: V-SAT
+        Điểm chuẩn 2024: 225
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 500
+      - Loại: Học Bạ
+        Tổ hợp: D01; D09; D14; DH1
+        Điểm chuẩn 2024: 22
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D14; DH1
+        Điểm chuẩn 2024: 18.25
+  Trường Đại học:
+    Mã trường: DVT
+    Tên: Trường Đại Học Trà Vinh
+    Tên tiếng Anh: Tra Vinh University
+    Tên viết tắt: TVU
+    Địa chỉ: Số 126, Quốc lộ 53, Tp.Trà Vinh, Tỉnh Trà Vinh
+    Website: https://www.tvu.edu.vn/
+```
+
+Cấu trúc YAML trên bao gồm các thực thể và mối quan hệ được trích xuất từ nội dung HTML. Các thông tin như mã ngành, tên ngành, phương thức xét tuyển, tổ hợp môn và điểm chuẩn được liệt kê chi tiết cho từng ngành đào tạo. Thông tin về trường đại học cũng được cung cấp đầy đủ.

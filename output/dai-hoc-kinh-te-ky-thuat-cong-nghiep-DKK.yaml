@@ -1,0 +1,74 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ trong bối cảnh của một sơ đồ ERD (Entity-Relationship Diagram) và trình bày dưới dạng YAML. Dưới đây là cấu trúc YAML được tạo ra từ thông tin có sẵn:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Kinh tế - Kỹ thuật Công nghiệp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - A00
+  - A01
+  - C01
+  - D01
+- Trường: Trường Đại học Kinh tế - Kỹ thuật Công nghiệp
+  Địa chỉ:
+    - Cơ sở Hà Nội: Số 454 – 456 Phố Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội
+    - Cơ sở Hà Nội: Số 218 Lĩnh Nam, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội
+    - Cơ sở Nam Định: Số 353 Trần Hưng Đạo, Phường Bà Triệu, Thành phố Nam Định, Tỉnh Nam Định
+    - Cơ sở Nam Định: Khu xưởng thực hành, xã Mỹ Xá, Thành phố Nam Định, Tỉnh Nam Định
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: 7220201DKD
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 200
+    Học phí: 18 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 75
+        Ghi chú: Cơ sở Nam Định
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D09; D14
+        Điểm chuẩn 2024: 21
+        Ghi chú: Cơ sở Nam Định
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D09; D14
+        Điểm chuẩn 2024: 19
+        Ghi chú: Tiếng Anh hệ số 2, Cơ sở Nam Định
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 50
+        Ghi chú: Cơ sở Nam Định
+  - Mã ngành: 7220201DKK
+    Tên ngành: Ngôn ngữ Anh
+    Chỉ tiêu: 200
+    Học phí: 18 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐGTD BK
+        Điểm chuẩn 2024: 51
+        Ghi chú: Cơ sở Hà Nội
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 76
+        Ghi chú: Cơ sở Hà Nội
+      - Loại: Học Bạ
+        Tổ hợp: A01; D01; D09; D14
+        Điểm chuẩn 2024: 25.2
+        Ghi chú: Cơ sở Hà Nội
+      - Loại: ĐT THPT
+        Tổ hợp: A01; D01; D09; D14
+        Điểm chuẩn 2024: 23.2
+        Ghi chú: Tiếng Anh hệ số 2, Cơ sở Hà Nội
+  Trường Đại học:
+    Tên: Trường Đại học Kinh tế - Kỹ thuật Công nghiệp
+    Tên Tiếng Anh: University of Economics - Technology for Industries
+    Tên viết tắt: UNETI
+    Website: http://www.uneti.edu.vn
+    Fanpage: https://www.facebook.com/Daihoc.uneti/
+    Địa chỉ:
+      - Cơ sở Hà Nội: Số 454 – 456 Phố Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Hà Nội
+      - Cơ sở Hà Nội: Số 218 Lĩnh Nam, Phường Lĩnh Nam, Quận Hoàng Mai, Hà Nội
+      - Cơ sở Nam Định: Số 353 Trần Hưng Đạo, Phường Bà Triệu, Thành phố Nam Định, Tỉnh Nam Định
+      - Cơ sở Nam Định: Khu xưởng thực hành, xã Mỹ Xá, Thành phố Nam Định, Tỉnh Nam Định
+```
+
+Lưu ý rằng thông tin trên chỉ là một phần của dữ liệu có sẵn trong tài liệu HTML. Nếu bạn cần thêm thông tin về các ngành khác hoặc chi tiết cụ thể hơn, vui lòng cho biết để tôi có thể hỗ trợ thêm.
