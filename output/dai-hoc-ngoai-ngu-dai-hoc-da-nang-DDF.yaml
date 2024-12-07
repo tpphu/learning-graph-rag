@@ -1,0 +1,74 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - A01
+  - D96
+  - D78
+- Trường: Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng
+  Địa chỉ: 131 Lương Nhữ Hộc, TP Đà Nẵng
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 33
+    Học phí: 14.1 triệu
+    Mã ngành: '7140231'
+    Tên ngành: Sư phạm tiếng Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 27.24
+      - Loại: Học Bạ
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 28.74
+        Ghi chú: Tiếng Anh >= 9.70, HL lớp 12 giỏi
+  - Chỉ tiêu: 20
+    Học phí: 14.1 triệu
+    Mã ngành: '7140233'
+    Tên ngành: Sư phạm tiếng Pháp
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D03; D96; D78
+        Điểm chuẩn 2024: 23.07
+      - Loại: Học Bạ
+        Tổ hợp: D01; D03; D10; D15
+        Điểm chuẩn 2024: 26
+        Ghi chú: HL lớp 12 giỏi
+  - Chỉ tiêu: 20
+    Học phí: 14.1 triệu
+    Mã ngành: '7140234'
+    Tên ngành: Sư phạm tiếng Trung Quốc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D04; D96; D78
+        Điểm chuẩn 2024: 26.09
+      - Loại: Học Bạ
+        Tổ hợp: D01; D03; D10; D15
+        Điểm chuẩn 2024: 28.71
+        Ghi chú: HL giỏi
+  - Chỉ tiêu: 949
+    Học phí: 15 triệu
+    Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; A01; D96; D78
+        Điểm chuẩn 2024: 23.58
+      - Loại: ĐGNL HCM
+        Điểm chuẩn 2024: 775
+      - Loại: Học Bạ
+        Tổ hợp: D01; A01; D10; D15
+        Điểm chuẩn 2024: 27.01
+        Ghi chú: Tiếng Anh >= 9.40
+  Trường Đại học:
+    Mã trường: DDF
+    Tên: Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng
+    Tên tiếng Anh: University of Foreign Language Studies, the University of Da Nang
+    Tên viết tắt: UFL
+    Địa chỉ: 131 Lương Nhữ Hộc, TP Đà Nẵng
+    Website: https://ufl.udn.vn/vie/
+```

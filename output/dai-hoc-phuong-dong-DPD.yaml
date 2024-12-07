@@ -1,0 +1,42 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Đại học Phương Đông
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Ngành Kiến trúc
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Đại học Phương Đông
+  Địa chỉ: Số 201B Trung Kính, Yên Hòa, Cầu Giấy, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Đại học Phương Đông
+    Tên viết tắt: PDU
+    Tên tiếng Anh: Phuong Dong University
+    Mã trường: DPD
+    Địa chỉ: Số 201B Trung Kính, Yên Hòa, Cầu Giấy, Hà Nội
+    Website: http://phuongdong.edu.vn/
+    Fanpage: https://www.facebook.com/phuongdonguniversity
+  Phương thức xét tuyển:
+  - Loại: Điểm thi THPT
+    Chi tiết: Thí sinh có thể sử dụng kết quả 03 môn từ kết quả kỳ thi tốt nghiệp THPT hoặc sử dụng kết quả thi 02 môn từ kết quả kỳ thi tốt nghiệp THPT và kết quả môn năng khiếu theo tổ hợp đăng ký xét tuyển.
+  - Loại: Điểm học bạ
+    Chi tiết: 
+      - Phương thức 1: Sử dụng kết quả 03 môn từ điểm trung bình học tập ba học kỳ (hai học kỳ lớp 11, học kì 1 lớp 12); Điểm trung bình 3 học kỳ của 3 môn trong tổ hợp môn xét tuyển đạt từ 20,00 điểm trở lên.
+      - Phương thức 2: Sử dụng kết quả học tập trung bình năm lớp 12. Điểm trung bình học tập năm lớp 12 đạt 7,0 trở lên (Riêng các ngành Ngôn ngữ Anh, Ngôn ngữ Nhật và Ngôn ngữ Trung Quốc: điểm trung bình môn Ngoại ngữ phải đạt từ 6.0 trở lên).
+  - Loại: Điểm xét tuyển kết hợp
+    Chi tiết: 
+      - Kết hợp kết quả thi tốt nghiệp THPT với điểm thi năng khiếu để xét tuyển ngành Kiến trúc.
+      - Xét tuyển học bạ kết hợp điểm thi môn năng khiếu ngành Kiến trúc.
+  Học phí:
+    Mức thu: 370.000 đồng/tín chỉ
+    Lộ trình tăng học phí: Không quá 10% cho năm tiếp theo
+```

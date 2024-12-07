@@ -1,0 +1,34 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại Học Nông Lâm TPHCM. Sau đó, tôi sẽ trình bày dữ liệu dưới dạng YAML theo yêu cầu của bạn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Nông Lâm TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại học Nông Lâm TPHCM
+  Địa chỉ: Khu phố 6, P. Linh Trung, TP. Thủ Đức, TP. Hồ Chí Minh
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Nông Lâm TPHCM
+    Tên tiếng anh: Nong Lam University
+    Tên viết tắt: NLU
+    Địa chỉ: Khu phố 6, P. Linh Trung, TP. Thủ Đức, TP. Hồ Chí Minh
+    Website: www.hcmuaf.edu.vn
+```
+
+Lưu ý rằng dữ liệu về mã ngành, tên ngành, tổ hợp và điểm chuẩn 2024 hiện không có thông tin cụ thể trong nội dung HTML được cung cấp, do đó tôi đã ghi "No data" cho các trường này. Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

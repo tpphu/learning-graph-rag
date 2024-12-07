@@ -1,0 +1,75 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Y Dược – Đại Học Đà Nẵng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - B08
+  - A00
+  - D07
+- Trường: Trường Y Dược – Đại Học Đà Nẵng
+  Địa chỉ: Khu đô thị Đại học Đà Nẵng, P. Hòa Quý, Q. Ngũ Hành Sơn, TP. Đà Nẵng
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Học phí: 27.6 triệu
+    Chỉ tiêu: 110
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08
+        Điểm chuẩn 2024: 25.55
+  - Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Học phí: 27.6 triệu
+    Chỉ tiêu: 45
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; A00; D07
+        Điểm chuẩn 2024: 24.45
+  - Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng
+    Học phí: 20.9 triệu
+    Chỉ tiêu: 50
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08
+        Điểm chuẩn 2024: 22.65
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08
+        Điểm chuẩn 2024: 25.59
+  - Mã ngành: '7720501'
+    Tên ngành: Răng - Hàm - Mặt
+    Học phí: 27.6 triệu
+    Chỉ tiêu: 45
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08
+        Điểm chuẩn 2024: 25.57
+  - Mã ngành: '7720601'
+    Tên ngành: Kỹ thuật xét nghiệm y học
+    Chỉ tiêu: 50
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; A00
+        Điểm chuẩn 2024: 22.35
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; A00
+        Điểm chuẩn 2024: 26.2
+
+  Trường Đại học:
+    Tên: Trường Y Dược – Đại Học Đà Nẵng
+    Mã trường: DDY
+    Tên tiếng Anh: The University Of DaNang - School of Medicine and Pharmacy
+    Tên viết tắt: SMP
+    Địa chỉ: Khu đô thị Đại học Đà Nẵng, P. Hòa Quý, Q. Ngũ Hành Sơn, TP. Đà Nẵng
+    Website: https://smp.udn.vn/
+```

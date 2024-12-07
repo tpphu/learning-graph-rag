@@ -1,0 +1,117 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y khoa Phạm Ngọc Thạch
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - A00
+  - B03
+- Trường: Trường Đại học Y khoa Phạm Ngọc Thạch
+  Địa chỉ: Số 02 Dương Quang Trung, Phường 12, Quận 10, Thành phố Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 660
+    Học phí: 55,200,000
+    Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 26.57
+  - Chỉ tiêu: 60
+    Học phí: 55,200,000
+    Mã ngành: '7720115'
+    Tên ngành: Y học cổ truyền
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.6
+  - Chỉ tiêu: 123
+    Học phí: 55,200,000
+    Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 25.51
+  - Chỉ tiêu: 330
+    Học phí: 41,800,000
+    Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B03
+        Điểm chuẩn 2024: 23.57
+  - Chỉ tiêu: 30
+    Học phí: 41,800,000
+    Mã ngành: '7720302'
+    Tên ngành: Hộ sinh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 22.4
+  - Chỉ tiêu: 60
+    Học phí: 41,800,000
+    Mã ngành: '7720401'
+    Tên ngành: Dinh dưỡng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 23.2
+  - Chỉ tiêu: 95
+    Học phí: 41,800,000
+    Mã ngành: '7720501'
+    Tên ngành: Răng Hàm Mặt
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 26.49
+  - Chỉ tiêu: 50
+    Học phí: 41,800,000
+    Mã ngành: '7720601'
+    Tên ngành: Kỹ thuật xét nghiệm y học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.9
+  - Chỉ tiêu: 50
+    Học phí: 41,800,000
+    Mã ngành: '7720602'
+    Tên ngành: Kỹ thuật hình ảnh y học
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; A00
+        Điểm chuẩn 2024: 24.1
+  - Chỉ tiêu: 30
+    Học phí: 41,800,000
+    Mã ngành: '7720603'
+    Tên ngành: Kỹ thuật phục hồi chức năng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.01
+  - Chỉ tiêu: 50
+    Học phí: 41,800,000
+    Mã ngành: '7720699'
+    Tên ngành: Khúc xạ nhãn khoa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; A00
+        Điểm chuẩn 2024: 24.06
+  - Chỉ tiêu: 60
+    Học phí: 41,800,000
+    Mã ngành: '7720701'
+    Tên ngành: Y tế công cộng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B03; A00
+        Điểm chuẩn 2024: 21.35
+  Trường Đại học:
+    Tên: Trường Đại học Y khoa Phạm Ngọc Thạch
+    Tên viết tắt: PNUT
+    Địa chỉ: Số 02 Dương Quang Trung, Phường 12, Quận 10, Thành phố Hồ Chí Minh
+    Website: http://www.pnt.edu.vn
+```

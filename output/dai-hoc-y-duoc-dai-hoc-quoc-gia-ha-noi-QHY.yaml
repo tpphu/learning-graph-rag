@@ -1,0 +1,82 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Y Dược - Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - A00
+- Trường: Trường Đại học Y Dược - Đại học Quốc Gia Hà Nội
+  Địa chỉ: 144 Đường Xuân Thuỷ, quận Cầu Giấy, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7720101'
+    Tên ngành: Y khoa
+    Học phí: 55 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 27.15
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20.6
+  - Mã ngành: '7720201'
+    Tên ngành: Dược học
+    Học phí: 51 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 25.1
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng
+    Học phí: 27.6 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.49
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 16.65
+  - Mã ngành: '7720501'
+    Tên ngành: Răng Hàm Mặt
+    Học phí: 27.6 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 27
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7720601'
+    Tên ngành: Kĩ thuật Xét nghiệm y học
+    Học phí: 27.6 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.83
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 18.65
+  - Mã ngành: '7720602'
+    Tên ngành: Kĩ thuật Hình ảnh y học
+    Học phí: 27.6 triệu
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00
+        Điểm chuẩn 2024: 24.49
+      - Loại: ĐGNL HN
+        Điểm chuẩn 2024: 17
+  Trường Đại học:
+    Tên: Trường Đại học Y Dược - Đại học Quốc Gia Hà Nội
+    Tên viết tắt: UMP
+    Tên tiếng Anh: University of Medicine and Pharmacy
+    Địa chỉ: 144 Đường Xuân Thuỷ, quận Cầu Giấy, Hà Nội
+    Website: http://ump.vnu.edu.vn
+    Fanpage: https://www.facebook.com/TruongDaihocYDuocDHQGHN/
+```

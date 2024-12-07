@@ -1,0 +1,112 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Lương Thế Vinh
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Trường: Trường Đại Học Lương Thế Vinh
+  Địa chỉ: Phường Lộc Vượng, TP.Nam Định, tỉnh Nam Định
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: D01; D07; D14; C00
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D07; D14; C00
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7340301'
+    Tên ngành: Kế toán
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7480201'
+    Tên ngành: Kỹ sư công nghệ thông tin
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7580201'
+    Tên ngành: Kỹ thuật xây dựng
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7580205'
+    Tên ngành: Kỹ thuật xây dựng công trình giao thông
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; C01
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7640101'
+    Tên ngành: Bác sĩ thú y
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: B00; A02; A03
+        Điểm chuẩn 2024: 15
+      - Loại: ĐT THPT
+        Tổ hợp: B00; A02; A03
+        Điểm chuẩn 2024: 15
+  - Mã ngành: '7720115'
+    Tên ngành: Y học cổ truyền
+    Phương thức xét tuyển:
+      - Loại: Học Bạ
+        Tổ hợp: A00; B00; D07; D08
+        Điểm chuẩn 2024: 24
+      - Loại: ĐT THPT
+        Tổ hợp: A00; B00; D07; D08
+        Điểm chuẩn 2024: 21
+
+  Trường Đại học:
+    Tên: Trường Đại Học Lương Thế Vinh
+    Mã trường: DTV
+    Tên tiếng Anh: Luong The Vinh University
+    Tên viết tắt: LTVU
+    Địa chỉ: Phường Lộc Vượng, TP.Nam Định, tỉnh Nam Định
+    Website: https://ltvu.edu.vn/
+```

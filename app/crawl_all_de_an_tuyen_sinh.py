@@ -24,7 +24,7 @@ if __name__ == "__main__":
             html_file_path = "input/%s" % (path)
             minify_html_content = load_file_content(html_file_path)
             if minify_html_content is None:
-                minify_html_content = fetch_and_minify_html(url, driver_manager.driver)
+                minify_html_content = fetch_and_minify_html(url, driver_manager)
             if minify_html_content:
                 save_to_file(minify_html_content, html_file_path)
                 print("HTML content-length: ", len(minify_html_content))
@@ -45,4 +45,4 @@ if __name__ == "__main__":
             else:
                 print("Không lấy được dữ liệu từ OpenAI API.")
     finally:     
-        driver_manager.close()
+        driver_manager.close_driver()

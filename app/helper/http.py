@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, WebDriverException
 from bs4 import BeautifulSoup
 
 
@@ -69,33 +70,45 @@ def get_text_content(url):
         return None
 
 class WebDriverManager:
-    """
-    Quản lý WebDriver để tái sử dụng trình duyệt.
-    """
     def __init__(self, driver_path='/usr/local/bin/chromedriver'):
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--disable-gpu")
-        chrome_options.add_argument("--window-size=1920x1080")
-        self.driver = webdriver.Chrome(service=Service(driver_path), options=chrome_options)
+        self.driver_path = driver_path
+        self.chrome_options = Options()
+        self.chrome_options.add_argument("--headless")
+        self.chrome_options.add_argument("--no-sandbox")
+        self.chrome_options.add_argument("--disable-dev-shm-usage")
+        self.chrome_options.add_argument("--disable-gpu")
+        self.chrome_options.add_argument("--window-size=1920x1080")
+        self.driver = None
 
-    def close(self):
-        self.driver.quit()
+    def get_driver(self):
+        # Khởi tạo lại driver nếu cần
+        if self.driver is None:
+            self.driver = webdriver.Chrome(service=Service(self.driver_path), options=self.chrome_options)
+        return self.driver
 
-def fetch_and_minify_html(url, driver, wait_time=5):
+    def reset_driver(self):
+        # Đóng và khởi tạo lại driver
+        if self.driver:
+            self.driver.quit()
+        self.driver = webdriver.Chrome(service=Service(self.driver_path), options=self.chrome_options)
+
+    def close_driver(self):
+        if self.driver:
+            self.driver.quit()
+            self.driver = None
+
+def fetch_and_minify_html(url, driver_manager, timeout=10):
     """
     Fetches and minifies HTML content using Selenium and BeautifulSoup.
     """
+    driver = driver_manager.get_driver()
     try:
-        driver.set_page_load_timeout(10)
+        # Thiết lập timeout cho driver
+        driver.set_page_load_timeout(timeout)
+
         # Mở URL
         driver.get(url)
         print(f"Opening {url}...")
-
-        # Chờ đến khi trang tải xong
-        WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
 
         # Lấy HTML đầy đủ
         full_html = driver.page_source
@@ -115,6 +128,7 @@ def fetch_and_minify_html(url, driver, wait_time=5):
         minified_html = re.sub(r">\s+<", "><", str(soup)).strip()
 
         return minified_html
-    except Exception as e:
-        print(f"Error fetching HTML from {url}: {e}")
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Error fetching {url}: {e}. Resetting driver...")
+        driver_manager.reset_driver()  # Khởi tạo lại driver
         return None

@@ -1,0 +1,54 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Y tế công cộng
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Dinh dưỡng
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Công tác xã hội
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Kỹ thuật phục hồi chức năng
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Kỹ thuật xét nghiệm y học
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Khoa học dữ liệu
+  Phương thức xét tuyển: Xét tuyển thẳng
+- Ngành đào tạo: Khoa học dữ liệu
+  Phương thức xét tuyển: Xét tuyển dựa vào kết quả thi đánh giá năng lực của Đại học Quốc Gia Hà Nội
+- Ngành đào tạo: Y tế công cộng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả học tập bậc THPT
+- Ngành đào tạo: Dinh dưỡng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả học tập bậc THPT
+- Ngành đào tạo: Công tác xã hội
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả học tập bậc THPT
+- Ngành đào tạo: Kỹ thuật phục hồi chức năng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả học tập bậc THPT
+- Ngành đào tạo: Khoa học dữ liệu
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả học tập bậc THPT
+- Ngành đào tạo: Y tế công cộng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Dinh dưỡng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Công tác xã hội
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Kỹ thuật phục hồi chức năng
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Kỹ thuật xét nghiệm y học
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+- Ngành đào tạo: Khoa học dữ liệu
+  Phương thức xét tuyển: Xét tuyển dựa trên kết quả thi tốt nghiệp THPT
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Y tế công cộng
+  - Tên ngành: Dinh dưỡng
+  - Tên ngành: Công tác xã hội
+  - Tên ngành: Kỹ thuật phục hồi chức năng
+  - Tên ngành: Kỹ thuật xét nghiệm y học
+  - Tên ngành: Khoa học dữ liệu
+  Trường Đại học:
+    Tên: Trường Đại học Y tế công cộng
+    Tên tiếng Anh: Hanoi school of public health
+    Tên viết tắt: HUPH
+    Địa chỉ: 138 Giảng Võ, P.Kim Mã, Q.Ba Đình, TP.Hà Nội
+    Website: http://www.hsph.edu.vn
+    Fanpage: https://www.facebook.com/truongdaihocytecongconghuph/
+```

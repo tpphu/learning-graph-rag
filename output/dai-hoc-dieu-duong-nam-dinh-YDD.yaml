@@ -1,0 +1,55 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Điều Dưỡng Nam Định
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Học Bạ
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - B00
+  - B08
+  - D01
+  - D07
+- Trường: Trường Đại Học Điều Dưỡng Nam Định
+  Địa chỉ: 257 Hàn Thuyên - Thành phố Nam Định - Tỉnh Nam Định
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7720301'
+    Tên ngành: Điều dưỡng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 19
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 20
+  - Mã ngành: '7720302'
+    Tên ngành: Hộ sinh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 19
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 19
+  - Mã ngành: '7720401'
+    Tên ngành: Dinh dưỡng
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 15
+      - Loại: Học Bạ
+        Tổ hợp: B00; B08; D01; D07
+        Điểm chuẩn 2024: 15
+
+  Trường Đại học:
+    Mã trường: YDD
+    Tên: Trường Đại Học Điều Dưỡng Nam Định
+    Tên tiếng Anh: Nam Dinh University of Nursing
+    Tên viết tắt: NDUN
+    Website: http://www.ndun.edu.vn
+    Địa chỉ: 257 Hàn Thuyên - Thành phố Nam Định - Tỉnh Nam Định
+```
