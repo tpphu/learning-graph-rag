@@ -1,0 +1,34 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến ERD và trình bày dưới dạng YAML. Tuy nhiên, do dữ liệu trong HTML không có thông tin chi tiết về các ngành đào tạo, mã ngành, hay các thuộc tính cụ thể khác, tôi sẽ chỉ có thể trích xuất và cấu trúc thông tin dựa trên những gì có sẵn.
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Học viện Phòng không - Không quân
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Trường: Học viện Phòng không - Không quân
+  Địa chỉ: Xã Kim Sơn, Sơn Tây, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 247
+    Phương thức xét tuyển:
+      - Loại: Xét tuyển thẳng, ưu tiên xét tuyển và xét tuyển học sinh giỏi bậc Trung học phổ thông
+      - Loại: Xét tuyển kết quả Kỳ thi đánh giá năng lực (Đại học Quốc gia Hà Nội và Đại học Quốc gia TP Hồ Chí Minh)
+      - Loại: Xét tuyển kết quả học bạ THPT
+      - Loại: Xét tuyển kết quả Kỳ thi tốt nghiệp THPT năm 2024
+  Trường Đại học:
+    Mã trường: PKH
+    Tên: Học viện Phòng không - Không quân
+    Website: http://www.hocvienpkkq.com
+    Địa chỉ: Xã Kim Sơn, Sơn Tây, Hà Nội
+```
+
+Lưu ý rằng thông tin chi tiết về các ngành đào tạo, mã ngành, tổ hợp xét tuyển, và điểm chuẩn cụ thể không có trong dữ liệu HTML được cung cấp, do đó không thể liệt kê chi tiết trong YAML. Nếu có thêm thông tin chi tiết, tôi có thể cập nhật lại cấu trúc YAML cho phù hợp.

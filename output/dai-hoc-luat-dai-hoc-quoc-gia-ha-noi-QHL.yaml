@@ -1,0 +1,54 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Luật – Đại Học Quốc Gia Hà Nội. Dưới đây là cấu trúc YAML tương ứng:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Luật
+  Trường: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Luật Chất lượng cao
+  Trường: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Luật Kinh doanh
+  Trường: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Luật Thương mại Quốc tế
+  Trường: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+- Trường: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+  Địa chỉ: Tòa E1, số 144, đường Xuân Thủy, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Tên ngành: Luật
+    Chỉ tiêu: 587
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Điểm chuẩn 2024: No data
+      - Loại: Chứng chỉ quốc tế
+        Điểm chuẩn 2024: No data
+  - Tên ngành: Luật Chất lượng cao
+    Chỉ tiêu: 345
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Điểm chuẩn 2024: No data
+      - Loại: Chứng chỉ quốc tế
+        Điểm chuẩn 2024: No data
+  - Tên ngành: Luật Kinh doanh
+    Chỉ tiêu: 25
+    Phương thức xét tuyển:
+      - Loại: Điểm xét tuyển kết hợp
+        Điểm chuẩn 2024: No data
+  - Tên ngành: Luật Thương mại Quốc tế
+    Chỉ tiêu: 15
+    Phương thức xét tuyển:
+      - Loại: Điểm xét tuyển kết hợp
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Luật, Đại học Quốc gia Hà Nội
+    Tên viết tắt: VNU-UL
+    Tên tiếng Anh: VNU, University of Law
+    Địa chỉ: Tòa E1, số 144, đường Xuân Thủy, phường Dịch Vọng Hậu, quận Cầu Giấy, thành phố Hà Nội
+    Website: https://law.vnu.edu.vn
+    Fanpage: https://www.facebook.com/SchoolOflaw.Vnu
+```
+
+Lưu ý rằng một số thông tin như điểm chuẩn cụ thể cho từng ngành và phương thức xét tuyển không có dữ liệu trong tài liệu gốc, do đó được ghi là "No data".

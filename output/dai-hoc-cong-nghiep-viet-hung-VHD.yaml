@@ -1,0 +1,166 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Công Nghiệp Việt Hưng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Trường: Trường Đại Học Công Nghiệp Việt Hưng
+  Địa chỉ: Số 16, phố Hữu Nghị, phường Xuân Khanh, Sơn Tây, Hà Nội
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7510301'
+    Tên ngành: Công nghệ kỹ thuật điện, điện tử
+    Chuyên ngành:
+      - Kỹ thuật điện
+      - Công nghệ kỹ thuật điện tử
+      - Điện tử - truyền thông
+      - Kỹ thuật điều khiển và tự động hóa
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D01
+    Chỉ tiêu: 170
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7510201'
+    Tên ngành: Công nghệ kỹ thuật cơ khí
+    Chuyên ngành:
+      - Cơ điện tử
+      - Công nghệ chế tạo máy
+      - Thiết kế máy
+      - Chế tạo khuôn mẫu
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D01
+    Chỉ tiêu: 120
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7510103'
+    Tên ngành: Công nghệ kỹ thuật xây dựng
+    Chuyên ngành:
+      - Xây dựng dân dụng và công nghiệp
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D01
+    Chỉ tiêu: 70
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7510205'
+    Tên ngành: Công nghệ kỹ thuật ô tô
+    Chuyên ngành:
+      - Công nghệ kỹ thuật ô tô
+      - Công nghệ ô tô điện
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D01
+    Chỉ tiêu: 350
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7480201'
+    Tên ngành: Công nghệ thông tin
+    Chuyên ngành:
+      - Công nghệ thông tin
+      - Thiết kế đồ họa số
+      - Kỹ thuật phần mềm
+      - Khoa học máy tính
+      - Trí tuệ nhân tạo và Khoa học dữ liệu
+    Tổ hợp: 
+      - A00
+      - A01
+      - C01
+      - D01
+    Chỉ tiêu: 350
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 20
+  - Mã ngành: '7340101'
+    Tên ngành: Quản trị kinh doanh
+    Chuyên ngành:
+      - Quản trị kinh doanh
+      - Quản trị nhân lực
+      - Quản trị văn phòng
+      - Quản trị marketing
+      - Quản trị khách sạn và du lịch
+    Tổ hợp: 
+      - C00
+      - C19
+      - C20
+      - D01
+    Chỉ tiêu: 300
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7340201'
+    Tên ngành: Tài chính - Ngân hàng
+    Chuyên ngành:
+      - Tài chính - Ngân hàng
+      - Tài chính kế toán
+      - Công nghệ tài chính
+    Tổ hợp: 
+      - C00
+      - C19
+      - C20
+      - D01
+    Chỉ tiêu: 120
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 18
+  - Mã ngành: '7310101'
+    Tên ngành: Kinh tế
+    Chuyên ngành:
+      - Kinh tế quản lý
+      - Kinh tế kế toán
+      - Kinh tế thương mại
+      - Kinh tế số
+      - Kinh tế chính trị
+      - Kinh tế quốc tế
+      - Quản lý nhà nước về kinh tế
+      - Logistics và quản trị chuỗi cung ứng
+    Tổ hợp: 
+      - C00
+      - C19
+      - C20
+      - D01
+    Chỉ tiêu: 120
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 15
+      - Loại: Điểm học bạ
+        Ngưỡng đảm bảo chất lượng đầu vào: ≥ 2
+
+  Trường Đại học:
+    Tên: Trường Đại Học Công Nghiệp Việt Hưng
+    Mã trường: VHD
+    Tên tiếng Anh: Viet - Hung Industrial University
+    Tên viết tắt: VIU
+    Địa chỉ: Số 16, phố Hữu Nghị, phường Xuân Khanh, Sơn Tây, Hà Nội
+    Website: http://www.viu.edu.vn
+```

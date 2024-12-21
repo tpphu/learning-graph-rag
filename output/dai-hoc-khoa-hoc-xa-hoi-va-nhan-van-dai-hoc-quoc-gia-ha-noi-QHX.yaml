@@ -1,0 +1,43 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Khoa học Xã hội và Nhân văn – Đại học Quốc gia Hà Nội. Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Khoa học Xã hội và Nhân văn – Đại học Quốc gia Hà Nội
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Chứng chỉ quốc tế
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại học Khoa học Xã hội và Nhân văn – Đại học Quốc gia Hà Nội
+  Địa chỉ: 336 Nguyễn Trãi, Thanh Xuân, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 2300
+    Tên ngành: Không có dữ liệu cụ thể
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Chỉ tiêu: Không có dữ liệu cụ thể
+      - Loại: Điểm ĐGNL HN
+        Chỉ tiêu: 691
+      - Loại: ƯTXT, XT thẳng
+        Chỉ tiêu: 349
+      - Loại: Chứng chỉ quốc tế
+        Chỉ tiêu: 110
+      - Loại: Điểm xét tuyển kết hợp
+        Chỉ tiêu: 230
+  Trường Đại học:
+    Tên: Trường Đại học Khoa học Xã hội và Nhân văn – Đại học Quốc gia Hà Nội
+    Tên viết tắt: USSH
+    Tên tiếng Anh: VNU University of Social Sciences and Humanities
+    Địa chỉ: 336 Nguyễn Trãi, Thanh Xuân, Hà Nội
+    Website: http://ussh.vnu.edu.vn
+    Fanpage: https://www.facebook.com/ussh.vn
+```
+
+Lưu ý rằng một số thông tin cụ thể như tên ngành và điểm chuẩn không có dữ liệu trong nội dung HTML được cung cấp, do đó chúng được ghi chú là "Không có dữ liệu cụ thể".

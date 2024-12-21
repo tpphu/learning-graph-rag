@@ -20,6 +20,8 @@ langchain-community = "*"
 langchain-openai = "*"
 langchain-experimental = "*"
 neo4j = "*"
+html2text = "*"
+langchain-neo4j = "*"
 
 [dev-packages]
 

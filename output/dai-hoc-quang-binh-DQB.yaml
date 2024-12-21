@@ -1,0 +1,29 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Quảng Bình
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Giáo dục Mầm non, Giáo dục Thể chất
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Trường: Trường Đại Học Quảng Bình
+  Địa chỉ: 312 Lý Thường Kiệt, phường Bắc Lí, TP. Đồng Hới, tỉnh Quảng Bình
+
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: DQB
+    Tên: Trường Đại Học Quảng Bình
+    Tên tiếng Anh: Quang Binh University
+    Tên viết tắt: QBU
+    Địa chỉ: 312 Lý Thường Kiệt, phường Bắc Lí, TP. Đồng Hới, tỉnh Quảng Bình
+    Website: https://qbu.edu.vn/
+```

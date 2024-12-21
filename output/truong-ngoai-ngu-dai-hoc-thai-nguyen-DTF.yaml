@@ -1,0 +1,28 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Ngoại Ngữ – Đại Học Thái Nguyên
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Trường: Trường Ngoại Ngữ – Đại Học Thái Nguyên
+  Địa chỉ: Đường Lương Ngọc Quyến, Phường Quang Trung, TP Thái Nguyên
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: No data
+    Tên ngành: No data
+    Tổ hợp: No data
+    Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: DTF
+    Tên: Trường Ngoại Ngữ – Đại Học Thái Nguyên
+    Tên tiếng Anh: School of Foreign languages - Thai Nguyen University
+    Tên viết tắt: SFL
+    Địa chỉ: Đường Lương Ngọc Quyến, Phường Quang Trung, TP Thái Nguyên
+    Website: https://sfl.tnu.edu.vn/
+```

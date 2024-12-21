@@ -1,0 +1,39 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại học Công Nghệ TPHCM (HUTECH). Dưới đây là cấu trúc YAML theo yêu cầu:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Công Nghệ TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Trường: Trường Đại học Công Nghệ TPHCM
+  Địa chỉ: 144/24 Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 45% tổng chỉ tiêu
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 50% tổng chỉ tiêu
+    Phương thức xét tuyển:
+      - Loại: Điểm học bạ
+        Điểm chuẩn 2024: No data
+  - Chỉ tiêu: 5% tổng chỉ tiêu
+    Phương thức xét tuyển:
+      - Loại: Điểm ĐGNL HCM
+        Điểm chuẩn 2024: No data
+
+  Trường Đại học:
+    Facebook: https://www.facebook.com/hutechuniversity/
+    Mã trường: DKC
+    Tên: Trường Đại học Công Nghệ TPHCM
+    Website: www.hutech.edu.vn
+    Địa chỉ: 144/24 Điện Biên Phủ, P.25, Q.Bình Thạnh, TP.HCM
+```
+
+Lưu ý rằng thông tin về điểm chuẩn cụ thể cho từng ngành không có sẵn trong dữ liệu được cung cấp ("No data"). Nếu có thêm thông tin chi tiết về các ngành cụ thể, bạn có thể bổ sung vào cấu trúc YAML này.

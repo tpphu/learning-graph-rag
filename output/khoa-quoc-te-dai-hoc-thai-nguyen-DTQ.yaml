@@ -1,0 +1,28 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Khoa Quốc tế - Đại học Thái Nguyên. Tuy nhiên, do dữ liệu không có thông tin chi tiết về các ngành đào tạo, điểm chuẩn, hoặc các mối quan hệ cụ thể giữa các thực thể, tôi sẽ chỉ có thể tạo ra một cấu trúc YAML cơ bản dựa trên thông tin có sẵn.
+
+```yaml
+Thực thể:
+  Trường Đại học:
+    Tên: Khoa Quốc tế - Đại học Thái Nguyên
+    Mã trường: DTQ
+    Tên tiếng Anh: International School
+    Tên viết tắt: ISTNU
+    Địa chỉ: Phường Tân Thịnh – TP. Thái Nguyên
+    Website: https://is.tnu.edu.vn
+  Phương thức xét tuyển:
+    - Loại: Điểm thi THPT
+      Mô tả: Xét tuyển theo kết quả thi THPT Quốc gia
+    - Loại: Điểm học bạ
+      Mô tả: Xét tuyển theo học bạ Trung học phổ thông
+    - Loại: V-SAT
+      Mô tả: Xét tuyển theo kết quả đánh giá đầu vào đại học trên máy tính
+    - Loại: Xét tuyển thẳng
+      Mô tả: Xét tuyển thẳng theo Quy chế của Bộ Giáo dục và Đào tạo
+    - Loại: Xét tuyển thẳng theo Đề án
+      Mô tả: Xét tuyển thẳng theo Quy chế tuyển sinh của Khoa Quốc tế
+Mối quan hệ:
+  - Trường: Khoa Quốc tế - Đại học Thái Nguyên
+    Phương thức xét tuyển: Tất cả các phương thức
+```
+
+Lưu ý rằng thông tin về các ngành đào tạo, chỉ tiêu, học phí, và điểm chuẩn không có dữ liệu cụ thể trong nội dung HTML bạn cung cấp, do đó không thể liệt kê chi tiết trong cấu trúc YAML. Nếu có thêm thông tin chi tiết, tôi có thể giúp bạn bổ sung vào cấu trúc này.

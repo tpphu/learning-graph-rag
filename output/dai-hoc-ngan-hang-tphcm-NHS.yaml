@@ -1,0 +1,49 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong bối cảnh tuyển sinh của Trường Đại Học Ngân Hàng TPHCM. Dưới đây là cấu trúc YAML được tạo ra từ thông tin đó:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Ngân Hàng TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm xét tuyển kết hợp
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Trường: Trường Đại Học Ngân Hàng TPHCM
+  Địa chỉ: 36 Tôn Thất Đạm, Quận 1, TP.Hồ Chí Minh
+
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 4329
+    Học phí: 10.557.000đ / học kỳ
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm xét tuyển kết hợp
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm Đánh giá đầu vào V-SAT
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: No data
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Facebook: https://www.facebook.com/tuyensinhdaihocnganhang
+    Mã trường: NHS
+    Tên: Trường Đại Học Ngân Hàng TPHCM
+    Website: https://hub.edu.vn/
+    Địa chỉ: 36 Tôn Thất Đạm, Quận 1, TP.Hồ Chí Minh
+```
+
+Lưu ý rằng một số thông tin như "Tên ngành", "Tổ hợp", và "Điểm chuẩn 2024" không có dữ liệu cụ thể trong tài liệu HTML được cung cấp, do đó chúng được ghi là "No data". Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

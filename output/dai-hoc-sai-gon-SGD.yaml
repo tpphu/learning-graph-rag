@@ -1,0 +1,32 @@
+Dựa trên nội dung HTML bạn đã cung cấp, tôi sẽ trích xuất thông tin liên quan đến các thực thể và mối quan hệ có thể có trong dữ liệu tuyển sinh của Trường Đại học Sài Gòn. Dưới đây là cấu trúc YAML tương ứng:
+
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Sài Gòn
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm Đánh giá đầu vào V-SAT
+- Trường: Trường Đại học Sài Gòn
+  Địa chỉ: 273 An Dương Vương, Phường 3, Quận 5, TP.HCM
+
+Thực thể:
+  Ngành đào tạo:
+    - Mã ngành: No data
+      Tên ngành: No data
+      Tổ hợp: No data
+      Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Tên: Trường Đại học Sài Gòn
+    Tên viết tắt: SGU
+    Tên Tiếng Anh: Saigon University
+    Mã trường: SGD
+    Địa chỉ: 273 An Dương Vương, Phường 3, Quận 5, TP.HCM
+    Website: https://www.sgu.edu.vn/
+    Fanpage: https://www.facebook.com/SaigonUni.SGU/
+```
+
+Lưu ý rằng trong dữ liệu HTML, không có thông tin chi tiết về các ngành đào tạo cụ thể (mã ngành, tên ngành, tổ hợp, điểm chuẩn), do đó, các giá trị này được ghi là "No data". Nếu có thêm thông tin chi tiết, bạn có thể cập nhật vào cấu trúc YAML này.

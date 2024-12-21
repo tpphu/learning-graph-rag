@@ -1,0 +1,57 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Thể Dục Thể Thao TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - T00
+  - T04
+  - T05
+  - T06
+- Trường: Trường Đại Học Thể Dục Thể Thao TPHCM
+  Địa chỉ: 26 Đường Số 16, Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+Thực thể:
+  Ngành đào tạo:
+  - Mã ngành: '7729001'
+    Tên ngành: Y sinh học thể dục thể thao
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Điểm thi TN THPT kết hợp với năng khiếu
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Học bạ kết hợp với năng khiếu
+  - Mã ngành: '7810301'
+    Tên ngành: Quản lý thể dục thể thao
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Học bạ kết hợp với năng khiếu
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Điểm thi TN THPT kết hợp với năng khiếu
+  - Mã ngành: '7810302'
+    Tên ngành: Huấn luyện thể thao
+    Phương thức xét tuyển:
+      - Loại: Kết Hợp
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Học bạ kết hợp với năng khiếu
+      - Loại: ĐT THPT
+        Tổ hợp: T00; T04; T05; T06
+        Điểm chuẩn 2024: 24
+        Ghi chú: Điểm thi TN THPT kết hợp với năng khiếu
+  Trường Đại học:
+    Mã trường: TDS
+    Tên: Trường Đại Học Thể Dục Thể Thao TPHCM
+    Tên tiếng Anh: UNIVERSITY OF SPORT HO CHI MINH CITY
+    Tên viết tắt: USH
+    Địa chỉ: 26 Đường Số 16, Phường Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh
+    Website: https://ush.edu.vn/
+```

@@ -1,0 +1,51 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại học Quốc Tế – Đại Học Quốc Gia TPHCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - D01
+  - A00
+  - A01
+  - D07
+- Trường: Trường Đại học Quốc Tế – Đại Học Quốc Gia TPHCM
+  Địa chỉ: Khu phố 6, phường Linh Trung, Q.Thủ Đức, Tp.HCM
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: N/A
+    Học phí: 45 triệu
+    Mã ngành: '7220201'
+    Tên ngành: Ngôn ngữ Anh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01; D09; D14; D15
+        Điểm chuẩn 2024: 34.5
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 835
+      - Loại: Ưu Tiên
+        Tổ hợp: D01; D09; D14; D15
+        Điểm chuẩn 2024: 38
+  - Chỉ tiêu: N/A
+    Học phí: 45 triệu
+    Mã ngành: '7310101'
+    Tên ngành: Kinh tế (Phân tích dữ liệu trong kinh tế)
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 23.25
+      - Loại: ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: 760
+      - Loại: Ưu Tiên
+        Tổ hợp: A00; A01; D01; D07
+        Điểm chuẩn 2024: 27
+  Trường Đại học:
+    Facebook: https://www.facebook.com/IUVNUHCMC
+    Mã trường: N/A
+    Tên: Trường Đại học Quốc Tế – Đại Học Quốc Gia TPHCM
+    Website: https://hcmiu.edu.vn/
+    Địa chỉ: Khu phố 6, phường Linh Trung, Q.Thủ Đức, Tp.HCM
+```

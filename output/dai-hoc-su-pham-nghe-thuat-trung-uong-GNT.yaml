@@ -1,0 +1,136 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ĐT THPT
+- Ngành đào tạo: Tất cả các ngành
+  Tổ hợp:
+  - N00
+  - H00
+  - S00
+  - C00
+  - D01
+  - A00
+  - C03
+  - C04
+  - D00
+- Trường: Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương
+  Địa chỉ: Số 18 ngõ 55, Trần Phú, Hà Đông, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: 400
+    Học phí: 14.1 triệu
+    Mã ngành: '7140221'
+    Tên ngành: Sư phạm Âm nhạc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 34.5
+  - Chỉ tiêu: 320
+    Học phí: 14.1 triệu
+    Mã ngành: '7140222'
+    Tên ngành: Sư phạm Mỹ thuật
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 34
+  - Chỉ tiêu: 20
+    Học phí: 13.5 triệu
+    Mã ngành: '7210103'
+    Tên ngành: Hội họa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 37
+  - Chỉ tiêu: 70
+    Học phí: 13.5 triệu
+    Mã ngành: '7210205'
+    Tên ngành: Thanh nhạc
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 35
+  - Chỉ tiêu: 30
+    Học phí: 13.5 triệu
+    Mã ngành: '7210208'
+    Tên ngành: Piano
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 34.5
+  - Chỉ tiêu: 80
+    Học phí: 13.5 triệu
+    Mã ngành: '7210234'
+    Tên ngành: Diễn viên Kịch - Điện ảnh
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: S00
+        Điểm chuẩn 2024: 28.5
+  - Chỉ tiêu: 250
+    Học phí: 13.5 triệu
+    Mã ngành: '7210403'
+    Tên ngành: Thiết kế đồ họa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 37.5
+  - Chỉ tiêu: 120
+    Học phí: 13.5 triệu
+    Mã ngành: '7210404'
+    Tên ngành: Thiết kế thời trang
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 33.5
+  - Chỉ tiêu: 160
+    Học phí: 13.5 triệu
+    Mã ngành: '7229042'
+    Tên ngành: Quản lý Văn hóa
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00
+        Điểm chuẩn 2024: 22.25
+      - Loại: ĐT THPT
+        Tổ hợp: N00
+        Điểm chuẩn 2024: 31
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 30
+  - Chỉ tiêu: 60
+    Học phí: 16.4 triệu
+    Mã ngành: '7540204'
+    Tên ngành: Công nghệ may
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: D01
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: A00
+        Điểm chuẩn 2024: 18
+      - Loại: ĐT THPT
+        Tổ hợp: H00
+        Điểm chuẩn 2024: 30
+  - Chỉ tiêu: 60
+    Học phí: 15 triệu
+    Mã ngành: '7760101'
+    Tên ngành: Công tác xã hội
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C03; C04; D00
+        Điểm chuẩn 2024: 18
+  - Chỉ tiêu: 100
+    Học phí: 15 triệu
+    Mã ngành: '7810101'
+    Tên ngành: Du lịch
+    Phương thức xét tuyển:
+      - Loại: ĐT THPT
+        Tổ hợp: C00; C03; C04; D00
+        Điểm chuẩn 2024: 20
+  Trường Đại học:
+    Facebook: Trường Đại học Sư phạm Nghệ thuật Trung ương
+    Mã trường: GNT
+    Tên: Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương
+    Website: http://www.spnttw.edu.vn
+    Địa chỉ: Số 18 ngõ 55, Trần Phú, Hà Đông, Hà Nội
+```

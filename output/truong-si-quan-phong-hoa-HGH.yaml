@@ -1,0 +1,46 @@
+```yaml
+Mối quan hệ:
+- Ngành đào tạo: Tất cả các ngành
+  Trường: Trường Sĩ Quan Phòng Hóa
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm thi THPT
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: ƯTXT, XT thẳng
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm học bạ
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HCM
+- Ngành đào tạo: Tất cả các ngành
+  Phương thức xét tuyển: Điểm ĐGNL HN
+- Trường: Trường Sĩ Quan Phòng Hóa
+  Địa chỉ: Xã Sơn Đông, Sơn Tây, Hà Nội
+Thực thể:
+  Ngành đào tạo:
+  - Chỉ tiêu: No data
+    Học phí: No data
+    Mã ngành: No data
+    Tên ngành: No data
+    Phương thức xét tuyển:
+      - Loại: Điểm thi THPT
+        Tổ hợp: A00; A01
+        Điểm chuẩn 2024: No data
+      - Loại: ƯTXT, XT thẳng
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm học bạ
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HCM
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+      - Loại: Điểm ĐGNL HN
+        Tổ hợp: N/A
+        Điểm chuẩn 2024: No data
+  Trường Đại học:
+    Mã trường: HGH
+    Tên: Trường Sĩ Quan Phòng Hóa
+    Tên viết tắt: CCE
+    Tên Tiếng Anh: Commander Chemical of Engineering
+    Website: https://www.siquanphonghoa.edu.vn
+    Địa chỉ: Xã Sơn Đông, Sơn Tây, Hà Nội
+```
