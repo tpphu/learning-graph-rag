@@ -14,5 +14,8 @@ chain = GraphCypherQAChain.from_llm(
     allow_dangerous_requests=True,
 )
 
-result = chain.invoke({"query": "Giáo dục Đặc biệt có mã ngành (code) là gì?"})
+# result = chain.invoke({"query": "Giáo dục Đặc biệt có mã ngành (code) là gì?"})
+# print(f"Final answer: {result['result']}")
+
+result = chain.invoke({"query": "National Economics University có những phương thức xét tuyển gì?"})
 print(f"Final answer: {result['result']}")

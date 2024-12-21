@@ -29,5 +29,3 @@ documents = [Document(page_content=text)]
 graph_documents = llm_transformer.convert_to_graph_documents(documents)
 print(f"Nodes:{graph_documents[0].nodes}")
 print(f"Relationships:{graph_documents[0].relationships}")
-
-
