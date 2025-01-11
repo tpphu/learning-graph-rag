@@ -1,0 +1,744 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "code": "A00",
+            "name": "Toán, Vật lí, Hóa học",
+            "subject_name": "TOAN,LI,HOA"
+        },
+        {
+            "id": 2,
+            "code": "A01",
+            "name": "Toán, Vật lí, Tiếng Anh",
+            "subject_name": "TOAN,LI,ANH"
+        },
+        {
+            "id": 11,
+            "code": "A02",
+            "name": "Toán, Vật lí, Sinh học",
+            "subject_name": "TOAN,LI,SINH"
+        },
+        {
+            "id": 12,
+            "code": "A03",
+            "name": "Toán, Vật lí, Lịch sử",
+            "subject_name": "TOAN,LI,SU"
+        },
+        {
+            "id": 13,
+            "code": "A04",
+            "name": "Toán, Vật lí, Địa lí",
+            "subject_name": "TOAN,LI,DIA"
+        },
+        {
+            "id": 14,
+            "code": "A05",
+            "name": "Toán, Hóa học, Lịch sử",
+            "subject_name": "TOAN,HOA,SU"
+        },
+        {
+            "id": 15,
+            "code": "A06",
+            "name": "Toán, Hóa học, Địa lí",
+            "subject_name": "TOAN,HOA,DIA"
+        },
+        {
+            "id": 16,
+            "code": "A07",
+            "name": "Toán, Lịch sử, Địa lí",
+            "subject_name": "TOAN,SU,DIA"
+        },
+        {
+            "id": 17,
+            "code": "A08",
+            "name": "Toán, Lịch sử, GDKTPL",
+            "subject_name": "TOAN,SU,GDKTPL"
+        },
+        {
+            "id": 18,
+            "code": "A09",
+            "name": "Toán, Địa lý, GDKTPL",
+            "subject_name": "TOAN,DIA,GDKTPL"
+        },
+        {
+            "id": 19,
+            "code": "A10",
+            "name": "Toán, Vật lí, GDKTPL",
+            "subject_name": "TOAN,LI,GDKTPL"
+        },
+        {
+            "id": 20,
+            "code": "A11",
+            "name": "Toán, Hóa học, GDKTPL",
+            "subject_name": "TOAN,HOA,GDKTPL"
+        },
+        {
+            "id": 3,
+            "code": "B00",
+            "name": "Toán, Hóa học, Sinh học",
+            "subject_name": "TOAN,HOA,SINH"
+        },
+        {
+            "id": 27,
+            "code": "B01",
+            "name": "Toán, Lịch sử, Sinh học",
+            "subject_name": "TOAN,SINH,SU"
+        },
+        {
+            "id": 28,
+            "code": "B02",
+            "name": "Toán, Sinh học, Địa lí",
+            "subject_name": "TOAN,SINH,DIA"
+        },
+        {
+            "id": 29,
+            "code": "B03",
+            "name": "Toán, Sinh học, Ngữ văn",
+            "subject_name": "TOAN,SINH,VAN"
+        },
+        {
+            "id": 30,
+            "code": "B04",
+            "name": "Toán, Sinh học, GDKTPL",
+            "subject_name": "TOAN,SINH,GDKTPL"
+        },
+        {
+            "id": 32,
+            "code": "B08",
+            "name": "Toán, Sinh học, Tiếng Anh",
+            "subject_name": "TOAN,SINH,ANH"
+        },
+        {
+            "id": 4,
+            "code": "C00",
+            "name": "Ngữ văn, Lịch sử, Địa lí",
+            "subject_name": "VAN,SU,DIA"
+        },
+        {
+            "id": 33,
+            "code": "C01",
+            "name": "Ngữ văn, Toán, Vật lí",
+            "subject_name": "VAN,TOAN,LI"
+        },
+        {
+            "id": 34,
+            "code": "C02",
+            "name": "Ngữ văn, Toán, Hóa học",
+            "subject_name": "VAN,TOAN,HOA"
+        },
+        {
+            "id": 35,
+            "code": "C03",
+            "name": "Ngữ văn, Toán, Lịch sử",
+            "subject_name": "VAN,TOAN,SU"
+        },
+        {
+            "id": 36,
+            "code": "C04",
+            "name": "Ngữ văn, Toán, Địa lí",
+            "subject_name": "VAN,TOAN,DIA"
+        },
+        {
+            "id": 37,
+            "code": "C05",
+            "name": "Ngữ văn, Vật lí, Hóa học",
+            "subject_name": "VAN,LI,HOA"
+        },
+        {
+            "id": 38,
+            "code": "C06",
+            "name": "Ngữ Văn, Vật lí, Sinh học",
+            "subject_name": "VAN,LI,SINH"
+        },
+        {
+            "id": 39,
+            "code": "C07",
+            "name": "Ngữ văn, Lịch sử, Vật lí",
+            "subject_name": "VAN,LI,SU"
+        },
+        {
+            "id": 40,
+            "code": "C08",
+            "name": "Ngữ văn, Hóa học, Sinh học",
+            "subject_name": "VAN,HOA,SINH"
+        },
+        {
+            "id": 41,
+            "code": "C09",
+            "name": "Ngữ văn, Địa lí, Vật lí",
+            "subject_name": "VAN,LI,DIA"
+        },
+        {
+            "id": 42,
+            "code": "C10",
+            "name": "Ngữ văn, Lịch sử, Hóa học",
+            "subject_name": "VAN,HOA,SU"
+        },
+        {
+            "id": 43,
+            "code": "C12",
+            "name": "Ngữ văn, Lịch sử, Sinh học",
+            "subject_name": "VAN,SINH,SU"
+        },
+        {
+            "id": 44,
+            "code": "C13",
+            "name": "Ngữ văn, Sinh học, Địa lí",
+            "subject_name": "VAN,SINH,DIA"
+        },
+        {
+            "id": 45,
+            "code": "C14",
+            "name": "Ngữ văn, Toán, GDKTPL",
+            "subject_name": "VAN,TOAN,GDKTPL"
+        },
+        {
+            "id": 47,
+            "code": "C16",
+            "name": "Ngữ văn, Vật lí, GDKTPL",
+            "subject_name": "VAN,LI,GDKTPL"
+        },
+        {
+            "id": 190,
+            "code": "C17",
+            "name": "Ngữ văn, Hóa học, GDKTPL",
+            "subject_name": "NGOAI_NGU,HOA,GDKTPL"
+        },
+        {
+            "id": 48,
+            "code": "C19",
+            "name": "Ngữ văn, Lịch sử, GDKTPL",
+            "subject_name": "VAN,SU,GDKTPL"
+        },
+        {
+            "id": 49,
+            "code": "C20",
+            "name": "Ngữ văn, Địa lí, GDKTPL",
+            "subject_name": "VAN,DIA,GDKTPL"
+        },
+        {
+            "id": 5,
+            "code": "D01",
+            "name": "Ngữ văn, Toán, Tiếng Anh",
+            "subject_name": "VAN,TOAN,ANH"
+        },
+        {
+            "id": 6,
+            "code": "D02",
+            "name": "Ngữ văn, Toán, Tiếng Nga",
+            "subject_name": "VAN,TOAN,NGA"
+        },
+        {
+            "id": 7,
+            "code": "D03",
+            "name": "Ngữ văn, Toán, Tiếng Pháp",
+            "subject_name": "VAN,TOAN,PHAP"
+        },
+        {
+            "id": 8,
+            "code": "D04",
+            "name": "Ngữ văn, Toán, Tiếng Trung",
+            "subject_name": "VAN,TOAN,TRUNG"
+        },
+        {
+            "id": 9,
+            "code": "D05",
+            "name": "Ngữ văn, Toán, Tiếng Đức",
+            "subject_name": "VAN,TOAN,DUC"
+        },
+        {
+            "id": 10,
+            "code": "D06",
+            "name": "Ngữ văn, Toán, Tiếng Nhật",
+            "subject_name": "VAN,TOAN,NHAT"
+        },
+        {
+            "id": 50,
+            "code": "D07",
+            "name": "Toán, Hóa học, Tiếng Anh",
+            "subject_name": "TOAN,HOA,ANH"
+        },
+        {
+            "id": 51,
+            "code": "D08",
+            "name": "Toán, Sinh học, Tiếng Anh",
+            "subject_name": "TOAN,SINH,ANH"
+        },
+        {
+            "id": 52,
+            "code": "D09",
+            "name": "Toán, Lịch sử, Tiếng Anh",
+            "subject_name": "TOAN,SU,ANH"
+        },
+        {
+            "id": 53,
+            "code": "D10",
+            "name": "Toán, Địa lí, Tiếng Anh",
+            "subject_name": "TOAN,DIA,ANH"
+        },
+        {
+            "id": 54,
+            "code": "D11",
+            "name": "Ngữ văn, Vật lí, Tiếng Anh",
+            "subject_name": "VAN,LI,ANH"
+        },
+        {
+            "id": 55,
+            "code": "D12",
+            "name": "Ngữ văn, Hóa học, Tiếng Anh",
+            "subject_name": "VAN,HOA,ANH"
+        },
+        {
+            "id": 56,
+            "code": "D13",
+            "name": "Ngữ văn, Sinh học, Tiếng Anh",
+            "subject_name": "VAN,SINH,ANH"
+        },
+        {
+            "id": 57,
+            "code": "D14",
+            "name": "Ngữ văn, Lịch sử, Tiếng Anh",
+            "subject_name": "VAN,SU,ANH"
+        },
+        {
+            "id": 58,
+            "code": "D15",
+            "name": "Ngữ văn, Địa lí, Tiếng Anh",
+            "subject_name": "VAN,DIA,ANH"
+        },
+        {
+            "id": 63,
+            "code": "D20",
+            "name": "Toán, Địa lí, Tiếng Trung",
+            "subject_name": "TOAN,DIA,TRUNG"
+        },
+        {
+            "id": 64,
+            "code": "D21",
+            "name": "Toán, Hóa học, Tiếng Đức",
+            "subject_name": "TOAN,HOA,DUC"
+        },
+        {
+            "id": 65,
+            "code": "D22",
+            "name": "Toán, Hóa học, Tiếng Nga",
+            "subject_name": "TOAN,HOA,NGA"
+        },
+        {
+            "id": 66,
+            "code": "D23",
+            "name": "Toán, Hóa học, Tiếng Nhật",
+            "subject_name": "TOAN,HOA,NHAT"
+        },
+        {
+            "id": 67,
+            "code": "D24",
+            "name": "Toán, Hóa học, Tiếng Pháp",
+            "subject_name": "TOAN,HOA,PHAP"
+        },
+        {
+            "id": 68,
+            "code": "D25",
+            "name": "Toán, Hóa học, Tiếng Trung",
+            "subject_name": "TOAN,HOA,TRUNG"
+        },
+        {
+            "id": 69,
+            "code": "D26",
+            "name": "Toán, Vật lí, Tiếng Đức",
+            "subject_name": "TOAN,LI,DUC"
+        },
+        {
+            "id": 70,
+            "code": "D27",
+            "name": "Toán, Vật lí, Tiếng Nga",
+            "subject_name": "TOAN,LI,NGA"
+        },
+        {
+            "id": 71,
+            "code": "D28",
+            "name": "Toán, Vật lí, Tiếng Nhật",
+            "subject_name": "TOAN,LI,NHAT"
+        },
+        {
+            "id": 72,
+            "code": "D29",
+            "name": "Toán, Vật lí, Tiếng Pháp",
+            "subject_name": "TOAN,LI,PHAP"
+        },
+        {
+            "id": 73,
+            "code": "D30",
+            "name": "Toán, Vật lí, Tiếng Trung",
+            "subject_name": "TOAN,LI,TRUNG"
+        },
+        {
+            "id": 74,
+            "code": "D31",
+            "name": "Toán, Sinh học, Tiếng Đức",
+            "subject_name": "TOAN,SINH,DUC"
+        },
+        {
+            "id": 75,
+            "code": "D32",
+            "name": "Toán, Sinh học, Tiếng Nga",
+            "subject_name": "TOAN,SINH,NGA"
+        },
+        {
+            "id": 76,
+            "code": "D33",
+            "name": "Toán, Sinh học, Tiếng Nhật",
+            "subject_name": "TOAN,SINH,NHAT"
+        },
+        {
+            "id": 77,
+            "code": "D34",
+            "name": "Toán, Sinh học, Tiếng Pháp",
+            "subject_name": "TOAN,SINH,PHAP"
+        },
+        {
+            "id": 78,
+            "code": "D35",
+            "name": "Toán, Sinh học, Tiếng Trung",
+            "subject_name": "TOAN,SINH,TRUNG"
+        },
+        {
+            "id": 80,
+            "code": "D42",
+            "name": "Ngữ văn, Địa lí, Tiếng Nga",
+            "subject_name": "VAN,DIA,NGA"
+        },
+        {
+            "id": 81,
+            "code": "D43",
+            "name": "Ngữ văn, Địa lí, Tiếng Nhật",
+            "subject_name": "VAN,DIA,NHAT"
+        },
+        {
+            "id": 82,
+            "code": "D44",
+            "name": "Ngữ văn, Địa lí, Tiếng Pháp",
+            "subject_name": "VAN,DIA,PHAP"
+        },
+        {
+            "id": 83,
+            "code": "D45",
+            "name": "Ngữ văn, Địa lí, Tiếng Trung",
+            "subject_name": "VAN,DIA,TRUNG"
+        },
+        {
+            "id": 86,
+            "code": "D55",
+            "name": "Ngữ văn, Vật lí, Tiếng Trung",
+            "subject_name": "VAN,LI,TRUNG"
+        },
+        {
+            "id": 89,
+            "code": "D63",
+            "name": "Ngữ văn, Lịch sử, Tiếng Nhật",
+            "subject_name": "VAN,SU,NHAT"
+        },
+        {
+            "id": 90,
+            "code": "D64",
+            "name": "Ngữ văn, Lịch sử, Tiếng Pháp",
+            "subject_name": "VAN,SU,PHAP"
+        },
+        {
+            "id": 91,
+            "code": "D65",
+            "name": "Ngữ văn, Lịch sử, Tiếng Trung",
+            "subject_name": "VAN,SU,TRUNG"
+        },
+        {
+            "id": 92,
+            "code": "D66",
+            "name": "Ngữ văn, GDKTPL, Tiếng Anh",
+            "subject_name": "VAN,GDKTPL,ANH"
+        },
+        {
+            "id": 93,
+            "code": "D68",
+            "name": "Ngữ văn, GDKTPL, Tiếng Nga",
+            "subject_name": "VAN,GDKTPL,NGA"
+        },
+        {
+            "id": 96,
+            "code": "D70",
+            "name": "Ngữ Văn, GDKTPL, Tiếng Pháp",
+            "subject_name": "VAN,GDKTPL,PHAP"
+        },
+        {
+            "id": 97,
+            "code": "D71",
+            "name": "Ngữ văn, GDKTPL, Tiếng Trung",
+            "subject_name": "VAN,GDKTPL,TRUNG"
+        },
+        {
+            "id": 110,
+            "code": "D84",
+            "name": "Toán, Tiếng Anh; GDKTPL",
+            "subject_name": "TOAN,GDKTPL,ANH"
+        },
+        {
+            "id": 123,
+            "code": "H00",
+            "name": "Ngữ văn, Năng khiếu vẽ Nghệ thuật 1, Năng khiếu vẽ Nghệ thuật 2",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 124,
+            "code": "H01",
+            "name": "Toán, Ngữ văn, Vẽ Mỹ thuật",
+            "subject_name": "TOAN,VAN,NK"
+        },
+        {
+            "id": 125,
+            "code": "H02",
+            "name": "Toán, Vẽ Hình họa mỹ thuật, Vẽ trang trí màu",
+            "subject_name": "TOAN,NK1,NK2"
+        },
+        {
+            "id": 127,
+            "code": "H04",
+            "name": "Toán, Tiếng Anh, Vẽ Năng khiếu",
+            "subject_name": "TOAN,ANH,NK"
+        },
+        {
+            "id": 129,
+            "code": "H06",
+            "name": "Ngữ văn, Tiếng Anh,Vẽ mỹ thuật",
+            "subject_name": "VAN,ANH,NK"
+        },
+        {
+            "id": 130,
+            "code": "H07",
+            "name": "Toán, Hình họa, Trang trí",
+            "subject_name": "TOAN,NK1,NK2"
+        },
+        {
+            "id": 131,
+            "code": "H08",
+            "name": "Ngữ văn, Lịch sử, Vẽ mỹ thuật",
+            "subject_name": "VAN,SU,NK"
+        },
+        {
+            "id": 191,
+            "code": "K00",
+            "name": "Toán, Đọc hiểu, Tư duy Khoa học Giải quyết vấn đề",
+            "subject_name": "P1,P2,P3"
+        },
+        {
+            "id": 132,
+            "code": "K01",
+            "name": "Toán, Tiếng Anh, Tin học",
+            "subject_name": "TOAN,ANH,TIN"
+        },
+        {
+            "id": 133,
+            "code": "M00",
+            "name": "Ngữ văn, Toán, Đọc diễn cảm, Hát",
+            "subject_name": "VAN,TOAN,DOC,HAT"
+        },
+        {
+            "id": 134,
+            "code": "M01",
+            "name": "Ngữ văn, Lịch sử, Năng khiếu",
+            "subject_name": "VAN,SU,NK"
+        },
+        {
+            "id": 135,
+            "code": "M02",
+            "name": "Toán, Năng khiếu 1, Năng khiếu 2",
+            "subject_name": "TOAN,NK1,NK2"
+        },
+        {
+            "id": 136,
+            "code": "M03",
+            "name": "Văn, Năng khiếu 1, Năng khiếu 2",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 137,
+            "code": "M04",
+            "name": "Toán, Đọc kể diễn cảm, Hát - Múa",
+            "subject_name": "TOAN,NK1,NK2"
+        },
+        {
+            "id": 138,
+            "code": "M09",
+            "name": "Toán, NK Mầm non 1( kể chuyện, đọc, diễn cảm), NK Mầm non 2 (Hát)",
+            "subject_name": "TOAN,NK1,NK2"
+        },
+        {
+            "id": 139,
+            "code": "M10",
+            "name": "Toán, Tiếng Anh, NK1",
+            "subject_name": "TOAN,ANH,NK"
+        },
+        {
+            "id": 140,
+            "code": "M11",
+            "name": "Ngữ Văn, năng kiếu báo chí, Tiếng Anh",
+            "subject_name": "VAN,NK,ANH"
+        },
+        {
+            "id": 142,
+            "code": "M13",
+            "name": "Toán, Sinh học, Năng khiếu",
+            "subject_name": "TOAN,SINH,NK"
+        },
+        {
+            "id": 143,
+            "code": "M14",
+            "name": "Ngữ văn, Năng khiếu báo chí, Toán",
+            "subject_name": "VAN,NK,TOAN"
+        },
+        {
+            "id": 155,
+            "code": "N00",
+            "name": "Ngữ văn, Năng khiếu Âm nhạc 1, Năng khiếu Âm nhạc 2",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 156,
+            "code": "N01",
+            "name": "Ngữ văn, xướng âm, biểu diễn nghệ thuật",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 157,
+            "code": "N02",
+            "name": "Ngữ văn, Ký xướng âm, Hát hoặc biểu diễn nhạc cụ",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 160,
+            "code": "N05",
+            "name": "Ngữ Văn, Xây dựng kịch bản sự kiện, Năng khiếu",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 171,
+            "code": "S00",
+            "name": "Ngữ văn, Năng khiếu SKĐA 1, Năng khiếu SKĐA 2",
+            "subject_name": "VAN,NK1,NK2"
+        },
+        {
+            "id": 173,
+            "code": "T00",
+            "name": "Toán, Sinh học, Năng khiếu TDTT",
+            "subject_name": "TOAN,SINH,NK"
+        },
+        {
+            "id": 174,
+            "code": "T01",
+            "name": "Toán, Ngữ văn, Năng khiếu TDTT",
+            "subject_name": "TOAN,VAN,NK"
+        },
+        {
+            "id": 175,
+            "code": "T02",
+            "name": "Ngữ văn, Sinh, Năng khiếu TDTT",
+            "subject_name": "VAN,SINH,NK"
+        },
+        {
+            "id": 176,
+            "code": "T03",
+            "name": "Ngữ văn, Địa, Năng khiếu TDTT",
+            "subject_name": "VAN,DIA,NK"
+        },
+        {
+            "id": 177,
+            "code": "T04",
+            "name": "Toán, Lý, Năng khiếu TDTT",
+            "subject_name": "TOAN,LI,NK"
+        },
+        {
+            "id": 178,
+            "code": "T05",
+            "name": "Ngữ văn, GDKTPL, Năng khiếu thể dục thể thao",
+            "subject_name": "VAN,GDKTPL,NK"
+        },
+        {
+            "id": 179,
+            "code": "V00",
+            "name": "Toán, Vật lí, Vẽ Hình họa mỹ thuật",
+            "subject_name": "TOAN,LI,NK"
+        },
+        {
+            "id": 180,
+            "code": "V01",
+            "name": "Toán, Ngữ văn, Vẽ Hình họa mỹ thuật",
+            "subject_name": "TOAN,VAN,NK"
+        },
+        {
+            "id": 181,
+            "code": "V02",
+            "name": "Vẽ mỹ thuật, Toán, Tiếng Anh",
+            "subject_name": "NK,TOAN,ANH"
+        },
+        {
+            "id": 182,
+            "code": "V03",
+            "name": "Vẽ mỹ thuật, Toán, Hóa",
+            "subject_name": "NK,TOAN,HOA"
+        },
+        {
+            "id": 183,
+            "code": "V05",
+            "name": "Văn, Vật lí, Vẽ mỹ thuật",
+            "subject_name": "VAN,LI,NK"
+        },
+        {
+            "id": 184,
+            "code": "V06",
+            "name": "Toán, Địa lí, Vẽ mỹ thuật",
+            "subject_name": "TOAN,DIA,NK"
+        },
+        {
+            "id": 185,
+            "code": "V07",
+            "name": "Toán, tiếng Đức, Vẽ mỹ thuật",
+            "subject_name": "TOAN,DUC,NK"
+        },
+        {
+            "id": 186,
+            "code": "V08",
+            "name": "Toán, tiếng Nga, Vẽ mỹ thuật",
+            "subject_name": "TOAN,NGA,NK"
+        },
+        {
+            "id": 187,
+            "code": "V09",
+            "name": "Toán, tiếng Nhật, Vẽ mỹ thuật",
+            "subject_name": "TOAN,NHAT,NK"
+        },
+        {
+            "id": 188,
+            "code": "V10",
+            "name": "Toán, tiếng Pháp, Vẽ mỹ thuật",
+            "subject_name": "TOAN,PHAP,NK"
+        },
+        {
+            "id": 189,
+            "code": "V11",
+            "name": "Toán, Tiếng Trung, Vẽ mỹ thuật",
+            "subject_name": "TOAN,TRUNG,NK"
+        },
+        {
+            "id": 192,
+            "code": "(Toán, Anh, Tin)",
+            "name": "Toán, Anh, Tin",
+            "subject_name": "TOAN,ANH,TIN"
+        },
+        {
+            "id": 193,
+            "code": "(Toán, Văn, Tin)",
+            "name": "Toán, Văn, Tin",
+            "subject_name": "TOAN,VAN,TIN"
+        }
+    ],
+    "msg": ""
+}

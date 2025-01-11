@@ -1,0 +1,72 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "short_name": "ĐT THPT",
+            "name": "Điểm thi THPT",
+            "alias": "diem-thi-thpt"
+        },
+        {
+            "id": 3,
+            "short_name": "Học Bạ",
+            "name": "Điểm học bạ",
+            "alias": "diem-hoc-ba"
+        },
+        {
+            "id": 5,
+            "short_name": "ĐGNL HN",
+            "name": "Điểm ĐGNL HN",
+            "alias": "diem-thi-dgnl-hn"
+        },
+        {
+            "id": 2,
+            "short_name": "ĐGNL HCM",
+            "name": "Điểm ĐGNL HCM",
+            "alias": "diem-thi-dgnl-qg-hcm"
+        },
+        {
+            "id": 6,
+            "short_name": "ĐGTD BK",
+            "name": "Điểm Đánh giá Tư duy",
+            "alias": "diem-dg-tu-duy-dhbkhn"
+        },
+        {
+            "id": 10,
+            "short_name": "Kết Hợp",
+            "name": "Điểm xét tuyển kết hợp",
+            "alias": "xet-tuyen-ket-hop"
+        },
+        {
+            "id": 7,
+            "short_name": "ĐGNL SPHN",
+            "name": "Điểm ĐGNL ĐH Sư phạm HN",
+            "alias": "diem-thi-dgnl-dh-su-pham-hn"
+        },
+        {
+            "id": 8,
+            "short_name": "ĐGNL SPHCM",
+            "name": "Điểm ĐGNL ĐH Sư phạm TPHCM",
+            "alias": "diem-thi-dgnl-dh-su-pham-tphcm"
+        },
+        {
+            "id": 11,
+            "short_name": "Ưu Tiên",
+            "name": "ƯTXT, XT thẳng",
+            "alias": "uu-tien-xet-tuyen-xet-tuyen-thang"
+        },
+        {
+            "id": 12,
+            "short_name": "CCQT",
+            "name": "Chứng chỉ quốc tế",
+            "alias": "chung-chi-quoc-te"
+        },
+        {
+            "id": 13,
+            "short_name": "V-SAT",
+            "name": "Điểm Đánh giá đầu vào V-SAT",
+            "alias": "diem-thi-danh-gia-dau-vao-v-sat"
+        }
+    ],
+    "msg": ""
+}

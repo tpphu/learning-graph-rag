@@ -1,0 +1,119 @@
+Table Students {
+  StudentID INT [pk] // Mã định danh duy nhất của thí sinh
+  FullName VARCHAR(255) // Họ và tên đầy đủ của thí sinh
+  DateOfBirth DATE // Ngày sinh của thí sinh
+  Gender ENUM('Male', 'Female', 'Other') // Giới tính của thí sinh
+  Address TEXT // Địa chỉ của thí sinh
+  PhoneNumber VARCHAR(15) // Số điện thoại liên hệ của thí sinh
+  Email VARCHAR(255) // Email liên hệ của thí sinh
+  HighSchoolID INT [ref: > HighSchools.HighSchoolID] // Mã trường THPT của thí sinh
+  GraduationYear YEAR // Năm tốt nghiệp THPT
+  HighSchoolGPA FLOAT // Điểm trung bình học bạ THPT
+  Exams JSON // Kết quả các kỳ thi của thí sinh
+}
+
+Table HighSchools {
+  HighSchoolID INT [pk] // Mã định danh duy nhất của trường THPT
+  HighSchoolName VARCHAR(255) // Tên trường THPT
+  Address TEXT // Địa chỉ của trường THPT
+  City VARCHAR(100) // Thành phố nơi trường tọa lạc
+  Province VARCHAR(100) // Tỉnh nơi trường tọa lạc
+}
+
+Table Universities {
+  UniversityID INT [pk] // Mã định danh duy nhất của trường đại học/cao đẳng
+  UniversityName VARCHAR(255) // Tên trường đại học/cao đẳng
+  UniversityType ENUM('University', 'College', 'Vocational School') // Loại trường
+  Address TEXT // Địa chỉ của trường
+  Website VARCHAR(255) // Website chính thức của trường
+  PhoneNumber VARCHAR(15) // Số điện thoại liên hệ của trường
+  City VARCHAR(100) // Thành phố nơi trường tọa lạc
+}
+
+Table Majors {
+  MajorID INT [pk] // Mã định danh duy nhất của ngành học
+  MajorCode VARCHAR(50) [unique] // Mã ngành học
+  MajorName VARCHAR(255) // Tên ngành học
+  Description TEXT // Mô tả chi tiết về ngành học
+  CareerOpportunities TEXT // Cơ hội nghề nghiệp sau khi tốt nghiệp ngành học
+}
+
+Table MajorStatistics {
+  StatisticID INT [pk] // Mã định danh duy nhất
+  MajorID INT [ref: > Majors.MajorID] // Liên kết đến ngành học
+  Year YEAR // Năm áp dụng
+  MinSalary FLOAT // Mức lương tối thiểu dự kiến
+  MaxSalary FLOAT // Mức lương tối đa dự kiến
+  AvgSalary FLOAT // Mức lương trung bình dự kiến
+  IndustryDemand ENUM('High', 'Medium', 'Low') // Nhu cầu thị trường lao động
+  TotalQuota INT // Chỉ tiêu tuyển sinh toàn ngành trong năm
+}
+
+Table UniversityMajors {
+  UniversityMajorID INT [pk] // Mã định danh duy nhất của ngành học tại một trường
+  UniversityID INT [ref: > Universities.UniversityID] // Mã trường đại học liên kết
+  MajorID INT [ref: > Majors.MajorID] // Mã ngành học liên kết
+  ProgramTypeID INT [ref: > ProgramTypes.ProgramTypeID] // Mã hình thức đào tạo
+  Year YEAR // Năm áp dụng thông tin
+  TuitionFee FLOAT // Học phí ngành học tại trường
+  TotalQuota INT // Tổng chỉ tiêu tuyển sinh của ngành học tại trường
+  ProgramDuration FLOAT // Thời gian đào tạo ngành học (tính bằng năm)
+}
+
+Table ProgramTypes {
+  ProgramTypeID INT [pk] // Mã định danh hình thức đào tạo
+  ProgramTypeName VARCHAR(50) // Tên hình thức đào tạo (vd. Kỹ sư, Cử nhân)
+  Description TEXT // Mô tả chi tiết về hình thức đào tạo
+}
+
+Table AdmissionMethods {
+  MethodID INT [pk] // Mã định danh phương thức tuyển sinh
+  MethodName VARCHAR(255) // Tên phương thức tuyển sinh (vd. Xét điểm thi THPT, Xét học bạ)
+  Description TEXT // Mô tả chi tiết về phương thức tuyển sinh
+}
+
+Table UniversityMajorAdmissionMethods {
+  ID INT [pk] // Mã định danh duy nhất
+  UniversityMajorID INT [ref: > UniversityMajors.UniversityMajorID] // Liên kết đến ngành học tại trường
+  MethodID INT [ref: > AdmissionMethods.MethodID] // Liên kết đến phương thức tuyển sinh
+  Quota INT // Chỉ tiêu tuyển sinh cho phương thức này
+  EntranceScore FLOAT // Điểm chuẩn đầu vào cho phương thức tuyển sinh
+}
+
+Table AdmissionCriteria {
+  CriteriaID INT [pk] // Mã định danh tiêu chí tuyển sinh
+  UniversityMajorID INT [ref: > UniversityMajors.UniversityMajorID] // Liên kết đến ngành học tại trường
+  CriteriaDescription TEXT // Mô tả chi tiết tiêu chí tuyển sinh
+  MinGPA FLOAT // Điểm trung bình tối thiểu xét tuyển (nếu có)
+  EntranceScore FLOAT // Điểm chuẩn đầu vào (nếu áp dụng chung cho tất cả tổ hợp môn)
+}
+
+Table SubjectCombinations {
+  CombinationID INT [pk] // Mã định danh tổ hợp môn
+  CombinationCode VARCHAR(10) [unique] // Mã tổ hợp môn (vd. A00, B00)
+  Subject1 VARCHAR(50) // Môn đầu tiên trong tổ hợp
+  Subject2 VARCHAR(50) // Môn thứ hai trong tổ hợp
+  Subject3 VARCHAR(50) // Môn thứ ba trong tổ hợp
+  Description TEXT // Mô tả tổ hợp môn
+}
+
+Table AdmissionCriteriaSubjectCombinations {
+  ID INT [pk] // Mã định danh
+  CriteriaID INT [ref: > AdmissionCriteria.CriteriaID] // Liên kết đến tiêu chí tuyển sinh
+  CombinationID INT [ref: > SubjectCombinations.CombinationID] // Liên kết đến tổ hợp môn
+  EntranceScore FLOAT // Điểm chuẩn cho tổ hợp môn
+}
+
+Table AdmissionCriteriaAdditionalConditions {
+  ID INT [pk] // Mã định danh
+  CriteriaID INT [ref: > AdmissionCriteria.CriteriaID] // Liên kết đến tiêu chí tuyển sinh
+  ConditionType ENUM('IELTS', 'SubjectMinimumScore') // Loại điều kiện (IELTS, điểm môn tối thiểu, ...)
+  ConditionDetails JSON // Chi tiết điều kiện (vd: {"IELTS": 6.5}, {"Math": 7.0, "Physics": 6.5})
+}
+
+Table StudentApplications {
+  ApplicationID INT [pk] // Mã định danh đơn đăng ký tuyển sinh của thí sinh
+  StudentID INT [ref: > Students.StudentID] // Liên kết đến thí sinh nộp đơn
+  UniversityMajorID INT [ref: > UniversityMajors.UniversityMajorID] // Liên kết đến ngành học tại trường
+  Priority INT // Thứ tự ưu tiên của đơn đăng ký
+}
